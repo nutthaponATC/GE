@@ -1,0 +1,203 @@
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Athiti', sans-serif;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  background-color: white;
+}
+
+body, html {
+  height: 100%;
+}
+
+.cd-container {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.cd-main-content {
+  /* you need to assign a min-height to the main content so that the children can inherit it*/
+  height: 90%;
+  position: relative;
+  z-index: 1;
+}
+
+.cd-fixed-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+.cd-fixed-bg h1, .cd-fixed-bg h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.875rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("img-bg/3.jpg");
+  margin-top: -
+  -webkit-transform: scale3d(1,1.1,1);
+  transform: scale3d(1,1.1,1);
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("img-bg/4.jpg");
+  -webkit-transform: scale3d(1,1.1,1);
+  transform: scale3d(1,1.1,1);
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("img-bg/1.jpg");
+  -webkit-transform: scale3d(1,1.1,1);
+  transform: scale3d(1,1.1,1);
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("img-bg/4.jpg");
+  -webkit-transform: scale3d(1,1.1,1);
+  transform: scale3d(1,1.1,1);
+}
+@media only screen and (min-width: 768px) {
+  .cd-fixed-bg h1, .cd-fixed-bg h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-fixed-bg {
+    background-attachment: fixed;
+  }
+  .cd-fixed-bg h1, .cd-fixed-bg h2 {
+    font-size: 48px;
+    font-weight: 300;
+  }
+}
+
+.cd-scrolling-bg {
+  position: relative;
+  min-height: 100%;
+  padding: 4em 0;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.cd-scrolling-bg.cd-color-1 {
+  background-color: #ffffff;
+  color: #a6989a;
+}
+.cd-scrolling-bg.cd-color-2 {
+  background-color: #ffffff;
+  color: #3d3536;
+}
+.cd-scrolling-bg.cd-color-3 {
+  background-color: #ffffff;
+  color: #3d3536;
+}
+@media only screen and (min-width: 768px) {
+  .cd-scrolling-bg {
+    padding: 8em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
+}
+
+/*----------------------------
+
+navbar
+
+-----------------------------*/
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 16px;
+    background-color: rgba(190, 106, 119, 1);
+    border-width: 1px;
+    border-radius: 4px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: #ee8e3c;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ee8e3c;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ee8e3c;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ee8e3c;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #be6a77;
+}
+
+li a {
+    font-size: 18px;
+}
+
+/* magic line*/
+
+.magic-line {
+    position: absolute; bottom: -5px; left: 0; width: 100px; height: 5px; background: #ee8e3c;
+}
+
+.dropdown-menu>li>a:hover{
+  color: #ffffff;
+}
+
+#dropdown {
+  background: #be6a77;
+}
+
+#dropdown li a{
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#dropdown li a:hover{
+  background: #ee8e3c;
+  font-size: 16px;
+  color: #ffffff;
+}

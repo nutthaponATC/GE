@@ -1,15 +1,11 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<html>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="icon.png">
 
+	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Athiti:400" rel="stylesheet">
-
-	<link rel="stylesheet" href="reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="style.css"> <!-- Resource style -->
-	<script src="modernizr.js"></script> <!-- Modernizr -->
   	
 	<title>สำนักศึกษาทั่วไป General Education</title>
 
@@ -18,10 +14,25 @@
 	<!-- bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<!-- fa -->
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+	<!-- animate -->
 	<link rel="stylesheet" href="animate.css">
+
+	<!-- aos animation scroll -->
+	<link rel="stylesheet" href="css/aos.css" />
+
+	<!-- thumnail hover -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/set2.css" />
 </head>
 <body>
+	<!-- slider -->
+	<script type="text/javascript" src="js/jssor.slider.min.js"></script>
+	<script type="text/javascript" src="js/slide.js"></script>
+
+	<!-- language -->
 	<div class="container">
 		<div class="col-md-11">
 			<img src="logo.png" class="img-responsive">
@@ -38,6 +49,7 @@
 		</div>
 	</div>
 
+	<!-- navbar -->
 	<div class="container" style="margin-bottom:20px;">
 		<div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
 		    <div class="container-fluid">
@@ -85,53 +97,107 @@
 		    </div>
 		</div>
 	</div>
-
-	<!-- <div class="jumbotron">
-
-	</div> -->
 	
-
 	<main class="cd-main-content">
-		<div class="cd-fixed-bg cd-bg-1">
-			<h1>สำนักศึกษาทั่วไป General Education</h1>
-		</div> <!-- cd-fixed-bg -->
+		<!-- slider -->
+		<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+	        <!-- Loading Screen -->
+	        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+	            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+	            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+	        </div>
+	        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+	            <div data-p="225.00" style="display: none;">
+	                <img data-u="image" src="img-bg/3.jpg" />
+	                <div  data-u="caption" data-t="4" class="text-slide">หัวข้อ 1</div>
+	            </div>
+	            <div data-p="225.00" style="display: none;">
+	                <img data-u="image" src="img-bg/1.jpg" />
+	                <div  data-u="caption" data-t="2" class="text-slide">หัวข้อ 2</div>
+	            </div>
+	            <div data-p="225.00" data-po="80% 55%" style="display: none;">
+	                <img data-u="image" src="img-bg/2.jpg" />
+	                <div  data-u="caption" data-t="3" class="text-slide">หัวข้อ 3</div>
+	            </div>
+	        </div>
+	        <!-- Bullet Navigator -->
+	        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+	            <!-- bullet navigator item prototype -->
+	            <div data-u="prototype" style="width:16px;height:16px;"></div>
+	        </div>
+	        <!-- Arrow Navigator -->
+	        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+	        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+	    </div>
 
+	    <!-- information -->
 		<div class="jumbotron">
 			<div class="container">
-				<div class="col-md-12">
-					<h3><i class="fa fa-flag" aria-hidden="true"></i> ประชาสัมพันธ์</h3><a href="#"><p style="text-align: right; margin-top:-30px; font-size: 100%;">ดูทั้งหมด</p></a>
+				<div class="col-md-12" style="margin-bottom:20px;">
+					<div class="col-md-4 line"></div>
+					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
+						<h3><i class="fa fa-flag" aria-hidden="true"></i> ประชาสัมพันธ์</h3>
+					</div>
+					<div class="col-md-4 line"></div>
 				</div>
-				<div class="animation-element">
+
+				<div class="animation-element" id="transcroller-body">
 				<?php 
 					for ($i=0; $i < 6; $i++) { 
 				?>
-				<div class="col-md-4 fadeInDown animated">
-					<div class="infomation">
-					<a href="#" style="text-decoration: none;"><div class="thumbnail">
-						<img class="img-responsive"  src="image/info.png">
-						<div class="caption">
-							<p>หัวข้อประชาสัมพันธ์</p>
-							รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด 
-						</div>
-					</div></a>
+				<div class="col-md-6 aos-all" id="transcroller-body" style="margin-top:0px;">
+					<div class="infomation" data-aos="zoom-in">
+						<a href="#" style="text-decoration: none;">
+							<div class="thumbnail right-caption">
+								<img class="img-responsive" width="225px" src="image/info.png">
+								<div class="caption">
+									<p>หัวข้อประชาสัมพันธ์</p>
+									รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด 
+								</div>
+							</div>
+						</a>
 					</div>
 				</div>
-				<?php } ?>
+				<?php } ?>				
 				</div>	
+				<div class="col-md-12" style="margin-top:30px;">
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-">
+						<a href="#"><p style="text-align: right; margin-top:-30px; font-size: 100%;">ดูทั้งหมด</p></a>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<div class="cd-fixed-bg cd-bg-2" style="heigth:50%;">
-			<h2>กิจกรรม</h2>
-		</div> <!-- cd-fixed-bg -->
+		<div style="margin-top:-30px;"></div>
 
-		<div class="cd-scrolling-bg cd-color-3">
-			<div class="cd-container">
-				<p>
+		<div class="jumbotron" id="activity">
+			<div class="container">
+				<p>ภาพกิจกรรม</p>
+				<div style="margin-top:20px;"></div>
+				<div class="grid">
+					<?php 
+					for ($i=0; $i < 9; $i++) { 
+					?>
+
+					<figure class="effect-apollo">
+						<img src="image/2.jpg" alt="1"/>
+						<figcaption>
+							<h2>กิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+
+					<?php 
+					}
+					?>
 					
-				</p>
-			</div> <!-- cd-container -->
-		</div> <!-- cd-scrolling-bg -->
+				</div>
+			</div>
+		</div>
 
 		<div class="cd-fixed-bg cd-bg-3">
 			<h2>เอกสาร | วิดีโอเผยแพร่</h2>
@@ -145,5 +211,14 @@
 	<script src="js/navbar.js"></script>
 	<script src="js/animate-scroll.js"></script>
 	<script src="magic-line.js"></script>
+	<script>
+        jssor_1_slider_init();
+    </script>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
 </body>
 </html>

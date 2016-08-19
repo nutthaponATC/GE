@@ -131,7 +131,7 @@
 	    </div>
 
 	    <!-- information -->
-		<div class="jumbotron">
+		<div class="jumbotron" style="background-color: #ffffff;">
 			<div class="container">
 				<div class="col-md-12" style="margin-bottom:20px;">
 					<div class="col-md-4 line"></div>
@@ -175,7 +175,14 @@
 
 		<div class="jumbotron" id="activity">
 			<div class="container">
-				<p>ภาพกิจกรรม</p>
+				<div class="col-md-12" style="margin-bottom:20px;">
+					<div class="col-md-4 line2"></div>
+					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
+						<h3><i class="fa fa-users" aria-hidden="true"></i> ภ่ายกิจกรรม</h3>
+					</div>
+					<div class="col-md-4 line2"></div>
+				</div>
+
 				<div style="margin-top:20px;"></div>
 				<div class="grid">
 					<?php 
@@ -200,7 +207,63 @@
 		</div>
 
 		<div class="cd-fixed-bg cd-bg-3">
-			<h2>เอกสาร | วิดีโอเผยแพร่</h2>
+			<div style="height:30%;">
+				<div class="container" style="text-align:center; padding-top:50px;">
+					<div class="col-md-3">
+						<h3>
+							<a href="" class="text">
+								<i class="fa fa-file-text fa-3x" aria-hidden="true"></i>
+								<br>เอกสาร
+							</a>
+						</h3>
+					</div>
+					<div class="col-md-3">
+						<h3>
+							<a href="" class="text">
+								<i class="fa fa-file-text fa-3x" aria-hidden="true"></i>
+								<br>เอกสาร
+							</a>
+						</h3>
+					</div>
+					<div class="col-md-3">
+						<h3>
+							<a href="" class="text">
+								<i class="fa fa-file-text fa-3x" aria-hidden="true"></i>
+								<br>เอกสาร
+							</a>
+						</h3>
+					</div>
+					<div class="col-md-3">
+						<h3>
+							<a href="" class="text">
+								<i class="fa fa-file-text fa-3x" aria-hidden="true"></i>
+								<br>เอกสาร
+							</a>
+						</h3>
+					</div>
+				</div>
+			</div>
+			
+			<div style="height:40%;">
+				<h2>เอกสาร | วิดีโอเผยแพร่</h2>
+			</div>
+
+			<div style="height:30%;">
+				<div class="container" style="text-align:center;">
+					<div class="col-md-3">
+						<iframe width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-3">
+						<iframe width="250" height="150" src="https://www.youtube.com/embed/z34mhkRB1Xc" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-3">
+						<iframe width="250" height="150" src="https://www.youtube.com/embed/nyjn3eXbkSI" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="col-md-3">
+						<iframe width="250" height="150" src="https://www.youtube.com/embed/eFR-hG_SM9U" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
 		</div> <!-- cd-fixed-bg -->
 
 	</main> <!-- cd-main-content -->

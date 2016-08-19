@@ -77,7 +77,7 @@ body, html {
   transform: scale3d(1,1.1,1);
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("img-bg/1.jpg");
+  background-image: url("img-bg/3.jpg");
   -webkit-transform: scale3d(1,1.1,1);
   transform: scale3d(1,1.1,1);
 }
@@ -332,23 +332,35 @@ aos animatiom scroll
 
 .thumbnail.right-caption {
     float: left;
+    border: none;
 }
 
 .thumbnail.right-caption > .caption {
     padding: 4px;
 }
 
-/*#activity {
-  background-image: url("img-bg/3.jpg");
-  -webkit-transform: scale3d(1,1.1,1);
-  transform: scale3d(1,1.1,1); 
-}*/
-
 .line {
   height: 5px; 
   background: #ee8e3c;
 }
 
-.thumbnail:hover{
+.line2 {
+  height: 5px; 
+  background: #be6a77;
+}
+
+#info:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fa-file-text {
+  color: #ee8e3c;
+}
+
+.text {
+  color: #ee8e3c; 
+}
+
+.text:hover {
+  color: #ee8e3c; 
 }

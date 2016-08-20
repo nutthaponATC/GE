@@ -77,11 +77,6 @@ body, html {
   transform: scale3d(1,1.1,1);
 }
 .cd-fixed-bg.cd-bg-3 {
-  background-image: url("img-bg/3.jpg");
-  -webkit-transform: scale3d(1,1.1,1);
-  transform: scale3d(1,1.1,1);
-}
-.cd-fixed-bg.cd-bg-4 {
   background-image: url("img-bg/4.jpg");
   -webkit-transform: scale3d(1,1.1,1);
   transform: scale3d(1,1.1,1);
@@ -363,4 +358,8 @@ aos animatiom scroll
 
 .text:hover {
   color: #ee8e3c; 
+}
+
+.shadow {
+  text-shadow: 2px 2px 4px #000000;
 }

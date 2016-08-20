@@ -32,7 +32,7 @@
 	opacity: 0.8;
 }
 
-.grid figure figcaption {
+.grid figure figcaption {	
 	padding: 2em;
 	color: #fff;
 	text-transform: uppercase;
@@ -68,6 +68,7 @@
 .grid figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 .grid figure h2 span {
@@ -89,7 +90,7 @@
 /*-----------------*/
 
 figure.effect-apollo {
-	background: #3498db;
+	background: #be6a77;
 }
 
 figure.effect-apollo img {
@@ -115,6 +116,7 @@ figure.effect-apollo figcaption::before {
 }
 
 figure.effect-apollo p {
+	font-size: 16;
 	position: absolute;
 	right: 0;
 	bottom: 0;

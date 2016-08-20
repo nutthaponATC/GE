@@ -134,11 +134,11 @@
 		<div class="jumbotron" style="background-color: #ffffff;">
 			<div class="container">
 				<div class="col-md-12" style="margin-bottom:20px;">
-					<div class="col-md-4 line"></div>
+					<div class="col-md-4 line visible-lg"></div>
 					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
 						<h3><i class="fa fa-flag" aria-hidden="true"></i> ประชาสัมพันธ์</h3>
 					</div>
-					<div class="col-md-4 line"></div>
+					<div class="col-md-4 line visible-lg"></div>
 				</div>
 
 				<div class="animation-element" id="transcroller-body">
@@ -148,10 +148,17 @@
 				<div class="col-md-6 aos-all" id="transcroller-body" style="margin-top:0px;">
 					<div class="infomation" data-aos="zoom-in">
 						<a href="#" style="text-decoration: none;">
-							<div class="thumbnail right-caption">
+							<div class="thumbnail right-caption visible-lg">
 								<img class="img-responsive" width="225px" src="image/info.png">
 								<div class="caption">
-									<p>หัวข้อประชาสัมพันธ์</p>
+									<p> หัวข้อประชาสัมพันธ์</p>
+									รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด 
+								</div>
+							</div>
+							<div class="thumbnail hidden-lg">
+								<img class="img-responsive" width="225px" src="image/info.png">
+								<div class="caption">
+									<p> หัวข้อประชาสัมพันธ์</p>
 									รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด 
 								</div>
 							</div>
@@ -165,7 +172,7 @@
 					<div class="col-md-4">
 					</div>
 					<div class="col-md-">
-						<a href="#"><p style="text-align: right; margin-top:-30px; font-size: 100%;">ดูทั้งหมด</p></a>
+						<a href="#"><p style="text-align: right; margin-top:-30px; font-size: 100%;"><i class="fa fa-play" aria-hidden="true"></i> ดูทั้งหมด</p></a>
 					</div>
 				</div>
 			</div>
@@ -176,90 +183,156 @@
 		<div class="jumbotron" id="activity">
 			<div class="container">
 				<div class="col-md-12" style="margin-bottom:20px;">
-					<div class="col-md-4 line2"></div>
+					<div class="col-md-4 line2 visible-lg"></div>
 					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
 						<h3><i class="fa fa-users" aria-hidden="true"></i> ภ่ายกิจกรรม</h3>
 					</div>
-					<div class="col-md-4 line2"></div>
+					<div class="col-md-4 line2 visible-lg"></div>
 				</div>
 
 				<div style="margin-top:20px;"></div>
-				<div class="grid">
-					<?php 
-					for ($i=0; $i < 9; $i++) { 
-					?>
-
+				<div class="grid" style="text-align:center;">
 					<figure class="effect-apollo">
-						<img src="image/2.jpg" alt="1"/>
+						<img src="image/info/1.jpg"/>
 						<figcaption>
-							<h2>กิจกรรม</h2>
+							<h2>ชื่อกิจกรรม</h2>
 							<p>รายละเอียดกิจกรรม</p>
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
 					</figure>
-
-					<?php 
-					}
-					?>
-					
+					<figure class="effect-apollo">
+						<img src="image/info/2.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-apollo">
+						<img src="image/info/3.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-apollo">
+						<img src="image/info/4.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-apollo">
+						<img src="image/info/5.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-apollo">
+						<img src="image/info/1.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-apollo">
+						<img src="image/info/2.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-apollo">
+						<img src="image/info/3.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure class="effect-apollo">
+						<img src="image/info/4.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-12" style="margin-top:30px;">
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-">
+						<a href="#"><p style="text-align: right; margin-top:-30px; font-size: 100%;"><i class="fa fa-play" aria-hidden="true"></i> ดูทั้งหมด</p></a>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="cd-fixed-bg cd-bg-3">
-			<div style="height:30%;">
+			<div class="hidden-lg" style="padding-top:30px; text-align:center; color:#ffffff; text-shadow: 2px 2px 4px #000000;">
+				<h3>เอกสาร | วิดีโอเผยแพร่</h3>
+			</div>
+			<div>
 				<div class="container" style="text-align:center; padding-top:50px;">
 					<div class="col-md-3">
 						<h3>
-							<a href="" class="text">
-								<i class="fa fa-file-text fa-3x" aria-hidden="true"></i>
-								<br>เอกสาร
+							<a href="" class="shadow" style="color:#ffffff;">
+								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
+								<br>ชือ่ไฟล์เอกสาร
 							</a>
 						</h3>
 					</div>
 					<div class="col-md-3">
 						<h3>
-							<a href="" class="text">
-								<i class="fa fa-file-text fa-3x" aria-hidden="true"></i>
-								<br>เอกสาร
+							<a href="" class="shadow" style="color:#ffffff;">
+								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
+								<br>ชือ่ไฟล์อกสาร
 							</a>
 						</h3>
 					</div>
 					<div class="col-md-3">
 						<h3>
-							<a href="" class="text">
-								<i class="fa fa-file-text fa-3x" aria-hidden="true"></i>
-								<br>เอกสาร
+							<a href="" class="shadow" style="color:#ffffff;">
+								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
+								<br>ชือ่ไฟล์อกสาร
 							</a>
 						</h3>
 					</div>
 					<div class="col-md-3">
 						<h3>
-							<a href="" class="text">
-								<i class="fa fa-file-text fa-3x" aria-hidden="true"></i>
-								<br>เอกสาร
+							<a href="" class="shadow" style="color:#ffffff;">
+								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
+								<br>ชือ่ไฟล์อกสาร
 							</a>
 						</h3>
 					</div>
 				</div>
 			</div>
 			
-			<div style="height:40%;">
+			<div class="visible-lg">
 				<h2>เอกสาร | วิดีโอเผยแพร่</h2>
 			</div>
 
-			<div style="height:30%;">
-				<div class="container" style="text-align:center;">
-					<div class="col-md-3">
+			<div>
+				<div class="container" style="text-align:center; margin-top:20%;">
+					<div class="col-md-3 shadow">
 						<iframe width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 shadow">
 						<iframe width="250" height="150" src="https://www.youtube.com/embed/z34mhkRB1Xc" frameborder="0" allowfullscreen></iframe>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 shadow">
 						<iframe width="250" height="150" src="https://www.youtube.com/embed/nyjn3eXbkSI" frameborder="0" allowfullscreen></iframe>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 shadow">
 						<iframe width="250" height="150" src="https://www.youtube.com/embed/eFR-hG_SM9U" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>

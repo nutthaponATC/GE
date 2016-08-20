@@ -17,7 +17,7 @@
 	<!-- fa -->
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 	<!-- animate -->
-	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="css/animate.css">
 
 	<!-- aos animation scroll -->
 	<link rel="stylesheet" href="css/aos.css" />
@@ -341,12 +341,12 @@
 
 	</main> <!-- cd-main-content -->
 	
-	<script src="main.js"></script> <!-- background -->
-	<script src="jquery.js"></script>
+	<script src="js/main.js"></script> <!-- background -->
+	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/navbar.js"></script>
 	<script src="js/animate-scroll.js"></script>
-	<script src="magic-line.js"></script>
+	<script src="js/magic-line.js"></script>
 	<script>
         jssor_1_slider_init();
     </script>

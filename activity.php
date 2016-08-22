@@ -99,100 +99,19 @@
 	</div>
 	
 	<main class="cd-main-content">
-		<!-- slider -->
-		<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
-	        <!-- Loading Screen -->
-	        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-	            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-	            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-	        </div>
-	        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
-	            <div data-p="225.00" style="display: none;">
-	                <img data-u="image" src="img-bg/3.jpg" />
-	                <div  data-u="caption" data-t="4" class="text-slide">หัวข้อ 1</div>
-	            </div>
-	            <div data-p="225.00" style="display: none;">
-	                <img data-u="image" src="img-bg/1.jpg" />
-	                <div  data-u="caption" data-t="2" class="text-slide">หัวข้อ 2</div>
-	            </div>
-	            <div data-p="225.00" data-po="80% 55%" style="display: none;">
-	                <img data-u="image" src="img-bg/2.jpg" />
-	                <div  data-u="caption" data-t="3" class="text-slide">หัวข้อ 3</div>
-	            </div>
-	        </div>
-	        <!-- Bullet Navigator -->
-	        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
-	            <!-- bullet navigator item prototype -->
-	            <div data-u="prototype" style="width:16px;height:16px;"></div>
-	        </div>
-	        <!-- Arrow Navigator -->
-	        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
-	        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
-	    </div>
-
-	    <!-- information -->
-		<div class="jumbotron" style="background-color: #ffffff;">
-			<div class="container">
+		<!-- <div class="jumbotron" id="activity"> -->
+			<div class="container" style="margin-top:30px;">
 				<div class="col-md-12" style="margin-bottom:20px;">
 					<div class="col-md-4 line visible-lg"></div>
 					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
-						<h3><i class="fa fa-flag" aria-hidden="true"></i> ประชาสัมพันธ์</h3>
+						<h3><i class="fa fa-users" aria-hidden="true"></i> ภ่ายกิจกรรมของบุคลากร</h3>
 					</div>
 					<div class="col-md-4 line visible-lg"></div>
-				</div>
-
-				<div class="animation-element" id="transcroller-body">
-				<?php 
-					for ($i=0; $i < 6; $i++) { 
-				?>
-				<div class="col-md-6 aos-all" id="transcroller-body" style="margin-top:0px;">
-					<div class="infomation" data-aos="zoom-in">
-						<a href="#" style="text-decoration: none;">
-							<div class="thumbnail right-caption visible-lg">
-								<img class="img-responsive" width="225px" src="image/info.png">
-								<div class="caption">
-									<p> หัวข้อประชาสัมพันธ์</p>
-									รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด 
-								</div>
-							</div>
-							<div class="thumbnail hidden-lg">
-								<img class="img-responsive" width="225px" src="image/info.png">
-								<div class="caption">
-									<p> หัวข้อประชาสัมพันธ์</p>
-									รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด 
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<?php } ?>				
-				</div>	
-				<div class="col-md-12" style="margin-top:30px;">
-					<div class="col-md-4"></div>
-					<div class="col-md-4">
-					</div>
-					<div class="col-md-">
-						<a href="#"><p style="text-align: right; margin-top:-30px; font-size: 100%;"><i class="fa fa-play" aria-hidden="true"></i> ดูทั้งหมด</p></a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div style="margin-top:-30px;"></div>
-
-		<div class="jumbotron" id="activity">
-			<div class="container">
-				<div class="col-md-12" style="margin-bottom:20px;">
-					<div class="col-md-4 line2 visible-lg"></div>
-					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
-						<h3><i class="fa fa-users" aria-hidden="true"></i> ภ่ายกิจกรรม</h3>
-					</div>
-					<div class="col-md-4 line2 visible-lg"></div>
 				</div>
 
 				<div style="margin-top:20px;"></div>
 				<div class="grid" style="text-align:center;">
-					<figure class="effect-apollo">
+					<figure data-aos="zoom-in" data-aos-duration="1500">
 						<img src="image/info/1.jpg"/>
 						<figcaption>
 							<h2>ชื่อกิจกรรม</h2>
@@ -200,7 +119,7 @@
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
 					</figure>
-					<figure class="effect-apollo">
+					<figure data-aos="zoom-in" data-aos-duration="800">
 						<img src="image/info/2.jpg"/>
 						<figcaption>
 							<h2>ชื่อกิจกรรม</h2>
@@ -208,7 +127,7 @@
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
 					</figure>
-					<figure class="effect-apollo">
+					<figure data-aos="zoom-in" data-aos-duration="300">
 						<img src="image/info/3.jpg"/>
 						<figcaption>
 							<h2>ชื่อกิจกรรม</h2>
@@ -216,7 +135,7 @@
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
 					</figure>
-					<figure class="effect-apollo">
+					<figure data-aos="zoom-in" data-aos-duration="1500">
 						<img src="image/info/4.jpg"/>
 						<figcaption>
 							<h2>ชื่อกิจกรรม</h2>
@@ -224,7 +143,7 @@
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
 					</figure>
-					<figure class="effect-apollo">
+					<figure data-aos="zoom-in" data-aos-duration="800">
 						<img src="image/info/5.jpg"/>
 						<figcaption>
 							<h2>ชื่อกิจกรรม</h2>
@@ -232,7 +151,7 @@
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
 					</figure>
-					<figure class="effect-apollo">
+					<figure data-aos="zoom-in" data-aos-duration="1200">
 						<img src="image/info/1.jpg"/>
 						<figcaption>
 							<h2>ชื่อกิจกรรม</h2>
@@ -240,7 +159,7 @@
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
 					</figure>
-					<figure class="effect-apollo">
+					<figure data-aos="zoom-in" data-aos-duration="900">
 						<img src="image/info/2.jpg"/>
 						<figcaption>
 							<h2>ชื่อกิจกรรม</h2>
@@ -248,7 +167,7 @@
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
 					</figure>
-					<figure class="effect-apollo">
+					<figure data-aos="zoom-in" data-aos-duration="2000">
 						<img src="image/info/3.jpg"/>
 						<figcaption>
 							<h2>ชื่อกิจกรรม</h2>
@@ -256,7 +175,7 @@
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
 					</figure>
-					<figure class="effect-apollo">
+					<figure data-aos="zoom-in" data-aos-duration="600">
 						<img src="image/info/4.jpg"/>
 						<figcaption>
 							<h2>ชื่อกิจกรรม</h2>
@@ -264,80 +183,132 @@
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
 					</figure>
+					<nav aria-label="Page navigation">
+						<ul class="pagination">
+							<li>
+								<a href="#" aria-label="Previous">
+									<span aria-hidden="true">&laquo;</span>
+								</a>
+							</li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li>
+								<a href="#" aria-label="Next">
+									<span aria-hidden="true">&raquo;</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
-				<div class="col-md-12" style="margin-top:30px;">
-					<div class="col-md-4"></div>
-					<div class="col-md-4">
-					</div>
-					<div class="col-md-">
-						<a href="#"><p style="text-align: right; margin-top:-30px; font-size: 100%;"><i class="fa fa-play" aria-hidden="true"></i> ดูทั้งหมด</p></a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="cd-fixed-bg cd-bg-3">
-			<div class="hidden-lg" style="padding-top:30px; text-align:center; color:#ffffff; text-shadow: 2px 2px 4px #000000;">
-				<h3>เอกสาร | วิดีโอเผยแพร่</h3>
-			</div>
-			<div>
-				<div class="container" style="text-align:center; padding-top:50px;">
-					<div class="col-md-3">
-						<h3>
-							<a href="" class="shadow" style="color:#ffffff;">
-								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
-								<br>ชือ่ไฟล์เอกสาร
-							</a>
-						</h3>
-					</div>
-					<div class="col-md-3">
-						<h3>
-							<a href="" class="shadow" style="color:#ffffff;">
-								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
-								<br>ชือ่ไฟล์อกสาร
-							</a>
-						</h3>
-					</div>
-					<div class="col-md-3">
-						<h3>
-							<a href="" class="shadow" style="color:#ffffff;">
-								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
-								<br>ชือ่ไฟล์อกสาร
-							</a>
-						</h3>
-					</div>
-					<div class="col-md-3">
-						<h3>
-							<a href="" class="shadow" style="color:#ffffff;">
-								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
-								<br>ชือ่ไฟล์อกสาร
-							</a>
-						</h3>
-					</div>
-				</div>
-			</div>
-			
-			<div class="visible-lg">
-				<h2>เอกสาร | วิดีโอเผยแพร่</h2>
 			</div>
 
-			<div>
-				<div class="container" style="text-align:center; margin-top:20%;">
-					<div class="col-md-3 shadow">
-						<iframe width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			<div class="container">
+				<div class="col-md-12" id="student">
+					<div class="col-md-4 line visible-lg"></div>
+					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
+						<h3><i class="fa fa-users" aria-hidden="true"></i> ภ่ายกิจกรรมของนักศึกษา</h3>
 					</div>
-					<div class="col-md-3 shadow">
-						<iframe width="250" height="150" src="https://www.youtube.com/embed/z34mhkRB1Xc" frameborder="0" allowfullscreen></iframe>
-					</div>
-					<div class="col-md-3 shadow">
-						<iframe width="250" height="150" src="https://www.youtube.com/embed/nyjn3eXbkSI" frameborder="0" allowfullscreen></iframe>
-					</div>
-					<div class="col-md-3 shadow">
-						<iframe width="250" height="150" src="https://www.youtube.com/embed/eFR-hG_SM9U" frameborder="0" allowfullscreen></iframe>
-					</div>
+					<div class="col-md-4 line visible-lg"></div>
+				</div>
+
+				<div class="grid" style="text-align:center; margin-top:30px;">
+					<figure data-aos="zoom-in" data-aos-duration="1500">
+						<img src="image/info/1.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure data-aos="zoom-in" data-aos-duration="800">
+						<img src="image/info/2.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure data-aos="zoom-in" data-aos-duration="300">
+						<img src="image/info/3.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure data-aos="zoom-in" data-aos-duration="1500">
+						<img src="image/info/4.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure data-aos="zoom-in" data-aos-duration="800">
+						<img src="image/info/5.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure data-aos="zoom-in" data-aos-duration="1200">
+						<img src="image/info/1.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure data-aos="zoom-in" data-aos-duration="900">
+						<img src="image/info/2.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure data-aos="zoom-in" data-aos-duration="2000">
+						<img src="image/info/3.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<figure data-aos="zoom-in" data-aos-duration="600">
+						<img src="image/info/4.jpg"/>
+						<figcaption>
+							<h2>ชื่อกิจกรรม</h2>
+							<p>รายละเอียดกิจกรรม</p>
+							<a href="#">ดูเพิ่มเติม</a>
+						</figcaption>			
+					</figure>
+					<nav aria-label="Page navigation">
+						<ul class="pagination">
+							<li>
+								<a href="#" aria-label="Previous">
+									<span aria-hidden="true">&laquo;</span>
+								</a>
+							</li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li>
+								<a href="#" aria-label="Next">
+									<span aria-hidden="true">&raquo;</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</div>
-		</div> <!-- cd-fixed-bg -->
+		<!-- </div> -->
 
 	</main> <!-- cd-main-content -->
 	

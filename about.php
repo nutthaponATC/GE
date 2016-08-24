@@ -334,8 +334,29 @@
 				</div>
 			</div>
 		</div>
-
-
+	</div>
+	
+	<div style="background-color:#8e3240; width:100%; height:100px; margin-top:30px;">
+		<div class="container" style="color:#ffffff;">
+			<div class="col-md-3">
+				<br><br><br>
+				Copyright © 2016 สำนักศึกษาทั่วไป
+			</div>
+			<div class="col-md-5" style="text-align:center;">
+				<p><br>
+					อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520
+				</p>
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-3">
+				<br>
+				<p><i class="fa fa-phone" style="font-size:16px;"></i> โทรศัพท์/โทรสาร 02 329 8220 <br>
+				E-mail :  general.edu2015@gmail.com <br>
+				<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
+				</p>
+			</div>
+		</div>
 	</div>
 	
 	<script src="js/main.js"></script> <!-- background -->

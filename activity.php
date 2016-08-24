@@ -207,11 +207,11 @@
 
 			<div class="container">
 				<div class="col-md-12" id="student">
-					<div class="col-md-4 line visible-lg"></div>
+					<div class="col-md-4 line2 visible-lg"></div>
 					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
 						<h3><i class="fa fa-users" aria-hidden="true"></i> ภ่ายกิจกรรมของนักศึกษา</h3>
 					</div>
-					<div class="col-md-4 line visible-lg"></div>
+					<div class="col-md-4 line2 visible-lg"></div>
 				</div>
 
 				<div class="grid" style="text-align:center; margin-top:30px;">

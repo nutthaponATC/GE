@@ -179,19 +179,129 @@
 			<div class="col-md-10 line visible-lg"></div>
 		</div>
 		<div class="container">
-			<div class="grid">
-				<figure class="effect-julia">
-					<img src="image/staff/5.png"/>
-					<figcaption>
-						<h2>Passionate <span>Julia</span></h2>
-						<div>
-							<p>Julia dances in the deep dark</p>
-							<p>She loves the smell of the ocean</p>
-							<p>And dives into the morning light</p>
-						</div>
-						<a href="#">View more</a>
-					</figcaption>			
-				</figure>
+			<div class="grid2">
+				<div class="col-md-5">
+					<figure class="effect-julia">
+						<img src="image/staff/5.png" class="img-responsive" style=""/>
+						<figcaption>
+							<h2>ดร. อำภาพรรณ  ตันตินาครกูล</h2>
+							<div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<p>ความสำเร็จมาจากความมุ่งมั่น<br>
+								 ไม่ย่อท้อและการผ่านความล้มเหลวมา<br>
+								 ไม่มากก็น้อย</p>
+								<p>Success comes from determination<br>
+								and experiences from certain <br> 
+								degrees of failures.</p>
+							</div>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-5">
+					<figure class="effect-julia">
+						<img src="image/staff/4.png" class="img-responsive" style=""/>
+						<figcaption>
+							<h2>รศ.ดร. กาญจนา บุญภักดิ์</h2>
+							<div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<p>สู้ พยายาม สู่ความสำเร็จ</p>
+								<p>When you keep trying and fighting,<br>
+								success is always there for you.</p>
+							</div>
+						</figcaption>			
+					</figure>
+				</div>
+
+				<div class="col-md-5">
+					<figure class="effect-julia">
+						<img src="image/staff/3.png" class="img-responsive" style=""/>
+						<figcaption>
+							<h2>ดร. รวิช ควรประเสริฐ</h2>
+							<div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<p>ความคิดสร้างสรรค์ <br>
+								 ไม่ควรถูกกักขังในกรงของความคิด</p>
+								<p>Creativity shall not be restrained <br>
+								 within the boundary of itself.</p>
+							</div>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-5">
+					<figure class="effect-julia">
+						<img src="image/staff/2.png" class="img-responsive" style=""/>
+						<figcaption>
+							<h2>...</h2>
+							<div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<p>...</p>
+								<p>...</p>
+							</div>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-5">
+					<figure class="effect-julia">
+						<img src="image/staff/6.png" class="img-responsive" style=""/>
+						<figcaption>
+							<h2>ดร. ฐิยาพร  กันตาธนวัฒน์</h2>
+							<div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<p>รู้ตน เข้าใจคนอื่น กลมกลืนความต่าง<br>
+								 ร่วมสร้างและเรียนรู้</p>
+								<p>Knowing yourself and others, <br>
+								living in harmony and having a<br>
+								passion for creating and learning.</p>
+							</div>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-5">
+					<figure class="effect-julia">
+						<img src="image/staff/1.png" class="img-responsive" style=""/>
+						<figcaption>
+							<h2>ผศ.ดร. ประสันต์  ชุ่มใจหาญ</h2>
+							<div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<p>การลงมือทำถือเป็นการสร้างพลัง <br>
+								 ของความรู้ให้ยิ่งใหญ่ขึ้น</p>
+								<p>When you have practiced,<br> 
+								the knowledge becomes more <br>
+								powerful.</p>
+							</div>
+						</figcaption>			
+					</figure>
+				</div>
 			</div>
 		</div>
 

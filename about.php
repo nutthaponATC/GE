@@ -81,14 +81,14 @@
 								<li><a href="activity.php#student"><i class="fa fa-chevron-right" style="font-size:8px;"></i> นักศึกษา</a></li>
 							</ul>
 						</li>
-						<li><a href="#">เอกสาร | วิดีโอเผยแพร่</a></li>
+						<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับเรา</b></a>
 							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ปรัชญา</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> พันธกิจ</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
+								<li><a href="about.php#philosophy"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ปรัชญา</a></li>
+								<li><a href="about.php#vision"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์</a></li>
+								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> พันธกิจ</a></li>
+								<li><a href="about.php#staff"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
 							</ul>
 						</li>
 						<li><a href="#">ติดต่อเรา</a></li>
@@ -107,44 +107,62 @@
 	</main>
 
 	<div class="jumbotron" style="margin-top:20px; background-color:#ffffff;">
-		<div class="container">
+		<div class="container visible-lg" id="philosophy">
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
 			<div class="col-md-1">
 				<h2 style="margin-top:-15px; margin-left:-40px;">ปรัชญา</h2>
 			</div>
-			<div class="col-md-10 line visible-lg"></div>
+			<div class="col-md-10 line"></div>
 		</div>
-		<div class="container" style="text-align:center;">
-			<h3>ปรัชญา ปรัชญา ปรัชญา</h3>
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;">ปรัชญา</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container aos-all" style="text-align:center;">
+			<h3 data-aos="fade-left" style="margin-top:-40px;">ปรัชญา ปรัชญา ปรัชญา</h3>
 		</div>
 
-		<div class="container" style="margin-top:70px;">
+		<div class="container visible-lg" id="vision" style="margin-top:70px;">
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
 			<div class="col-md-1">
 				<h2 style="margin-top:-15px; margin-left:-40px;">วิสัยทัศน์</h2>
 			</div>
-			<div class="col-md-10 line visible-lg"></div>
+			<div class="col-md-10 line"></div>
 		</div>
-		<div class="container" style="text-align:center;">
-			<h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspวิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์<br>
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;">วิสัยทัศน์</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container aos-all" style="text-align:center;">
+			<h3 data-aos="fade-left" style="margin-top:-40px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspวิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์<br>
 			วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์</h3>
 		</div>
 
-		<div class="container" style="margin-top:70px;">
+		<div class="container visible-lg" id="mission" style="margin-top:70px;">
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
 			<div class="col-md-1">
 				<h2 style="margin-top:-15px; margin-left:-40px;">พันธกิจ</h2>
 			</div>
-			<div class="col-md-10 line visible-lg"></div>
+			<div class="col-md-10 line"></div>
 		</div>
-		<div class="container" style="margin-right:50px;">
-			<h3>	สำนักวิชาศึกษาทั่วไป มีหน้าที่เป็นหน่วยงานกลางในการบริหารจัดการเรียนการสอน ในรายวิชาศึกษาทั่วไปของสถาบัน <br>
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;">พันธกิจ</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container aos-all" style="margin-right:50px;">
+			<h3 data-aos="fade-left" style="margin-top:-40px;">	สำนักวิชาศึกษาทั่วไป มีหน้าที่เป็นหน่วยงานกลางในการบริหารจัดการเรียนการสอน ในรายวิชาศึกษาทั่วไปของสถาบัน <br>
 			ได้แก่ การออกแบบรายวิชา การพัฒนาอาจารย์ผู้สอน และการประเมินผลการเรียนรู้ของผู้เรียนซึ่งมีแบ่งภาระงาน
 			<br> ด้านต่างๆ ดังนี้ <br>
 			1.	ด้านวิชาการ <br>
@@ -156,27 +174,39 @@
 			-	สารสนเทศและมัลติมีเดียเพื่อการเรียนรู้แบบ Active learning
 			</h3>
 		</div>
-		<div class="container" style="margin-top:70px;">
+		<div class="container visible-lg" id="oganizetion" style="margin-top:70px;">
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
 			<div class="col-md-5">
 				<h2 style="margin-top:-15px; margin-left:-40px;">โครงสร้างองค์กร/ แผนภูมิการบริหารงาน</h2>
 			</div>
-			<div class="col-md-6 line visible-lg"></div>
+			<div class="col-md-6 line"></div>
 		</div>
-		<div class="container" style="text-align:center;">
-			<img src="image/oganize.png" class="img-responsive">
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;">โครงสร้างองค์กร/ แผนภูมิการบริหารงาน</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container aos-all" style="text-align:center;">
+			<img src="image/oganize.png" class="img-responsive" data-aos="zoom-in">
 		</div>
 
-		<div class="container" style="margin-top:70px;">
+		<div class="container visible-lg" id="staff" style="margin-top:70px;">
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
 			<div class="col-md-1">
 				<h2 style="margin-top:-15px; margin-left:-40px;">บุคลากร</h2>
 			</div>
-			<div class="col-md-10 line visible-lg"></div>
+			<div class="col-md-10 line"></div>
+		</div>
+		<div class="container hidden-lg" id="staff" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;">บุคลากร</h2>
+			</div>
+			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container">
 			<div class="grid2">

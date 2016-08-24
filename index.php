@@ -81,14 +81,14 @@
 								<li><a href="activity.php#student"><i class="fa fa-chevron-right" style="font-size:8px;"></i> นักศึกษา</a></li>
 							</ul>
 						</li>
-						<li><a href="#">เอกสาร | วิดีโอเผยแพร่</a></li>
+						<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับเรา</b></a>
 							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ปรัชญา</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> พันธกิจ</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
+								<li><a href="about.php#philosophy"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ปรัชญา</a></li>
+								<li><a href="about.php#vision"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์</a></li>
+								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> พันธกิจ</a></li>
+								<li><a href="about.php#staff"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
 							</ul>
 						</li>
 						<li><a href="#">ติดต่อเรา</a></li>
@@ -286,7 +286,7 @@
 						<h3>
 							<a href="" class="shadow" style="color:#ffffff;">
 								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
-								<br>ชือ่ไฟล์เอกสาร
+								<br>ชื่อไฟล์เอกสาร
 							</a>
 						</h3>
 					</div>
@@ -294,7 +294,7 @@
 						<h3>
 							<a href="" class="shadow" style="color:#ffffff;">
 								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
-								<br>ชือ่ไฟล์อกสาร
+								<br>ชื่อไฟล์เอกสาร
 							</a>
 						</h3>
 					</div>
@@ -302,7 +302,7 @@
 						<h3>
 							<a href="" class="shadow" style="color:#ffffff;">
 								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
-								<br>ชือ่ไฟล์อกสาร
+								<br>ชื่อไฟล์เอกสาร
 							</a>
 						</h3>
 					</div>
@@ -310,7 +310,7 @@
 						<h3>
 							<a href="" class="shadow" style="color:#ffffff;">
 								<i class="fa fa-file-text fa-3x text" aria-hidden="true"></i>
-								<br>ชือ่ไฟล์อกสาร
+								<br>ชื่อไฟล์เอกสาร
 							</a>
 						</h3>
 					</div>
@@ -318,7 +318,7 @@
 			</div>
 			
 			<div class="visible-lg">
-				<h2>เอกสาร | วิดีโอเผยแพร่</h2>
+				<h2>เอกสาร และวิดีโอเผยแพร่</h2>
 			</div>
 
 			<div>

@@ -7,7 +7,7 @@
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Athiti:400" rel="stylesheet">
   	
-	<title>สำนักศึกษาทั่วไป General Education</title>
+	<title>สำนักวิชาศึกษาทั่วไป General Education</title>
 
 	<link rel="stylesheet" href="style.css">
 
@@ -68,9 +68,8 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
 							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ผลลัพธ์การเรียนรู้</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่มวิชา</a></li>
 								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
+								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
 								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
 							</ul>
 						</li>
@@ -229,7 +228,7 @@
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br><br><br>
-				Copyright © 2016 สำนักศึกษาทั่วไป
+				Copyright © 2016 สำนักวิชาศึกษาทั่วไป
 			</div>
 			<div class="col-md-5" style="text-align:center;">
 				<br>

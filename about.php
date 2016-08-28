@@ -7,7 +7,7 @@
 	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Athiti:400" rel="stylesheet">
   	
-	<title>สำนักศึกษาทั่วไป General Education</title>
+	<title>สำนักวิชาศึกษาทั่วไป General Education</title>
 
 	<link rel="stylesheet" href="style.css">
 
@@ -66,11 +66,20 @@
 		            <ul class="nav navbar-nav navbar-left" id="menu-main">
 		            	<li><a href="index.php">หน้าหลัก</a></li>
 						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับสำนัก</b></a>
+							<ul class="dropdown-menu" id="dropdown">
+								<li><a href="about.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ประวัติความเป็นมา</a></li>
+								<li><a href="about.php#vision"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์ พันธกิจ</a></li>
+								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> นโยบายการบริหาร</a></li>
+								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างการบริหาร</a></li>
+								<li><a href="about.php#staff"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
 							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ผลลัพธ์การเรียนรู้</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่มวิชา</a></li>
 								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
+								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
 								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
 							</ul>
 						</li>
@@ -82,15 +91,6 @@
 							</ul>
 						</li>
 						<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับเรา</b></a>
-							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="about.php#philosophy"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ปรัชญา</a></li>
-								<li><a href="about.php#vision"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์</a></li>
-								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> พันธกิจ</a></li>
-								<li><a href="about.php#staff"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
-							</ul>
-						</li>
 						<li><a href="contact.php">ติดต่อเรา</a></li>
 		            </ul>
 		        </div>
@@ -111,81 +111,76 @@
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
-			<div class="col-md-1">
-				<h2 style="margin-top:-15px; margin-left:-40px;">ปรัชญา</h2>
-			</div>
-			<div class="col-md-10 line"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">ปรัชญา</h2>
+			<div class="col-md-3">
+				<h2 style="margin-top:-15px; margin-left:-40px;">ประวัติความเป็นมา</h2>
 			</div>
 			<div class="col-md-12 line"></div>
 		</div>
-		<div class="container aos-all" style="text-align:center;">
-			<h3 data-aos="fade-left" style="margin-top:-40px;">ปรัชญา ปรัชญา ปรัชญา</h3>
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;">ประวัติความเป็นมา</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container aos-all">
+			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto; text-indent: 2.5em;">
+			สำนักวิชาศึกษาทั่วไป เป็นส่วนงานของสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ซึ่งเกิดขึ้นตามนโยบายของสถาบันที่ให้จัดตั้งหน่วยงาน เพื่อบริหารจัดการและพัฒนาด้านการเรียนการสอนวิชาศึกษาทั่วไปของสถาบัน  โดยได้ผ่านการอนุมัติจากการประชุมสภาสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ครั้งที่ 12/2557 วันที่ 26 พฤศจิกายน 2557 เรื่อง ขอเสนอพิจารณาประกาศสถาบัน เรื่อง การจัดตั้งสำนักวิชาศึกษาทั่วไป เป็นส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ....... โดยมีประกาศสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง เรื่อง การจัดตั้งส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ.2557 วันที่ ๓ ธันวาคม ๒๕๕๗  (ประกาศในราชกิจจานุเบกษาหน้า 12 เล่ม 131 ตอนพิเศษ 262 ง วันที่ 23 ธันวาคม 2557)
+			</p>
 		</div>
 
 		<div class="container visible-lg" id="vision" style="margin-top:70px;">
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
-			<div class="col-md-1">
-				<h2 style="margin-top:-15px; margin-left:-40px;">วิสัยทัศน์</h2>
+			<div class="col-md-2">
+				<h2 style="margin-top:-15px; margin-left:-40px;">วิสัยทัศน์ พันธกิจ</h2>
 			</div>
-			<div class="col-md-10 line"></div>
+			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container hidden-lg" style="margin-top:70px;">
 			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">วิสัยทัศน์</h2>
+				<h2 style="margin-top:-15px; margin-left:-40px;">วิสัยทัศน์ พันธกิจ</h2>
 			</div>
 			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container aos-all" style="text-align:center;">
-			<h3 data-aos="fade-left" style="margin-top:-40px;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspวิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์<br>
-			วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์ วิสัยทัศน์</h3>
+			<p data-aos="fade-left" style="margin-top:-40px;">
+			วิสัยทัศน์ พันธกิจวิสัยทัศน์ พันธกิจวิสัยทัศน์ พันธกิจวิสัยทัศน์ พันธกิจวิสัยทัศน์ พันธกิจวิสัยทัศน์ พันธกิจ
+			</p>
 		</div>
 
 		<div class="container visible-lg" id="mission" style="margin-top:70px;">
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
-			<div class="col-md-1">
-				<h2 style="margin-top:-15px; margin-left:-40px;">พันธกิจ</h2>
+			<div class="col-md-3">
+				<h2 style="margin-top:-15px; margin-left:-40px;">นโยบายการบริหาร</h2>
 			</div>
-			<div class="col-md-10 line"></div>
+			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container hidden-lg" style="margin-top:70px;">
 			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">พันธกิจ</h2>
+				<h2 style="margin-top:-15px; margin-left:-40px;">นโยบายการบริหาร</h2>
 			</div>
 			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container aos-all" style="margin-right:50px;">
-			<h3 data-aos="fade-left" style="margin-top:-40px;">	สำนักวิชาศึกษาทั่วไป มีหน้าที่เป็นหน่วยงานกลางในการบริหารจัดการเรียนการสอน ในรายวิชาศึกษาทั่วไปของสถาบัน <br>
-			ได้แก่ การออกแบบรายวิชา การพัฒนาอาจารย์ผู้สอน และการประเมินผลการเรียนรู้ของผู้เรียนซึ่งมีแบ่งภาระงาน
-			<br> ด้านต่างๆ ดังนี้ <br>
-			1.	ด้านวิชาการ <br>
-			-	สร้างและพัฒนารายวิชาศึกษาทั่วไป <br>
-			-	พัฒนากระบวนการเรียนการสอนและพัฒนาอาจารย์ผู้สอน <br>
-			-	ส่งเสริมพัฒนาการเรียนรู้ของนักศึกษา <br>
-			2.	ด้านสารสนเทศและมัลติมีเดีย <br>
-			-	สารสนเทศเพื่อช่วยในการจัดการเรียนการสอนวิชาศึกษาทั่วไป <br>
-			-	สารสนเทศและมัลติมีเดียเพื่อการเรียนรู้แบบ Active learning
-			</h3>
+			<p data-aos="fade-left" style="margin-top:-40px;">	
+				นโยบายการบริหาร นโยบายการบริหาร นโยบายการบริหาร นโยบายการบริหาร นโยบายการบริหาร
+			</p>
 		</div>
 		<div class="container visible-lg" id="oganizetion" style="margin-top:70px;">
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
 			<div class="col-md-5">
-				<h2 style="margin-top:-15px; margin-left:-40px;">โครงสร้างองค์กร/ แผนภูมิการบริหารงาน</h2>
+				<h2 style="margin-top:-15px; margin-left:-40px;">โครงสร้างการบริหาร</h2>
 			</div>
-			<div class="col-md-6 line"></div>
+			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container hidden-lg" style="margin-top:70px;">
 			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">โครงสร้างองค์กร/ แผนภูมิการบริหารงาน</h2>
+				<h2 style="margin-top:-15px; margin-left:-40px;">โครงสร้างการบริหาร</h2>
 			</div>
 			<div class="col-md-12 line"></div>
 		</div>
@@ -193,29 +188,33 @@
 			<img src="image/oganize.png" class="img-responsive" data-aos="zoom-in">
 		</div>
 
-		<div class="container visible-lg" id="staff" style="margin-top:70px;">
+		<div class="container visible-lg" id="mission" style="margin-top:170px;">
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
-			<div class="col-md-1">
-				<h2 style="margin-top:-15px; margin-left:-40px;">บุคลากร</h2>
+			<div class="col-md-3">
+				<h2 style="margin-top:-15px; margin-left:-40px;">ผู้บริหาร</h2>
 			</div>
-			<div class="col-md-10 line"></div>
+			<div class="col-md-12 line"></div>
 		</div>
-		<div class="container hidden-lg" id="staff" style="margin-top:70px;">
+		<div class="container hidden-lg" style="margin-top:70px;">
 			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">บุคลากร</h2>
+				<h2 style="margin-top:-15px; margin-left:-40px;">ผู้บริหาร</h2>
 			</div>
 			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container">
 			<div class="grid2">
-				<div class="col-md-5">
+				<div class="col-md-5" style="text-align:center;">
+					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">ผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 					<figure class="effect-julia">
 						<img src="image/staff/5.png" class="img-responsive" style=""/>
 						<figcaption>
-							<h2>ดร. อำภาพรรณ  ตันตินาครกูล</h2>
+							<h2>ดร.อำภาพรรณ  ตันตินาครกูล</h2>
 							<div>
+								<br>
+								<br>
+								<br>
 								<br>
 								<br>
 								<br>
@@ -233,12 +232,68 @@
 				</div>
 				<div class="col-md-2">
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-5" style="text-align:center;">
+					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+					<figure class="effect-julia">
+						<img src="image/staff/2.png" class="img-responsive" style=""/>
+						<figcaption>
+							<h2>ผศ.ดร.สมศักดิ์  วลัยรัชต์</h2>
+							<div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<p>...</p>
+								<p>...</p>
+							</div>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-5" style="text-align:center;">
+					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+					<figure class="effect-julia">
+						<img src="image/staff/1.png" class="img-responsive" style=""/>
+						<figcaption>
+							<h2>ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h2>
+							<div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<p>การลงมือทำถือเป็นการสร้างพลัง <br>
+								 ของความรู้ให้ยิ่งใหญ่ขึ้น</p>
+								<p>When you have practiced,<br> 
+								the knowledge becomes more <br>
+								powerful.</p>
+							</div>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-5" style="text-align:center;">
+					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 					<figure class="effect-julia">
 						<img src="image/staff/4.png" class="img-responsive" style=""/>
 						<figcaption>
-							<h2>รศ.ดร. กาญจนา บุญภักดิ์</h2>
+							<h2>รศ.ดร.กาญจนา บุญภักดิ์</h2>
 							<div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
 								<br>
 								<br>
 								<br>
@@ -251,13 +306,18 @@
 						</figcaption>			
 					</figure>
 				</div>
-
-				<div class="col-md-5">
+				<div class="col-md-5" style="text-align:center;">
+					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 					<figure class="effect-julia">
 						<img src="image/staff/3.png" class="img-responsive" style=""/>
 						<figcaption>
-							<h2>ดร. รวิช ควรประเสริฐ</h2>
+							<h2>ดร.รวิช ควรประเสริฐ</h2>
 							<div>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
 								<br>
 								<br>
 								<br>
@@ -273,29 +333,17 @@
 				</div>
 				<div class="col-md-2">
 				</div>
-				<div class="col-md-5">
-					<figure class="effect-julia">
-						<img src="image/staff/2.png" class="img-responsive" style=""/>
-						<figcaption>
-							<h2>...</h2>
-							<div>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<p>...</p>
-								<p>...</p>
-							</div>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-5">
+				<div class="col-md-5" style="text-align:center;">
+					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 					<figure class="effect-julia">
 						<img src="image/staff/6.png" class="img-responsive" style=""/>
 						<figcaption>
-							<h2>ดร. ฐิยาพร  กันตาธนวัฒน์</h2>
+							<h2>ดร.ฐิยาพร  กันตาธนวัฒน์</h2>
 							<div>
+								<br>
+								<br>
+								<br>
+								<br>
 								<br>
 								<br>
 								<br>
@@ -310,25 +358,53 @@
 						</figcaption>			
 					</figure>
 				</div>
-				<div class="col-md-2">
-				</div>
-				<div class="col-md-5">
+			</div>
+		</div>
+
+		<div class="container visible-lg" id="staff" style="margin-top:100px;">
+			<div class="col-md-1">
+				<img src="icon.png" style="margin-top:-10px;">
+			</div>
+			<div class="col-md-1">
+				<h2 style="margin-top:-15px; margin-left:-40px;">เจ้าหน้าที่</h2>
+			</div>
+			<div class="col-md-10 line2"></div>
+		</div>
+		<div class="container hidden-lg" id="staff" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;">เจ้าหน้าที่</h2>
+			</div>
+			<div class="col-md-12 line2"></div>
+		</div>
+		<div class="container">
+			<div class="grid3">
+				<div class="col-md-4" style="text-align:center;">
+					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">เจ้าหน้าที่บริหารงานทั่วไป</p>
 					<figure class="effect-julia">
-						<img src="image/staff/1.png" class="img-responsive" style=""/>
+						<img src="" class="img-responsive" style=""/>
 						<figcaption>
-							<h2>ผศ.ดร. ประสันต์  ชุ่มใจหาญ</h2>
-							<div>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<p>การลงมือทำถือเป็นการสร้างพลัง <br>
-								 ของความรู้ให้ยิ่งใหญ่ขึ้น</p>
-								<p>When you have practiced,<br> 
-								the knowledge becomes more <br>
-								powerful.</p>
-							</div>
+							<h2>นางสาวกฤชกมล  มงคลสวัสดิ์</h2>
+							<div></div>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-4" style="text-align:center;">
+					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">นักวิชาการศึกษา</p>
+					<figure class="effect-julia">
+						<img src="" class="img-responsive" style=""/>
+						<figcaption>
+							<h2>นางพิมสิริ  อุ่นตรงจิตร</h2>
+							<div></div>
+						</figcaption>			
+					</figure>
+				</div>
+				<div class="col-md-4" style="text-align:center;">
+					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">นักวิชาการศึกษา</p>
+					<figure class="effect-julia">
+						<img src="" class="img-responsive" style=""/>
+						<figcaption>
+							<h2>นางสาวผจงจิตต์  ยืนวงษ์</h2>
+							<div></div>
 						</figcaption>			
 					</figure>
 				</div>
@@ -340,7 +416,7 @@
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br><br><br>
-				Copyright © 2016 สำนักศึกษาทั่วไป
+				Copyright © 2016 สำนักวิชาศึกษาทั่วไป
 			</div>
 			<div class="col-md-5" style="text-align:center;">
 				<br>

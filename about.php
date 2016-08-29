@@ -71,16 +71,16 @@
 								<li><a href="about.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ประวัติความเป็นมา</a></li>
 								<li><a href="about.php#vision"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์ พันธกิจ</a></li>
 								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> นโยบายการบริหาร</a></li>
-								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างการบริหาร</a></li>
+								<li><a href="about.php#oganizetion"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างการบริหาร</a></li>
 								<li><a href="about.php#staff"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
 							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
+								<li><a href="culiculum.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
+								<li><a href="culiculum.php#2"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
+								<li><a href="culiculum.php#3"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -188,7 +188,7 @@
 			<img src="image/oganize.png" class="img-responsive" data-aos="zoom-in">
 		</div>
 
-		<div class="container visible-lg" id="mission" style="margin-top:170px;">
+		<div class="container visible-lg" id="staff" style="margin-top:170px;">
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
@@ -361,7 +361,7 @@
 			</div>
 		</div>
 
-		<div class="container visible-lg" id="staff" style="margin-top:100px;">
+		<div class="container visible-lg" style="margin-top:100px;">
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
@@ -370,7 +370,7 @@
 			</div>
 			<div class="col-md-10 line2"></div>
 		</div>
-		<div class="container hidden-lg" id="staff" style="margin-top:70px;">
+		<div class="container hidden-lg" style="margin-top:70px;">
 			<div class="col-md-12" style="text-align:center;">
 				<h2 style="margin-top:-15px; margin-left:-40px;">เจ้าหน้าที่</h2>
 			</div>

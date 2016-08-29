@@ -66,11 +66,21 @@
 		            <ul class="nav navbar-nav navbar-left" id="menu-main">
 		            	<li><a href="index.php">หน้าหลัก</a></li>
 						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับสำนัก</b></a>
+							<ul class="dropdown-menu" id="dropdown">
+								<li><a href="about.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ประวัติความเป็นมา</a></li>
+								<li><a href="about.php#vision"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์ พันธกิจ</a></li>
+								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> นโยบายการบริหาร</a></li>
+								<li><a href="about.php#oganizetion"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างการบริหาร</a></li>
+								<li><a href="about.php#staff"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
 							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
+								<li><a href="culiculum.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
+								<li><a href="culiculum.php#2"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
+								<li><a href="culiculum.php#3"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -81,15 +91,6 @@
 							</ul>
 						</li>
 						<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับเรา</b></a>
-							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="about.php#philosophy"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ปรัชญา</a></li>
-								<li><a href="about.php#vision"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์</a></li>
-								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> พันธกิจ</a></li>
-								<li><a href="about.php#staff"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
-							</ul>
-						</li>
 						<li><a href="contact.php">ติดต่อเรา</a></li>
 		            </ul>
 		        </div>

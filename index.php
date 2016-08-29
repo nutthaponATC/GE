@@ -71,16 +71,16 @@
 								<li><a href="about.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ประวัติความเป็นมา</a></li>
 								<li><a href="about.php#vision"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์ พันธกิจ</a></li>
 								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> นโยบายการบริหาร</a></li>
-								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างการบริหาร</a></li>
+								<li><a href="about.php#oganizetion"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างการบริหาร</a></li>
 								<li><a href="about.php#staff"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
 							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
+								<li><a href="culiculum.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
+								<li><a href="culiculum.php#2"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
+								<li><a href="culiculum.php#3"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -178,16 +178,30 @@
 			</div>
 		</div>
 
+		<div style="margin-top:-50px;"></div>
+
+		<div class="jumbotron" style="background-color:#ffffff;">
+			<div class="container">
+				<div class="col-md-12" style="margin-bottom:20px;">
+					<div class="col-md-4 line2 visible-lg"></div>
+					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
+						<h3><i class="fa fa-users" aria-hidden="true"></i> ข่าวอบรม | สัมมนา</h3>
+					</div>
+					<div class="col-md-4 line2 visible-lg"></div>
+				</div>
+			</div>
+		</div>		
+
 		<div style="margin-top:-30px;"></div>
 
 		<div class="jumbotron" id="activity">
 			<div class="container">
 				<div class="col-md-12" style="margin-bottom:20px;">
-					<div class="col-md-4 line2 visible-lg"></div>
+					<div class="col-md-4 line visible-lg"></div>
 					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
-						<h3><i class="fa fa-users" aria-hidden="true"></i> ภ่ายกิจกรรม</h3>
+						<h3><i class="fa fa-users" aria-hidden="true"></i> ภาพถ่ายกิจกรรม</h3>
 					</div>
-					<div class="col-md-4 line2 visible-lg"></div>
+					<div class="col-md-4 line visible-lg"></div>
 				</div>
 
 				<div style="margin-top:20px;"></div>

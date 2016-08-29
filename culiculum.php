@@ -71,16 +71,16 @@
 								<li><a href="about.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ประวัติความเป็นมา</a></li>
 								<li><a href="about.php#vision"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์ พันธกิจ</a></li>
 								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> นโยบายการบริหาร</a></li>
-								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างการบริหาร</a></li>
+								<li><a href="about.php#oganizetion"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างการบริหาร</a></li>
 								<li><a href="about.php#staff"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
 							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
-								<li><a href="#"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
+								<li><a href="culiculum.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
+								<li><a href="culiculum.php#2"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
+								<li><a href="culiculum.php#3"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -95,6 +95,71 @@
 		            </ul>
 		        </div>
 		    </div>
+		</div>
+	</div>
+
+	<div class="jumbotron" style="margin-top:20px; background-color:#ffffff;">
+		<div class="container visible-lg" id="1">
+			<div class="col-md-1">
+				<img src="icon.png" style="margin-top:-10px;">
+			</div>
+			<div class="col-md-3">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> โครงสร้างรายวิชา</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> โครงสร้างรายวิชา</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container aos-all">
+			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto; text-indent: 2.5em;">
+				โครงสร้างรายวิชา
+			</p>
+		</div>
+
+		<div class="container visible-lg" id="2" style="margin-top:70px;">
+			<div class="col-md-1">
+				<img src="icon.png" style="margin-top:-10px;">
+			</div>
+			<div class="col-md-2">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> กลุ่ม</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> กลุ่ม</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container aos-all">
+			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto; text-indent: 2.5em;">
+			กลุ่ม
+			</p>
+		</div>
+
+		<div class="container visible-lg" id="3" style="margin-top:70px;">
+			<div class="col-md-1">
+				<img src="icon.png" style="margin-top:-10px;">
+			</div>
+			<div class="col-md-3">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> รายวิชา</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> รายวิชา</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container aos-all">
+			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto; text-indent: 2.5em;">
+			รายวิชา
+			</p>
 		</div>
 	</div>
 

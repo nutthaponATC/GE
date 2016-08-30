@@ -124,20 +124,20 @@
 			<div class="col-md-1">
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-3">
 				<h2 style="margin-top:-15px; margin-left:-40px;"> กลุ่ม</h2>
 			</div>
 			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12">
+			<div class="col-md-12" style="text-align:center;">
 				<h2 style="margin-top:-15px; margin-left:-40px;"> กลุ่ม</h2>
 			</div>
 			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container aos-all">
 			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto; text-indent: 2.5em;">
-			กลุ่ม
+				กลุ่ม
 			</p>
 		</div>
 

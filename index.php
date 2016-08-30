@@ -108,16 +108,24 @@
 	        </div>
 	        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
 	            <div data-p="225.00" style="display: none;">
-	                <img data-u="image" src="img-bg/3.jpg" />
-	                <div  data-u="caption" data-t="4" class="text-slide">หัวข้อ 1</div>
+	                <img data-u="image" src="img-bg/s1.jpg" />
+	                <!-- <div  data-u="caption" data-t="4" class="text-slide">หัวข้อ 1</div> -->
 	            </div>
 	            <div data-p="225.00" style="display: none;">
-	                <img data-u="image" src="img-bg/1.jpg" />
-	                <div  data-u="caption" data-t="2" class="text-slide">หัวข้อ 2</div>
+	                <img data-u="image" src="img-bg/s2.jpg" />
+	                <!-- <div  data-u="caption" data-t="2" class="text-slide">หัวข้อ 2</div> -->
 	            </div>
 	            <div data-p="225.00" data-po="80% 55%" style="display: none;">
-	                <img data-u="image" src="img-bg/2.jpg" />
-	                <div  data-u="caption" data-t="3" class="text-slide">หัวข้อ 3</div>
+	                <img data-u="image" src="img-bg/s3.jpg" />
+	                <!-- <div  data-u="caption" data-t="3" class="text-slide">หัวข้อ 3</div> -->
+	            </div>
+	            <div data-p="225.00" style="display: none;">
+	                <img data-u="image" src="img-bg/s4.jpg" />
+	                <!-- <div  data-u="caption" data-t="4" class="text-slide">หัวข้อ 1</div> -->
+	            </div>
+	            <div data-p="225.00" style="display: none;">
+	                <img data-u="image" src="img-bg/s5.jpg" />
+	                <!-- <div  data-u="caption" data-t="2" class="text-slide">หัวข้อ 2</div> -->
 	            </div>
 	        </div>
 	        <!-- Bullet Navigator -->
@@ -181,7 +189,7 @@
 		<div style="margin-top:-50px;"></div>
 
 		<div class="jumbotron" style="background-color:#ffffff;">
-			<div class="container">
+			<div class="container" style="padding-bottom:20px;">
 				<div class="col-md-12" style="margin-bottom:20px;">
 					<div class="col-md-4 line2 visible-lg"></div>
 					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
@@ -190,11 +198,25 @@
 					<div class="col-md-4 line2 visible-lg"></div>
 				</div>
 			</div>
+			<div class="container">
+				<div class="col-md-5" data-aos="fade-left" data-aos-delay="100">
+					<img src="image/2.jpg" width="400px;" class="img-responsive">
+				</div>
+				<div class="col-md-7" data-aos="fade-left" data-aos-delay="300">
+					<h3>
+						<i class="fa fa-play" aria-hidden="true"></i>
+						หัวข้ออบรม สัมนา
+					</h3>
+					<p style="text-indent: 2.5em;">
+						รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา 
+					</p>
+				</div>
+			</div>
 		</div>		
 
 		<div style="margin-top:-30px;"></div>
 
-		<div class="jumbotron" id="activity">
+		<div class="jumbotron" id="activity" style="background-color:#ffffff;">
 			<div class="container">
 				<div class="col-md-12" style="margin-bottom:20px;">
 					<div class="col-md-4 line visible-lg"></div>

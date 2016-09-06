@@ -421,8 +421,8 @@ figure.effect-julia:hover p:nth-of-type(3) {
 }
 
 figure.effect-julia:hover img {
-	-webkit-transform: scale3d(1.1,1.1,1);
-	transform: scale3d(1.1,1.1,1);
+	/*-webkit-transform: scale3d(1.1,1.1,1);
+	transform: scale3d(1.1,1.1,1);*/
 }
 
 figure.effect-julia:hover p {

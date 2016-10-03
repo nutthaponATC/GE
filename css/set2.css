@@ -134,6 +134,10 @@ figure.effect-apollo h2 {
 	text-align: left;
 }
 
+figure.effect-apollo h3 {
+	margin-top:0px;
+}
+
 figure.effect-apollo:hover img {
 	opacity: 0.6;
 	-webkit-transform: scale3d(1,1,1);

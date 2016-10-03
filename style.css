@@ -377,3 +377,175 @@ aos animatiom scroll
 .shadow {
   text-shadow: 2px 2px 4px #000000;
 }
+
+/*banner new*/
+#banner {
+  width: 100%;
+  height: 130%;
+  background-color: #000000;
+  /*margin-top:-40px;*/
+
+  -webkit-animation: 20s sliderPic infinite;
+  animation: 20s sliderPic infinite;
+  /*-webkit-transition: 2s;  Safari 
+  transition: 2s;*/
+
+  position: relative;
+  background-size: cover;
+  overflow: hidden; 
+}
+
+@-webkit-keyframes sliderPic {
+  0% {
+    background-image: url('img-bg/s1.jpg');
+    /*background-size: 100% auto;*/
+  }
+  20% {
+    background-image: url('img-bg/s2.jpg');
+    /*background-size: 100% auto;*/ 
+  }
+  40% {
+    background-image: url('img-bg/s3.jpg');
+    /*background-size: 100% auto;*/
+  }
+  60% {
+    background-image: url('img-bg/s4.jpg');
+    /*background-size: 100% auto;*/
+  }
+  80% {
+    background-image: url('img-bg/s5.jpg');
+    /*background-size: 100% auto;*/
+  }
+  100% {
+    background-image: url('img-bg/s1.jpg');
+    /*background-size: 100% auto;*/
+  }
+}
+
+#banner2 {
+  width: 100%;
+  height: 130%;
+  background-color: #000000;
+  /*margin-top:-40px;*/
+
+  -webkit-animation: 20s sliderPic2 infinite;
+  animation: 20s sliderPic2 infinite;
+  /*-webkit-transition: 2s;  Safari 
+  transition: 2s;*/
+
+  position: relative;
+  background-size: cover;
+  overflow: hidden; 
+}
+
+@-webkit-keyframes sliderPic2 {
+  0% {
+    background-image: url('img-bg/s1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  20% {
+    background-image: url('img-bg/s2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+  }
+  40% {
+    background-image: url('img-bg/s3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  60% {
+    background-image: url('img-bg/s4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  80% {
+    background-image: url('img-bg/s5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  100% {
+    background-image: url('img-bg/s1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+/*.subject1 {
+  background-color: rgba(243, 115, 66, 1);
+}
+.subject2 {
+  background-color: rgba(254, 215, 78, 1);
+}
+.subject3 {
+  background-color: rgba(113, 176, 96, 1);
+}
+.subject4 {
+  background-color: rgba(152, 81, 139, 1);
+}
+.subject5 {
+  background-color: rgba(69, 148, 191, 1);
+}*/
+
+.subject1:hover {
+  -webkit-animation-name: examplei; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  animation-name: examplei;
+  animation-duration: 1s;
+}
+.subject2:hover {
+  -webkit-animation-name: exampleii; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  animation-name: exampleii;
+  animation-duration: 1s;
+}
+.subject3:hover {
+  -webkit-animation-name: exampleiii; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  animation-name: exampleiii;
+  animation-duration: 1s;
+}
+.subject4:hover {
+  -webkit-animation-name: exampleiv; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  animation-name: exampleiv;
+  animation-duration: 1s;
+}
+.subject5:hover {
+  -webkit-animation-name: examplev; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  animation-name: examplev;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes examplei {
+  0% {background-color: rgba(243, 115, 66, 0);;}
+    100% {background-color: rgba(243, 115, 66, 1);
+      color: #ffffff;}
+}
+@-webkit-keyframes exampleii {
+0% {background-color: rgba(243, 115, 66, 0);;}
+    100% {background-color: rgba(254, 215, 78, 1);
+      color: #ffffff;}
+}
+@-webkit-keyframes exampleiii {
+0% {background-color: rgba(243, 115, 66, 0);;}
+    100% {background-color: rgba(113, 176, 96, 1);
+      color: #ffffff;}
+}
+@-webkit-keyframes exampleiv {
+0% {background-color: rgba(243, 115, 66, 0);;}
+    100% {background-color: rgba(152, 81, 139, 1);
+      color: #ffffff;}
+}
+@-webkit-keyframes examplev {
+0% {background-color: rgba(243, 115, 66, 0);;}
+    100% {background-color: rgba(69, 148, 191, 1);
+      color: #ffffff;}
+}

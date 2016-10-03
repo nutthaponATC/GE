@@ -32,79 +32,60 @@
 	<script type="text/javascript" src="js/jssor.slider.min.js"></script>
 	<script type="text/javascript" src="js/slide.js"></script>
 
-	<!-- language -->
-	<div class="container">
-		<div class="col-md-11">
-			<img src="logo.png" class="img-responsive">
-		</div>
-		<div class="col-md-1">
-			<div class="visible-lg" style="margin-top:100%; color:#be6a77; text-align:center;">
-				<p style="display: inline-block;">Language</p>
-				<a href="">TH</a> | <a href="">EN</a>
-			</div>
-			<div class="hidden-lg" style="text-align: center; color:#be6a77;">
-				<p style="display: inline-block;">language</p>
-				<a href="">TH</a> | <a href="">EN</a>
-			</div>
-		</div>
-	</div>
-
-	<!-- navbar -->
-	<div class="container" style="margin-bottom:20px;">
-		<div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
-		    <div class="container-fluid">
-		        <div class="navbar-header">
-		        	<a class="navbar-brand visible-xs" href="#">เมนู</a>
-		            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
-		            	<span class="sr-only">Toggle navigation</span>
-		            	<span class="icon-bar"></span>
-		            	<span class="icon-bar"></span>
-		            	<span class="icon-bar"></span>
-		            </button>
-		        </div>
-		        <div class="collapse navbar-collapse navbar-menubuilder">
-		            <ul class="nav navbar-nav navbar-left" id="menu-main">
-		            	<li><a href="index.php">หน้าหลัก</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับสำนัก</b></a>
-							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="about.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ประวัติความเป็นมา</a></li>
-								<li><a href="about.php#vision"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์ พันธกิจ</a></li>
-								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> นโยบายการบริหาร</a></li>
-								<li><a href="about.php#oganizetion"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างการบริหาร</a></li>
-								<li><a href="about.php#staff"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
-							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="culiculum.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
-								<li><a href="culiculum.php#2"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
-								<li><a href="culiculum.php#3"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="activity.php" class="dropdown-toggle" data-toggle="dropdown">กิจกรรม</b></a>
-							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="activity.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
-								<li><a href="activity.php#student"><i class="fa fa-chevron-right" style="font-size:8px;"></i> นักศึกษา</a></li>
-							</ul>
-						</li>
-						<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
-						<li><a href="contact.php">ติดต่อเรา</a></li>
-		            </ul>
-		        </div>
-		    </div>
-		</div>
+	<div id="custom-bootstrap-menu" class="navbar navbar-default" style="border-style: none; z-index: 900; margin-left:-5px; width:100%+20px;" role="navigation">
+	    <div class="container-fluid">
+	        <div class="navbar-header">
+	        	<a class="navbar-brand visible-xs" href="#">เมนู</a>
+	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
+	            	<span class="sr-only">Toggle navigation</span>
+	            	<span class="icon-bar"></span>
+	            	<span class="icon-bar"></span>
+	            	<span class="icon-bar"></span>
+	            </button>
+	        </div>
+	        <div class="collapse navbar-collapse navbar-menubuilder">
+	            <ul class="nav navbar-nav navbar-left" id="menu-main">
+	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
+	            	<li style="border-left:1px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับสำนัก</b></a>
+						<ul class="dropdown-menu" id="dropdown">
+							<li><a href="about.php"> ประวัติความเป็นมา</a></li>
+							<li><a href="about.php#vision">วิสัยทัศน์ พันธกิจ</a></li>
+							<li><a href="about.php#mission">นโยบายการบริหาร</a></li>
+							<li><a href="about.php#oganizetion">โครงสร้างการบริหาร</a></li>
+							<li><a href="about.php#staff">บุคลากร</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
+						<ul class="dropdown-menu" id="dropdown">
+							<li><a href="culiculum.php">โครงสร้างรายวิชา</a></li>
+							<li><a href="culiculum.php#2">กลุ่ม</a></li>
+							<li><a href="culiculum.php#3">รายวิชา</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="activity.php" class="dropdown-toggle" data-toggle="dropdown">กิจกรรม</b></a>
+						<ul class="dropdown-menu" id="dropdown">
+							<li><a href="activity.php">บุคลากร</a></li>
+							<li><a href="activity.php#student">นักศึกษา</a></li>
+						</ul>
+					</li>
+					<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
+					<li><a href="contact.php">ติดต่อเรา</a></li>
+	            </ul>
+	        </div>
+	    </div>
 	</div>
 	
-	<main class="cd-main-content">
+	<!-- <main class="cd-main-content">
 		<div class="cd-fixed-bg cd-bg-1">
 			<div>
 				<h1>เกี่ยวกับเรา</h1>
 			</div>
 		</div>
-	</main>
+	</main> -->
 
 	<div class="jumbotron" style="margin-top:20px; background-color:#ffffff;">
 		<div class="container visible-lg" id="philosophy">
@@ -133,19 +114,47 @@
 				<img src="icon.png" style="margin-top:-10px;">
 			</div>
 			<div class="col-md-2">
-				<h2 style="margin-top:-15px; margin-left:-40px;">วิสัยทัศน์ พันธกิจ</h2>
+				<h2 style="margin-top:-15px; margin-left:-40px;">วิสัยทัศน์</h2>
 			</div>
 			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container hidden-lg" style="margin-top:70px;">
 			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">วิสัยทัศน์ พันธกิจ</h2>
+				<h2 style="margin-top:-15px; margin-left:-40px;">วิสัยทัศน์</h2>
 			</div>
 			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container aos-all" style="text-align:center;">
 			<p data-aos="fade-left" style="margin-top:-40px;">
-			วิสัยทัศน์ พันธกิจวิสัยทัศน์ พันธกิจวิสัยทัศน์ พันธกิจวิสัยทัศน์ พันธกิจวิสัยทัศน์ พันธกิจวิสัยทัศน์ พันธกิจ
+			เป็นองค์กรที่มีความเป็นเลิศในการบริหารจัดการวิชาศึกษาทั่วไป 
+เพื่อสร้างบัณฑิตที่สอดคล้องตามอัตลักษณ์ของสถาบันฯ
+			</p>
+		</div>
+
+		<div class="container visible-lg" id="vision" style="margin-top:70px;">
+			<div class="col-md-1">
+				<img src="icon.png" style="margin-top:-10px;">
+			</div>
+			<div class="col-md-2">
+				<h2 style="margin-top:-15px; margin-left:-40px;">พันธกิจ</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;">พันธกิจ</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container aos-all" style="text-align:left;">
+			<p data-aos="fade-left" style="margin-top:-40px;">
+			๑.	พัฒนาและบูรณาการรายวิชาศึกษาทั่วไปอย่างต่อเนื่อง ให้นักศึกษาได้ศึกษาเรียนรู้เพื่อเป็นบัณฑิตตามอัตลักษณ์ของสถาบันฯ <br>
+๒.	พัฒนารูปแบบการเรียนการสอนรายวิชาศึกษาทั่วไปเพื่อให้เป็นไปตามผลลัพธ์การเรียนรู้ตามที่ตั้งไว้ โดยเน้นการเรียนรู้เชิงรุก (Active Learning) <br>
+๓.	พัฒนาระบบสารสนเทศเพื่อการบริหารจัดการและกำกับดูแลคุณภาพการเรียนการสอนให้มีประสิทธิภาพ <br>
+๔.	ดำเนินการให้การบริหารจัดการวิชาศึกษาทั่วไปเป็นไปตามหลักธรรมาภิบาล <br>
+๕.	ส่งเสริมและพัฒนาสมรรถนะขีดความสามารถของบุคลากรในสำนักอย่างเป็นระบบและต่อเนื่อง <br>
+๖.	สนับสนุนและเข้าร่วมกิจกรรมของเครือข่ายการศึกษาทั่วไปแห่งประเทศไทยเพื่อการพัฒนาในทุกด้านอย่างยั่งยืน
+
 			</p>
 		</div>
 
@@ -166,7 +175,7 @@
 		</div>
 		<div class="container aos-all" style="margin-right:50px;">
 			<p data-aos="fade-left" style="margin-top:-40px;">	
-				นโยบายการบริหาร นโยบายการบริหาร นโยบายการบริหาร นโยบายการบริหาร นโยบายการบริหาร
+				นโยบายการบริหาร
 			</p>
 		</div>
 		<div class="container visible-lg" id="oganizetion" style="margin-top:70px;">
@@ -204,162 +213,36 @@
 			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container">
-			<div class="grid2">
-				<div class="col-md-5" style="text-align:center;">
-					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">ผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
-					<figure class="effect-julia">
-						<img src="image/staff/5.png" class="img-responsive" style=""/>
-						<figcaption>
-							<h2>ดร.อำภาพรรณ  ตันตินาครกูล</h2>
-							<div>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<p>ความสำเร็จมาจากความมุ่งมั่น<br>
-								 ไม่ย่อท้อและการผ่านความล้มเหลวมา<br>
-								 ไม่มากก็น้อย</p>
-								<p>Success comes from determination<br>
-								and experiences from certain <br> 
-								degrees of failures.</p>
-							</div>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-2">
-				</div>
-				<div class="col-md-5" style="text-align:center;">
-					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
-					<figure class="effect-julia">
-						<img src="image/staff/2.png" class="img-responsive" style=""/>
-						<figcaption>
-							<h2>ผศ.ดร.สมศักดิ์  วลัยรัชต์</h2>
-							<div>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<p>...</p>
-								<p>...</p>
-							</div>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-5" style="text-align:center;">
-					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
-					<figure class="effect-julia">
-						<img src="image/staff/1.png" class="img-responsive" style=""/>
-						<figcaption>
-							<h2>ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h2>
-							<div>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<p>การลงมือทำถือเป็นการสร้างพลัง <br>
-								 ของความรู้ให้ยิ่งใหญ่ขึ้น</p>
-								<p>When you have practiced,<br> 
-								the knowledge becomes more <br>
-								powerful.</p>
-							</div>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-2">
-				</div>
-				<div class="col-md-5" style="text-align:center;">
-					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
-					<figure class="effect-julia">
-						<img src="image/staff/4.png" class="img-responsive" style=""/>
-						<figcaption>
-							<h2>รศ.ดร.กาญจนา บุญภักดิ์</h2>
-							<div>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<p>สู้ พยายาม สู่ความสำเร็จ</p>
-								<p>When you keep trying and fighting,<br>
-								success is always there for you.</p>
-							</div>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-5" style="text-align:center;">
-					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
-					<figure class="effect-julia">
-						<img src="image/staff/3.png" class="img-responsive" style=""/>
-						<figcaption>
-							<h2>ดร.รวิช ควรประเสริฐ</h2>
-							<div>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<p>ความคิดสร้างสรรค์ <br>
-								 ไม่ควรถูกกักขังในกรงของความคิด</p>
-								<p>Creativity shall not be restrained <br>
-								 within the boundary of itself.</p>
-							</div>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-2">
-				</div>
-				<div class="col-md-5" style="text-align:center;">
-					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
-					<figure class="effect-julia">
-						<img src="image/staff/6.png" class="img-responsive" style=""/>
-						<figcaption>
-							<h2>ดร.ฐิยาพร  กันตาธนวัฒน์</h2>
-							<div>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<p>รู้ตน เข้าใจคนอื่น กลมกลืนความต่าง<br>
-								 ร่วมสร้างและเรียนรู้</p>
-								<p>Knowing yourself and others, <br>
-								living in harmony and having a<br>
-								passion for creating and learning.</p>
-							</div>
-						</figcaption>			
-					</figure>
-				</div>
+			<img src="image/ge-team.png" width="100%">
+			<div style="width:100%;">
+				<img src="image/ge-team-black.jpg" width="20%">	
+			</div>
+			<div style="width:50%; float:left;">
+				<h2>(1) ดร.อำภาพรรณ  ตันตินาครกูล</h2>
+				<p>ผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+			</div>
+			<div style="width:50%; float:left;">
+				<h2>(2) ผศ.ดร.สมศักดิ์  วลัยรัชต์</h2>
+				<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+			</div>
+			<div style="width:50%; float:left;">
+				<h2>(3) ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h2>
+				<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+			</div>
+			<div style="width:50%; float:left;">
+				<h2>(4) รศ.ดร.กาญจนา บุญภักดิ์</h2>
+				<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+			</div>
+			<div style="width:50%; float:left;">
+				<h2>(5) ดร.รวิช ควรประเสริฐ</h2>
+				<p>ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+			</div>
+			<div style="width:50%; float:left;">
+				<h2>(6) ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h2>
+				<p>ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 			</div>
 		</div>
+			
 
 		<div class="container visible-lg" style="margin-top:100px;">
 			<div class="col-md-1">

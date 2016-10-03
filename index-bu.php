@@ -79,105 +79,132 @@
 	    </div>
 	</div>
 	
-	<main class="cd-main-content" style="margin-top:-40px;">
-		<div class="jumbotron visible-lg" id="banner">
-			
+	<main class="cd-main-content">
+		<!-- slider -->
+		<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+	        <!-- Loading Screen -->
+	        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+	            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+	            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+	        </div>
+	        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+	            <div data-p="225.00" style="display: none;">
+	                <img data-u="image" src="img-bg/s1.jpg" />
+	                <!-- <div  data-u="caption" data-t="4" class="text-slide">หัวข้อ 1</div> -->
+	            </div>
+	            <div data-p="225.00" style="display: none;">
+	                <img data-u="image" src="img-bg/s2.jpg" />
+	                <!-- <div  data-u="caption" data-t="2" class="text-slide">หัวข้อ 2</div> -->
+	            </div>
+	            <div data-p="225.00" data-po="80% 55%" style="display: none;">
+	                <img data-u="image" src="img-bg/s3.jpg" />
+	                <!-- <div  data-u="caption" data-t="3" class="text-slide">หัวข้อ 3</div> -->
+	            </div>
+	            <div data-p="225.00" style="display: none;">
+	                <img data-u="image" src="img-bg/s4.jpg" />
+	                <!-- <div  data-u="caption" data-t="4" class="text-slide">หัวข้อ 1</div> -->
+	            </div>
+	            <div data-p="225.00" style="display: none;">
+	                <img data-u="image" src="img-bg/s5.jpg" />
+	                <!-- <div  data-u="caption" data-t="2" class="text-slide">หัวข้อ 2</div> -->
+	            </div>
+	        </div>
+	        <!-- Bullet Navigator -->
+	        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+	            <!-- bullet navigator item prototype -->
+	            <div data-u="prototype" style="width:16px;height:16px;"></div>
+	        </div>
+	        <!-- Arrow Navigator -->
+	        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+	        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+	    </div>
+
+	    <!-- information -->
+		<div class="jumbotron" style="background-color: #ffffff;">
+			<div class="container">
+				<div class="col-md-12" style="margin-bottom:20px;">
+					<div class="col-md-4 line visible-lg"></div>
+					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
+						<h3><img src="icon.png" style="margin-top:-10px;"> ประชาสัมพันธ์</h3>
+					</div>
+					<div class="col-md-4 line visible-lg"></div>
+				</div>
+
+				<div class="animation-element" id="transcroller-body">
+				<?php 
+					for ($i=0; $i < 6; $i++) { 
+				?>
+				<div class="col-md-6 aos-all" id="transcroller-body" style="margin-top:0px;">
+					<div class="infomation" data-aos="zoom-in">
+						<a href="#" style="text-decoration: none;">
+							<div class="thumbnail right-caption visible-lg">
+								<img class="img-responsive" width="225px" src="image/info.png">
+								<div class="caption">
+									<p> หัวข้อประชาสัมพันธ์</p>
+									รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด 
+								</div>
+							</div>
+							<div class="thumbnail hidden-lg">
+								<img class="img-responsive" width="225px" src="image/info.png">
+								<div class="caption">
+									<p> หัวข้อประชาสัมพันธ์</p>
+									รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด รายละเอียด 
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<?php } ?>				
+				</div>	
+				<div class="col-md-12" style="margin-top:30px;">
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-">
+						<a href="#"><p style="text-align: right; margin-top:-30px; font-size: 100%;"><i class="fa fa-play" aria-hidden="true"></i> ดูทั้งหมด</p></a>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<!-- phone -->
-		<div class="jumbotron hidden-lg" id="banner2">
-			
-		</div>
+		<div style="margin-top:-50px;"></div>
 
-		<div style="width: 100%; margin-top:-30px; height:34%;">
-			<div class="col-md-1"></div>
-			<div class="col-md-2 subject1" style=" text-align:center;  height: 100%; border-left:1px solid rgba(243, 115, 66, 1);">
-				<H3 style="margin-top:30%;">คุณค่าแห่งชีวิต</H3>
-			</div>
-			<div class="col-md-2 subject2" style=" text-align:center;  height: 100%; border-left:1px solid rgba(254, 215, 78, 1);">
-				<H3 style="margin-top:30%;">วิถีแห่งสังคม</H3>
-			</div>
-			<div class="col-md-2 subject3" style=" text-align:center;  height: 100%; border-left:1px solid rgba(113, 176, 96, 1);">
-				<H3 style="margin-top:30%;">ศาสตร์แห่งการคิด</H3>
-			</div>
-			<div class="col-md-2 subject4" style=" text-align:center;  height: 100%; border-left:1px solid rgba(152, 81, 139, 1);">
-				<H3 style="margin-top:30%;">ศิลปะแห่งการจัดการ</H3>
-			</div>
-			<div class="col-md-2 subject5" style=" text-align:center;  height: 100%; border-left:1px solid rgba(69, 148, 191, 1);">
-				<H3 style="margin-top:30%;">ภาษาและการสื่อสาร</H3>
-			</div>
-			<div class="col-md-1"></div>
-		</div>
-
-		<div class="jumbotron cd-fixed-bg" style="background-color:#ffffff; top:0px;">
-			<div style="width:60%; height: 100%; background-color:#fff0df; float:left;">
-				<div style="margin-left:30%; width:100%; color:#be6a77; padding-top:10px;">
-					<h3>ข่าวประชาสัมพันธ์</h3>
-				</div>
-				<div class="line2" style="margin-left:30%; width:150px;"></div>
-				<div style="margin-left:30%; width:70%; border-bottom:solid 2px #be6a77;"></div>
-				<div style="width:100%; margin-left:30%; margin-top:20px;">
-					<p>หัวข้อข่าวประชาสัมพันธ์</p>
-					<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-				</div>
-
-				<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
-					<p>หัวข้อข่าวประชาสัมพันธ์</p>
-					<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-				</div>
-
-				<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
-					<p>หัวข้อข่าวประชาสัมพันธ์</p>
-					<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-				</div>
-
-				<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
-					<p>หัวข้อข่าวประชาสัมพันธ์</p>
-					<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-				</div>
-
-				<div style="width:100%; margin-left:30%; margin-top:40px;">
-					<h5 style="color:#be6a77;">ดูทั้งหมด</h5>
-				</div>
-			</div>
-
-			<div style="width:40%; height:100%; background-color:#e39ba6; float:left;">
-				<div>
-					<h3 style="margin-left: 42%; padding-top:10px; color:#fff0df;">ข่าวสัมมนา</h3>
-				</div>
-				<div class="line2" style="margin-left: 40%; background: #fff0df; width:150px; margin-bottom:-2px;"></div>
-				<div style="width:40%; border-bottom:solid 2px #fff0df;"></div>
-
-				<div style="width:100%; padding-left:30px;  margin-top:20px;">
-					<span style="font-size:30; color:#fff0df;">02 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-				</div>
-
-				<div style="width:100%; padding-left:30px;  margin-top:20px;">
-					<span style="font-size:30; color:#fff0df;">12 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-				</div>
-
-				<div style="width:100%; padding-left:30px;  margin-top:20px;">
-					<span style="font-size:30; color:#fff0df;">22 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-				</div>
-
-				<div style="margin-top:27%;"></div>
-
-				<div style="width:100%; padding-left:30px;  margin-top:40px;">
-					<h5 style="color:#fff0df;">ดูทั้งหมด</h5>
-				</div>
-			</div>
-
-		</div>		
-
-		<div class="jumbotron cd-fixed-bg" id="activity" style="background-color:#ffffff; margin-bottom:20%; height:800px;">
-			<div class="cd-fixed-bg">
-			<!-- <div class="container"> -->
+		<div class="jumbotron" style="background-color:#ffffff;">
+			<div class="container" style="padding-bottom:20px;">
 				<div class="col-md-12" style="margin-bottom:20px;">
 					<div class="col-md-4 line2 visible-lg"></div>
 					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
-						<h3><img src="icon.png" style="margin-top:-10px;"> ภาพถ่ายกิจกรรม</h3>
+						<h3><img src="icon.png" style="margin-top:-10px;"> ข่าวอบรม | สัมมนา</h3>
 					</div>
 					<div class="col-md-4 line2 visible-lg"></div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="col-md-5" data-aos="fade-left" data-aos-delay="100">
+					<img src="image/2.jpg" width="400px;" class="img-responsive">
+				</div>
+				<div class="col-md-7" data-aos="fade-left" data-aos-delay="300">
+					<h3>
+						<i class="fa fa-play" aria-hidden="true"></i>
+						หัวข้ออบรม สัมนา
+					</h3>
+					<p style="text-indent: 2.5em;">
+						รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา รายละเอียดข่าวอบรม สัมนา 
+					</p>
+				</div>
+			</div>
+		</div>		
+
+		<div style="margin-top:-30px;"></div>
+
+		<div class="jumbotron" id="activity" style="background-color:#ffffff;">
+			<div class="container">
+				<div class="col-md-12" style="margin-bottom:20px;">
+					<div class="col-md-4 line visible-lg"></div>
+					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
+						<h3><img src="icon.png" style="margin-top:-10px;">ภาพถ่ายกิจกรรม</h3>
+					</div>
+					<div class="col-md-4 line visible-lg"></div>
 				</div>
 
 				<div style="margin-top:20px;"></div>
@@ -185,7 +212,7 @@
 					<figure class="effect-apollo">
 						<img src="image/info/1.jpg"/>
 						<figcaption>
-							<h3>ชื่อกิจกรรม</h3>
+							<h2>ชื่อกิจกรรม</h2>
 							<p>รายละเอียดกิจกรรม</p>
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
@@ -193,7 +220,7 @@
 					<figure class="effect-apollo">
 						<img src="image/info/2.jpg"/>
 						<figcaption>
-							<h3>ชื่อกิจกรรม</h3>
+							<h2>ชื่อกิจกรรม</h2>
 							<p>รายละเอียดกิจกรรม</p>
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
@@ -201,7 +228,7 @@
 					<figure class="effect-apollo">
 						<img src="image/info/3.jpg"/>
 						<figcaption>
-							<h3>ชื่อกิจกรรม</h3>
+							<h2>ชื่อกิจกรรม</h2>
 							<p>รายละเอียดกิจกรรม</p>
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
@@ -209,7 +236,7 @@
 					<figure class="effect-apollo">
 						<img src="image/info/4.jpg"/>
 						<figcaption>
-							<h3>ชื่อกิจกรรม</h3>
+							<h2>ชื่อกิจกรรม</h2>
 							<p>รายละเอียดกิจกรรม</p>
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
@@ -217,7 +244,7 @@
 					<figure class="effect-apollo">
 						<img src="image/info/5.jpg"/>
 						<figcaption>
-							<h3>ชื่อกิจกรรม</h3>
+							<h2>ชื่อกิจกรรม</h2>
 							<p>รายละเอียดกิจกรรม</p>
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
@@ -225,7 +252,7 @@
 					<figure class="effect-apollo">
 						<img src="image/info/1.jpg"/>
 						<figcaption>
-							<h3>ชื่อกิจกรรม</h3>
+							<h2>ชื่อกิจกรรม</h2>
 							<p>รายละเอียดกิจกรรม</p>
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
@@ -233,7 +260,7 @@
 					<figure class="effect-apollo">
 						<img src="image/info/2.jpg"/>
 						<figcaption>
-							<h3>ชื่อกิจกรรม</h3>
+							<h2>ชื่อกิจกรรม</h2>
 							<p>รายละเอียดกิจกรรม</p>
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
@@ -241,7 +268,7 @@
 					<figure class="effect-apollo">
 						<img src="image/info/3.jpg"/>
 						<figcaption>
-							<h3>ชื่อกิจกรรม</h3>
+							<h2>ชื่อกิจกรรม</h2>
 							<p>รายละเอียดกิจกรรม</p>
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
@@ -249,18 +276,18 @@
 					<figure class="effect-apollo">
 						<img src="image/info/4.jpg"/>
 						<figcaption>
-							<h3>ชื่อกิจกรรม</h3>
+							<h2>ชื่อกิจกรรม</h2>
 							<p>รายละเอียดกิจกรรม</p>
 							<a href="#">ดูเพิ่มเติม</a>
 						</figcaption>			
 					</figure>
 				</div>
 				<div class="col-md-12" style="margin-top:30px;">
-					<div class="col-md-3"></div>
-					<div class="col-md-6">
-						<a href="#"><p style="text-align: right; margin-top:-30px; font-size: 100%;"><i class="fa fa-play" aria-hidden="true"></i> ดูทั้งหมด</p></a>
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-">
+						<a href="#"><p style="text-align: right; margin-top:-30px; font-size: 100%;"><i class="fa fa-play" aria-hidden="true"></i> ดูทั้งหมด</p></a>
 					</div>
 				</div>
 			</div>

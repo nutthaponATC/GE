@@ -32,70 +32,51 @@
 	<script type="text/javascript" src="js/jssor.slider.min.js"></script>
 	<script type="text/javascript" src="js/slide.js"></script>
 
-	<!-- language -->
-	<div class="container">
-		<div class="col-md-11">
-			<img src="logo.png" class="img-responsive">
-		</div>
-		<div class="col-md-1">
-			<div class="visible-lg" style="margin-top:100%; color:#be6a77; text-align:center;">
-				<p style="display: inline-block;">Language</p>
-				<a href="">TH</a> | <a href="">EN</a>
-			</div>
-			<div class="hidden-lg" style="text-align: center; color:#be6a77;">
-				<p style="display: inline-block;">language</p>
-				<a href="">TH</a> | <a href="">EN</a>
-			</div>
-		</div>
-	</div>
-
-	<!-- navbar -->
-	<div class="container" style="margin-bottom:20px;">
-		<div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
-		    <div class="container-fluid">
-		        <div class="navbar-header">
-		        	<a class="navbar-brand visible-xs" href="#">เมนู</a>
-		            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
-		            	<span class="sr-only">Toggle navigation</span>
-		            	<span class="icon-bar"></span>
-		            	<span class="icon-bar"></span>
-		            	<span class="icon-bar"></span>
-		            </button>
-		        </div>
-		        <div class="collapse navbar-collapse navbar-menubuilder">
-		            <ul class="nav navbar-nav navbar-left" id="menu-main">
-		            	<li><a href="index.php">หน้าหลัก</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับสำนัก</b></a>
-							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="about.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> ประวัติความเป็นมา</a></li>
-								<li><a href="about.php#vision"><i class="fa fa-chevron-right" style="font-size:8px;"></i> วิสัยทัศน์ พันธกิจ</a></li>
-								<li><a href="about.php#mission"><i class="fa fa-chevron-right" style="font-size:8px;"></i> นโยบายการบริหาร</a></li>
-								<li><a href="about.php#oganizetion"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างการบริหาร</a></li>
-								<li><a href="about.php#staff"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
-							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="culiculum.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> โครงสร้างรายวิชา</a></li>
-								<li><a href="culiculum.php#2"><i class="fa fa-chevron-right" style="font-size:8px;"></i> กลุ่ม</a></li>
-								<li><a href="culiculum.php#3"><i class="fa fa-chevron-right" style="font-size:8px;"></i> รายวิชา</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a href="activity.php" class="dropdown-toggle" data-toggle="dropdown">กิจกรรม</b></a>
-							<ul class="dropdown-menu" id="dropdown">
-								<li><a href="activity.php"><i class="fa fa-chevron-right" style="font-size:8px;"></i> บุคลากร</a></li>
-								<li><a href="activity.php#student"><i class="fa fa-chevron-right" style="font-size:8px;"></i> นักศึกษา</a></li>
-							</ul>
-						</li>
-						<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
-						<li><a href="contact.php">ติดต่อเรา</a></li>
-		            </ul>
-		        </div>
-		    </div>
-		</div>
+	<div id="custom-bootstrap-menu" class="navbar navbar-default" style="border-style: none; z-index: 900; margin-left:-5px; width:100%+20px;" role="navigation">
+	    <div class="container-fluid">
+	        <div class="navbar-header">
+	        	<a class="navbar-brand visible-xs" href="#">เมนู</a>
+	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
+	            	<span class="sr-only">Toggle navigation</span>
+	            	<span class="icon-bar"></span>
+	            	<span class="icon-bar"></span>
+	            	<span class="icon-bar"></span>
+	            </button>
+	        </div>
+	        <div class="collapse navbar-collapse navbar-menubuilder">
+	            <ul class="nav navbar-nav navbar-left" id="menu-main">
+	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
+	            	<li style="border-left:1px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับสำนัก</b></a>
+						<ul class="dropdown-menu" id="dropdown">
+							<li><a href="about.php"> ประวัติความเป็นมา</a></li>
+							<li><a href="about.php#vision">วิสัยทัศน์ พันธกิจ</a></li>
+							<li><a href="about.php#mission">นโยบายการบริหาร</a></li>
+							<li><a href="about.php#oganizetion">โครงสร้างการบริหาร</a></li>
+							<li><a href="about.php#staff">บุคลากร</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
+						<ul class="dropdown-menu" id="dropdown">
+							<li><a href="culiculum.php">โครงสร้างรายวิชา</a></li>
+							<li><a href="culiculum.php#2">กลุ่ม</a></li>
+							<li><a href="culiculum.php#3">รายวิชา</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="activity.php" class="dropdown-toggle" data-toggle="dropdown">กิจกรรม</b></a>
+						<ul class="dropdown-menu" id="dropdown">
+							<li><a href="activity.php">บุคลากร</a></li>
+							<li><a href="activity.php#student">นักศึกษา</a></li>
+						</ul>
+					</li>
+					<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
+					<li><a href="contact.php">ติดต่อเรา</a></li>
+	            </ul>
+	        </div>
+	    </div>
 	</div>
 
 	<div class="jumbotron" style="margin-top:20px; background-color:#ffffff;">

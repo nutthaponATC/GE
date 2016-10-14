@@ -523,3 +523,34 @@ aos animatiom scroll
   background-color: rgba(69, 148, 191, 1);
   /*opacity: 0.7;*/
 }
+
+/*moto*/
+#mt1 {
+  z-index: 100;
+  position: absolute;
+}
+
+#mt2 {
+  z-index: 100;
+  position: absolute;
+}
+
+#mt3 {
+  z-index: 100;
+  position: absolute;
+}
+
+#mt4 {
+  z-index: 100;
+  position: absolute;
+}
+
+#mt5 {
+  z-index: 100;
+  position: absolute;
+}
+
+#mt6 {
+  z-index: 100;
+  position: absolute;
+}

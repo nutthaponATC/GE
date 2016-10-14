@@ -5,7 +5,7 @@
 	<link rel="shortcut icon" href="icon.png">
 
 	<!-- font -->
-	<link href="https://fonts.googleapis.com/css?family=Athiti:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Athiti:500" rel="stylesheet">
   	
 	<title>สำนักวิชาศึกษาทั่วไป General Education</title>
 
@@ -173,13 +173,12 @@
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br>
-				<!-- <br><br> -->
 				Copyright © 2016 สำนักวิชาศึกษาทั่วไป
 			</div>
 			<div class="col-md-5" style="text-align:center;">
 				<br>
-					อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
-					เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520					
+				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
+				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
 			</div>
 			<div class="col-md-1">
 			</div>

@@ -60,8 +60,8 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
 						<ul class="dropdown-menu" id="dropdown">
-							<li><a href="culiculum.php#2">ฉบับปรับปรุง 57</a></li>
-							<li><a href="culiculum.php#3">ฉบับปรับปรุง 59</a></li>
+							<li><a href="culiculum57.php">ฉบับปรับปรุง 57</a></li>
+							<li><a href="culiculum59.php">ฉบับปรับปรุง 59</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -230,56 +230,6 @@
 			</div>
 			<div class="col-md-1"></div>
 		</div>
-
-		<!-- <div class="container visible-lg" style="margin-top:100px;">
-			<div class="col-md-1">
-				<img src="icon.png" style="margin-top:-10px;">
-			</div>
-			<div class="col-md-1">
-				<h2 style="margin-top:-15px; margin-left:-40px;">เจ้าหน้าที่</h2>
-			</div>
-			<div class="col-md-10 line2"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">เจ้าหน้าที่</h2>
-			</div>
-			<div class="col-md-12 line2"></div>
-		</div>
-		<div class="container">
-			<div class="grid3">
-				<div class="col-md-4" style="text-align:center;">
-					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">เจ้าหน้าที่บริหารงานทั่วไป</p>
-					<figure class="effect-julia">
-						<img src="" class="img-responsive" style=""/>
-						<figcaption>
-							<h2>นางสาวกฤชกมล  มงคลสวัสดิ์</h2>
-							<div></div>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-4" style="text-align:center;">
-					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">นักวิชาการศึกษา</p>
-					<figure class="effect-julia">
-						<img src="" class="img-responsive" style=""/>
-						<figcaption>
-							<h2>นางพิมสิริ  อุ่นตรงจิตร</h2>
-							<div></div>
-						</figcaption>			
-					</figure>
-				</div>
-				<div class="col-md-4" style="text-align:center;">
-					<p style="margin-top:30px; font-size: 170%; color:#be6a77;">นักวิชาการศึกษา</p>
-					<figure class="effect-julia">
-						<img src="" class="img-responsive" style=""/>
-						<figcaption>
-							<h2>นางสาวผจงจิตต์  ยืนวงษ์</h2>
-							<div></div>
-						</figcaption>			
-					</figure>
-				</div>
-			</div>
-		</div> -->
 	</div>
 	
 	<div style="background-color:#8e3240; padding-bottom:20px;">

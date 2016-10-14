@@ -5,7 +5,7 @@
 	<link rel="shortcut icon" href="icon.png">
 
 	<!-- font -->
-	<link href="https://fonts.googleapis.com/css?family=Athiti:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Athiti:400" rel="stylesheet">
   	
 	<title>สำนักวิชาศึกษาทั่วไป General Education</title>
 
@@ -26,6 +26,8 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/set2.css" />
+
+	<?php include('fancyBox.html'); ?>
 </head>
 <body>
 	<!-- slider -->
@@ -88,88 +90,85 @@
 	    </div>
 	</div>
 	
-	<div id="banner" style="margin-top:-40px;">
-		
-	</div>
-
-	<div style="width: 100%; height:34%;">
-		<div class="col-md-1"></div>
-		<div class="col-md-2 subject1" style=" text-align:center;  height: 100%; border-left:1px solid rgba(243, 115, 66, 1);">
-			<H3 style="margin-top:30%;">คุณค่าแห่งชีวิต</H3>
+	<div class="col-md-5" style="color:#be6a77;">
+		<div class="col-md-12" style="position: absolute;">
+			<img src="image/info/1.jpg" width="500px">
 		</div>
-		<div class="col-md-2 subject2" style=" text-align:center;  height: 100%; border-left:1px solid rgba(254, 215, 78, 1);">
-			<H3 style="margin-top:30%;">วิถีแห่งสังคม</H3>
+		<div class="col-md-12" style="position: relative; margin-top:280px; color:#ffffff; background-color: rgba(0, 0, 0, 0.2); width:500px; margin-left:15px;">
+			<h4>กิจกรรมชื่อ ............... โดย  ..................</h4><br>
+			<h4 style="margin-top:-20px;">จัดเมื่อวันที่........</h4><br>
+			<h4 style="margin-top:-20px;">ห้อง........</h4>
 		</div>
-		<div class="col-md-2 subject3" style=" text-align:center;  height: 100%; border-left:1px solid rgba(113, 176, 96, 1);">
-			<H3 style="margin-top:30%;">ศาสตร์แห่งการคิด</H3>
+		<div class="col-md-12" style="position: relative; margin-top:30px;">
+			<h4>Download here <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="">เอกสารโครงการ</a></h4>
+			<a href=""><h4 style="margin-left:138px;">รายชื่อผู้เข้าร่วมกิจกรรม</h4></a>
 		</div>
-		<div class="col-md-2 subject4" style=" text-align:center;  height: 100%; border-left:1px solid rgba(152, 81, 139, 1);">
-			<H3 style="margin-top:30%;">ศิลปะแห่งการจัดการ</H3>
+		<div style="width:100%; margin-top:50px; float:left; margin-left:10px;">
+			<h4> วิดีโอกิจกรรม</h4>
+			<iframe class="responsive" width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+
+			<iframe class="responsive" width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 		</div>
-		<div class="col-md-2 subject5" style=" text-align:center;  height: 100%; border-left:1px solid rgba(69, 148, 191, 1);">
-			<H3 style="margin-top:30%;">ภาษาและการสื่อสาร</H3>
-		</div>
-		<div class="col-md-1"></div>
-	</div>
+		<div style="width:100%; float:left; margin-left:10px;">
+			<iframe class="responsive" width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 
-	<div style="background-color:#ffffff; margin-top:30px;">
-		<div style="width:60%; height: 120%; background-color:#fff0df; float:left;">
-			<div style="margin-left:30%; width:100%; color:#be6a77; padding-top:10px;">
-				<h3>ข่าวประชาสัมพันธ์</h3>
-			</div>
-			<div class="line2" style="margin-left:30%; width:150px;"></div>
-			<div style="margin-left:30%; width:70%; border-bottom:solid 2px #be6a77;"></div>
-			<div style="width:100%; margin-left:30%; margin-top:20px;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-			</div>
-
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-			</div>
-
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-			</div>
-
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-			</div>
-
-			<div style="width:100%; margin-left:30%; margin-top:40px;">
-				<h5 style="color:#be6a77;">ดูทั้งหมด</h5>
-			</div>
-		</div>
-
-		<div style="width:40%; height:120%; background-color:#e39ba6; float:left;">
-			<div>
-				<h3 style="margin-left: 42%; padding-top:10px; color:#fff0df;">ข่าวสัมมนา</h3>
-			</div>
-			<div class="line2" style="margin-left: 40%; background: #fff0df; width:150px; margin-bottom:-2px;"></div>
-			<div style="width:40%; border-bottom:solid 2px #fff0df;"></div>
-
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:30; color:#fff0df;">02 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-			</div>
-
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:30; color:#fff0df;">12 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-			</div>
-
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:30; color:#fff0df;">22 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-			</div>
-
-			<div style="width:100%; padding-left:30px;  margin-top:40px;">
-				<h5 style="color:#fff0df;">ดูทั้งหมด</h5>
-			</div>
+			<iframe class="responsive" width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
+	<div class="col-md-7">
+		<?php
+$allowed_types=array('jpg','jpeg','gif','png');
+$dir    ="./";
+$files1 = scandir($dir);
+$total=0; // ¹Ñº¨Ó¹Ç¹ÃÙ»·Ñé§ËÁ´
+$pic_path=array();
+foreach($files1 as $key=>$value){
+	if($key>1){
+		$file_parts = explode('.',$value);
+		$ext = strtolower(array_pop($file_parts));
+		if(in_array($ext,$allowed_types)){
+			$pic_path[]=$dir.$value;
+			$total++;
+			
+		}
 
-	<div style="background-color:#8e3240; padding-bottom:20px;">
+	}
+}
+// ¨Ó¹Ç¹ÃÒÂ¡ÒÃ·ÕèµéÍ§¡ÒÃáÊ´§ áµèÅÐË¹éÒ
+$perPage = 12;
+
+// ¤Ó¹Ç³¨Ó¹Ç¹Ë¹éÒ·Ñé§ËÁ´
+$num_naviPage=ceil($total/$perPage);
+
+// ¡ÓË¹´¨Ø´àÃÔèÁµé¹ áÅÐÊÔé¹ÊØ´¢Í§ÃÒÂ¡ÒÃáµèÅÐË¹éÒ·Õè¨ÐáÊ´§
+if(!isset($_GET['page'])){
+	$s_key=0;
+	$e_key=$perPage;	
+	$_GET['page']=1;
+}else{
+	$s_key=($_GET['page']*$perPage)-$perPage;
+	$e_key=$perPage*$_GET['page'];
+	$e_key=($e_key>$total)?$total:$e_key;
+}
+for($i=1;$i<=$num_naviPage;$i++){
+	echo "<font class='Font_Violet_10half'>  | <a href=\"?page=".$i."\">$i</a></font>";
+}
+echo "<br><br>";	
+
+// áÊ´§ÃÒÂ¡ÒÃ
+for($indexPicture=$s_key;$indexPicture<$e_key;$indexPicture++){
+
+		// echo "<a href='".$pic_path[$indexPicture]."'target='blank'><img style='width:250px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp;";
+		echo "<a class='fancybox' href='".$pic_path[$indexPicture]."' data-fancybox-group='gallery' title=''><img style='width:250px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp";	
+}
+
+// áÊ´§Ë¹éÒ»Ñ¨¨ØºÑ¹
+echo "<br><font class='Font_Violet_10half'/>Page: ".$_GET['page'];
+?> 
+
+	</div>
+
+	<!-- <div style="background-color:#8e3240; padding-bottom:20px;">
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br>
@@ -178,7 +177,7 @@
 			<div class="col-md-5" style="text-align:center;">
 				<br>
 				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
-				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
+				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520
 			</div>
 			<div class="col-md-1">
 			</div>
@@ -189,7 +188,7 @@
 				<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 	<script src="js/main.js"></script> <!-- background -->
 	<script src="js/jquery.js"></script>

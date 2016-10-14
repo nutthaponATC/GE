@@ -46,7 +46,7 @@
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
 	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
-	            	<li style="border-left:1px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
+	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับสำนัก</b></a>
 						<ul class="dropdown-menu" id="dropdown">
@@ -58,11 +58,20 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
 						<ul class="dropdown-menu" id="dropdown">
-							<li><a href="culiculum.php">โครงสร้างรายวิชา</a></li>
-							<li><a href="culiculum.php#2">กลุ่ม</a></li>
-							<li><a href="culiculum.php#3">รายวิชา</a></li>
+							<li><a href="culiculum57.php">ฉบับปรับปรุง 57</a></li>
+							<li><a href="culiculum59.php">ฉบับปรับปรุง 59</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">อาจารย์ผู้สอน</b></a>
+						<ul class="dropdown-menu" id="dropdown">
+							<li><a href="">กลุ่มคุณค่าแห่งชีวิต</a></li>
+							<li><a href="">กลุ่มวิถีแห่งสังคม</a></li>
+							<li><a href="">กลุ่มศาสตร์แห่งความคิด</a></li>
+							<li><a href="">กลุ่มศิลปะแห่งการจัดการ</a></li>
+							<li><a href="">กลุ่มภาษาและการสื่อสาร</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -79,12 +88,24 @@
 	    </div>
 	</div>
 
+	<div class="container" style="color:#be6a77;">
+		<div class="col-md-1">
+			<img src="logo2.png">
+		</div>
+		<div class="col-md-9" style="margin-top:10px; margin-left:10px;">
+			<h2>หมวดวิชาศึกษาทั่วไปฉบับปรับปรุง 57</h2>
+		</div>
+		<div class="col-md-2" style="margin-left:-10px; margin-top:40px;">
+			<a href="">Download here <i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+		</div>
+	</div>
+
 	<div class="jumbotron" style="margin-top:20px; background-color:#ffffff;">
 		<div class="container visible-lg" id="1">
 			<div class="col-md-1">
-				<img src="icon.png" style="margin-top:-10px;">
+			
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-11">
 				<h2 style="margin-top:-15px; margin-left:-40px;"> โครงสร้างรายวิชา</h2>
 			</div>
 			<div class="col-md-12 line"></div>
@@ -103,9 +124,8 @@
 
 		<div class="container visible-lg" id="2" style="margin-top:70px;">
 			<div class="col-md-1">
-				<img src="icon.png" style="margin-top:-10px;">
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-11">
 				<h2 style="margin-top:-15px; margin-left:-40px;"> กลุ่ม</h2>
 			</div>
 			<div class="col-md-12 line"></div>
@@ -124,9 +144,8 @@
 
 		<div class="container visible-lg" id="3" style="margin-top:70px;">
 			<div class="col-md-1">
-				<img src="icon.png" style="margin-top:-10px;">
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-11">
 				<h2 style="margin-top:-15px; margin-left:-40px;"> รายวิชา</h2>
 			</div>
 			<div class="col-md-12 line"></div>
@@ -144,26 +163,25 @@
 		</div>
 	</div>
 
-	<div class="jumbotron" style="background-color:#8e3240; margin-bottom:0px; margin-top:30px;">
+	<div style="background-color:#8e3240; padding-bottom:20px;">
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
-					<br>
-					<!-- <br><br> -->
-					Copyright © 2016 สำนักวิชาศึกษาทั่วไป
-				</div>
-				<div class="col-md-5" style="text-align:center;">
-					<br>
-						อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
-						เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520					
-				</div>
-				<div class="col-md-1">
-				</div>
-				<div class="col-md-3">
-					<br>
-					<i class="fa fa-phone" style="font-size:16px;"></i> โทรศัพท์/โทรสาร 02 329 8220 <br>
-					E-mail :  gened@kmitl.ac.th <br>
-					<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
-				</div>
+				<br>
+				Copyright © 2016 สำนักวิชาศึกษาทั่วไป
+			</div>
+			<div class="col-md-5" style="text-align:center;">
+				<br>
+				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
+				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-3">
+				<br>
+				<i class="fa fa-phone" style="font-size:16px;"></i> โทรศัพท์/โทรสาร 02 329 8220 <br>
+				E-mail :  gened@kmitl.ac.th <br>
+				<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
+			</div>
 		</div>
 	</div>
 	

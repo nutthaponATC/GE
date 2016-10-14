@@ -5,7 +5,7 @@
 	<link rel="shortcut icon" href="icon.png">
 
 	<!-- font -->
-	<link href="https://fonts.googleapis.com/css?family=Athiti:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Athiti:400" rel="stylesheet">
   	
 	<title>สำนักวิชาศึกษาทั่วไป General Education</title>
 
@@ -87,85 +87,79 @@
 	        </div>
 	    </div>
 	</div>
-	
-	<div id="banner" style="margin-top:-40px;">
-		
+
+	<div class="container" style="color:#be6a77;">
+		<div class="col-md-1">
+			<img src="logo2.png">
+		</div>
+		<div class="col-md-9" style="margin-top:10px; margin-left:10px;">
+			<h2>หมวดวิชาศึกษาทั่วไปฉบับปรับปรุง 59</h2>
+		</div>
+		<div class="col-md-2" style="margin-left:-10px; margin-top:40px;">
+			<a href="">Download here <i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+		</div>
 	</div>
 
-	<div style="width: 100%; height:34%;">
-		<div class="col-md-1"></div>
-		<div class="col-md-2 subject1" style=" text-align:center;  height: 100%; border-left:1px solid rgba(243, 115, 66, 1);">
-			<H3 style="margin-top:30%;">คุณค่าแห่งชีวิต</H3>
+	<div class="jumbotron" style="margin-top:20px; background-color:#ffffff;">
+		<div class="container visible-lg" id="1">
+			<div class="col-md-1">
+			
+			</div>
+			<div class="col-md-11">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> โครงสร้างรายวิชา</h2>
+			</div>
+			<div class="col-md-12 line"></div>
 		</div>
-		<div class="col-md-2 subject2" style=" text-align:center;  height: 100%; border-left:1px solid rgba(254, 215, 78, 1);">
-			<H3 style="margin-top:30%;">วิถีแห่งสังคม</H3>
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> โครงสร้างรายวิชา</h2>
+			</div>
+			<div class="col-md-12 line"></div>
 		</div>
-		<div class="col-md-2 subject3" style=" text-align:center;  height: 100%; border-left:1px solid rgba(113, 176, 96, 1);">
-			<H3 style="margin-top:30%;">ศาสตร์แห่งการคิด</H3>
-		</div>
-		<div class="col-md-2 subject4" style=" text-align:center;  height: 100%; border-left:1px solid rgba(152, 81, 139, 1);">
-			<H3 style="margin-top:30%;">ศิลปะแห่งการจัดการ</H3>
-		</div>
-		<div class="col-md-2 subject5" style=" text-align:center;  height: 100%; border-left:1px solid rgba(69, 148, 191, 1);">
-			<H3 style="margin-top:30%;">ภาษาและการสื่อสาร</H3>
-		</div>
-		<div class="col-md-1"></div>
-	</div>
-
-	<div style="background-color:#ffffff; margin-top:30px;">
-		<div style="width:60%; height: 120%; background-color:#fff0df; float:left;">
-			<div style="margin-left:30%; width:100%; color:#be6a77; padding-top:10px;">
-				<h3>ข่าวประชาสัมพันธ์</h3>
-			</div>
-			<div class="line2" style="margin-left:30%; width:150px;"></div>
-			<div style="margin-left:30%; width:70%; border-bottom:solid 2px #be6a77;"></div>
-			<div style="width:100%; margin-left:30%; margin-top:20px;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-			</div>
-
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-			</div>
-
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-			</div>
-
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
-			</div>
-
-			<div style="width:100%; margin-left:30%; margin-top:40px;">
-				<h5 style="color:#be6a77;">ดูทั้งหมด</h5>
-			</div>
+		<div class="container aos-all">
+			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto; text-indent: 2.5em;">
+				โครงสร้างรายวิชา
+			</p>
 		</div>
 
-		<div style="width:40%; height:120%; background-color:#e39ba6; float:left;">
-			<div>
-				<h3 style="margin-left: 42%; padding-top:10px; color:#fff0df;">ข่าวสัมมนา</h3>
+		<div class="container visible-lg" id="2" style="margin-top:70px;">
+			<div class="col-md-1">
 			</div>
-			<div class="line2" style="margin-left: 40%; background: #fff0df; width:150px; margin-bottom:-2px;"></div>
-			<div style="width:40%; border-bottom:solid 2px #fff0df;"></div>
+			<div class="col-md-11">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> กลุ่ม</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> กลุ่ม</h2>
+			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container aos-all">
+			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto; text-indent: 2.5em;">
+				กลุ่ม
+			</p>
+		</div>
 
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:30; color:#fff0df;">02 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
+		<div class="container visible-lg" id="3" style="margin-top:70px;">
+			<div class="col-md-1">
 			</div>
-
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:30; color:#fff0df;">12 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
+			<div class="col-md-11">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> รายวิชา</h2>
 			</div>
-
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:30; color:#fff0df;">22 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container hidden-lg" style="margin-top:70px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px; margin-left:-40px;"> รายวิชา</h2>
 			</div>
-
-			<div style="width:100%; padding-left:30px;  margin-top:40px;">
-				<h5 style="color:#fff0df;">ดูทั้งหมด</h5>
-			</div>
+			<div class="col-md-12 line"></div>
+		</div>
+		<div class="container aos-all">
+			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto; text-indent: 2.5em;">
+			รายวิชา
+			</p>
 		</div>
 	</div>
 
@@ -178,7 +172,7 @@
 			<div class="col-md-5" style="text-align:center;">
 				<br>
 				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
-				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
+				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520
 			</div>
 			<div class="col-md-1">
 			</div>

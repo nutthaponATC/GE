@@ -46,7 +46,7 @@
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
 	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
-	            	<li style="border-left:1px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
+	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับสำนัก</b></a>
 						<ul class="dropdown-menu" id="dropdown">
@@ -58,11 +58,20 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
 						<ul class="dropdown-menu" id="dropdown">
-							<li><a href="culiculum.php">โครงสร้างรายวิชา</a></li>
-							<li><a href="culiculum.php#2">กลุ่ม</a></li>
-							<li><a href="culiculum.php#3">รายวิชา</a></li>
+							<li><a href="culiculum.php#2">ฉบับปรับปรุง 57</a></li>
+							<li><a href="culiculum.php#3">ฉบับปรับปรุง 59</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">อาจารย์ผู้สอน</b></a>
+						<ul class="dropdown-menu" id="dropdown">
+							<li><a href="">กลุ่มคุณค่าแห่งชีวิต</a></li>
+							<li><a href="">กลุ่มวิถีแห่งสังคม</a></li>
+							<li><a href="">กลุ่มศาสตร์แห่งความคิด</a></li>
+							<li><a href="">กลุ่มศิลปะแห่งการจัดการ</a></li>
+							<li><a href="">กลุ่มภาษาและการสื่อสาร</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">

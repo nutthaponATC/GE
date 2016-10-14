@@ -190,7 +190,7 @@ li a {
 
 #dropdown {
   background: #be6a77;
-  width: 100px;
+  width: 200px;
 }
 
 #dropdown li a{
@@ -381,7 +381,7 @@ aos animatiom scroll
 /*banner new*/
 #banner {
   width: 100%;
-  height: 130%;
+  height: 110%;
   background-color: #000000;
   /*margin-top:-40px;*/
 
@@ -424,7 +424,7 @@ aos animatiom scroll
 
 #banner2 {
   width: 100%;
-  height: 130%;
+  height: 110%;
   background-color: #000000;
   /*margin-top:-40px;*/
 
@@ -477,75 +477,49 @@ aos animatiom scroll
   }
 }
 
-/*.subject1 {
-  background-color: rgba(243, 115, 66, 1);
+.subject1 {
+  background-color: rgba(243, 115, 66, 0.5);
+  border-radius: 0px 0px 0px 30px;
 }
 .subject2 {
-  background-color: rgba(254, 215, 78, 1);
+  background-color: rgba(254, 215, 78, 0.5);
+  border-radius: 0px 0px 0px 30px;
 }
 .subject3 {
-  background-color: rgba(113, 176, 96, 1);
+  background-color: rgba(113, 176, 96, 0.5);
+  border-radius: 0px 0px 0px 30px;
 }
 .subject4 {
-  background-color: rgba(152, 81, 139, 1);
+  background-color: rgba(152, 81, 139, 0.5);
+  border-radius: 0px 0px 0px 30px;
 }
 .subject5 {
-  background-color: rgba(69, 148, 191, 1);
-}*/
+  background-color: rgba(69, 148, 191, 0.5);
+  border-radius: 0px 0px 0px 30px;
+}
 
 .subject1:hover {
-  -webkit-animation-name: examplei; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
-  animation-name: examplei;
-  animation-duration: 1s;
+  color: #ffffff;
+  background-color: rgba(243, 115, 66, 1);
+  /*opacity: 0.7;*/
 }
 .subject2:hover {
-  -webkit-animation-name: exampleii; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
-  animation-name: exampleii;
-  animation-duration: 1s;
+  color: #ffffff;
+  background-color: rgba(254, 215, 78, 1);
+  /*opacity: 0.7;*/
 }
 .subject3:hover {
-  -webkit-animation-name: exampleiii; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
-  animation-name: exampleiii;
-  animation-duration: 1s;
+  color: #ffffff;
+  background-color: rgba(113, 176, 96, 1);
+  /*opacity: 0.7;*/
 }
 .subject4:hover {
-  -webkit-animation-name: exampleiv; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
-  animation-name: exampleiv;
-  animation-duration: 1s;
+  color: #ffffff;
+  background-color: rgba(152, 81, 139, 1);
+  /*opacity: 0.7;*/
 }
 .subject5:hover {
-  -webkit-animation-name: examplev; /* Chrome, Safari, Opera */
-  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
-  animation-name: examplev;
-  animation-duration: 1s;
-}
-
-@-webkit-keyframes examplei {
-  0% {background-color: rgba(243, 115, 66, 0);;}
-    100% {background-color: rgba(243, 115, 66, 1);
-      color: #ffffff;}
-}
-@-webkit-keyframes exampleii {
-0% {background-color: rgba(243, 115, 66, 0);;}
-    100% {background-color: rgba(254, 215, 78, 1);
-      color: #ffffff;}
-}
-@-webkit-keyframes exampleiii {
-0% {background-color: rgba(243, 115, 66, 0);;}
-    100% {background-color: rgba(113, 176, 96, 1);
-      color: #ffffff;}
-}
-@-webkit-keyframes exampleiv {
-0% {background-color: rgba(243, 115, 66, 0);;}
-    100% {background-color: rgba(152, 81, 139, 1);
-      color: #ffffff;}
-}
-@-webkit-keyframes examplev {
-0% {background-color: rgba(243, 115, 66, 0);;}
-    100% {background-color: rgba(69, 148, 191, 1);
-      color: #ffffff;}
+  color: #ffffff;
+  background-color: rgba(69, 148, 191, 1);
+  /*opacity: 0.7;*/
 }

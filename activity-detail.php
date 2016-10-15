@@ -27,13 +27,24 @@
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/set2.css" />
 
-	<?php include('fancyBox.html'); ?>
+	<!--  -->
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+		});
+	</script>
 </head>
 <body>
-	<!-- slider -->
-	<script type="text/javascript" src="js/jssor.slider.min.js"></script>
-	<script type="text/javascript" src="js/slide.js"></script>
-
 	<div id="custom-bootstrap-menu" class="navbar navbar-default" style="border-style: none; z-index: 900; margin-left:-5px; width:100%+20px;" role="navigation">
 	    <div class="container-fluid">
 	        <div class="navbar-header">
@@ -92,9 +103,9 @@
 	
 	<div class="col-md-5" style="color:#be6a77;">
 		<div class="col-md-12" style="position: absolute;">
-			<img src="image/info/1.jpg" width="500px">
+			<img src="image/info/1.jpg" style="width:100%;">
 		</div>
-		<div class="col-md-12" style="position: relative; margin-top:280px; color:#ffffff; background-color: rgba(0, 0, 0, 0.2); width:500px; margin-left:15px;">
+		<div class="col-md-12" style="position: relative; margin-top:55%; color:#ffffff; background-color: rgba(0, 0, 0, 0.2); width:100%; margin-left:15px;">
 			<h4>กิจกรรมชื่อ ............... โดย  ..................</h4><br>
 			<h4 style="margin-top:-20px;">จัดเมื่อวันที่........</h4><br>
 			<h4 style="margin-top:-20px;">ห้อง........</h4>
@@ -103,7 +114,7 @@
 			<h4>Download here <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="">เอกสารโครงการ</a></h4>
 			<a href=""><h4 style="margin-left:138px;">รายชื่อผู้เข้าร่วมกิจกรรม</h4></a>
 		</div>
-		<div style="width:100%; margin-top:50px; float:left; margin-left:10px;">
+		<div style="width:100%; margin-top:10px; float:left; margin-left:10px;">
 			<h4> วิดีโอกิจกรรม</h4>
 			<iframe class="responsive" width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 
@@ -118,9 +129,9 @@
 	<div class="col-md-7">
 		<?php
 $allowed_types=array('jpg','jpeg','gif','png');
-$dir    ="./";
+$dir    ="image/info/";
 $files1 = scandir($dir);
-$total=0; // ¹Ñº¨Ó¹Ç¹ÃÙ»·Ñé§ËÁ´
+$total=0; 
 $pic_path=array();
 foreach($files1 as $key=>$value){
 	if($key>1){
@@ -128,19 +139,14 @@ foreach($files1 as $key=>$value){
 		$ext = strtolower(array_pop($file_parts));
 		if(in_array($ext,$allowed_types)){
 			$pic_path[]=$dir.$value;
-			$total++;
-			
+			$total++;	
 		}
-
 	}
 }
-// ¨Ó¹Ç¹ÃÒÂ¡ÒÃ·ÕèµéÍ§¡ÒÃáÊ´§ áµèÅÐË¹éÒ
-$perPage = 12;
 
-// ¤Ó¹Ç³¨Ó¹Ç¹Ë¹éÒ·Ñé§ËÁ´
+$perPage = 24;
 $num_naviPage=ceil($total/$perPage);
 
-// ¡ÓË¹´¨Ø´àÃÔèÁµé¹ áÅÐÊÔé¹ÊØ´¢Í§ÃÒÂ¡ÒÃáµèÅÐË¹éÒ·Õè¨ÐáÊ´§
 if(!isset($_GET['page'])){
 	$s_key=0;
 	$e_key=$perPage;	
@@ -151,21 +157,15 @@ if(!isset($_GET['page'])){
 	$e_key=($e_key>$total)?$total:$e_key;
 }
 for($i=1;$i<=$num_naviPage;$i++){
-	echo "<font class='Font_Violet_10half'>  | <a href=\"?page=".$i."\">$i</a></font>";
+	echo "<font class='Font_Violet_10half'> | <a href=\"?page=".$i."\">$i</a></font>";
 }
 echo "<br><br>";	
 
-// áÊ´§ÃÒÂ¡ÒÃ
 for($indexPicture=$s_key;$indexPicture<$e_key;$indexPicture++){
-
-		// echo "<a href='".$pic_path[$indexPicture]."'target='blank'><img style='width:250px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp;";
-		echo "<a class='fancybox' href='".$pic_path[$indexPicture]."' data-fancybox-group='gallery' title=''><img style='width:250px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp";	
+	echo "<a class='fancybox' href='".$pic_path[$indexPicture]."' data-fancybox-group='gallery' title=''><img style='width:20%; margin-top:10px; margin-left:10px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp";	
 }
-
-// áÊ´§Ë¹éÒ»Ñ¨¨ØºÑ¹
-echo "<br><font class='Font_Violet_10half'/>Page: ".$_GET['page'];
+echo "<br><br><font size='4'>หน้า: ".$_GET['page'];
 ?> 
-
 	</div>
 
 	<!-- <div style="background-color:#8e3240; padding-bottom:20px;">
@@ -190,8 +190,7 @@ echo "<br><font class='Font_Violet_10half'/>Page: ".$_GET['page'];
 		</div>
 	</div> -->
 	
-	<script src="js/main.js"></script> <!-- background -->
-	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/navbar.js"></script>
 	<script src="js/animate-scroll.js"></script>

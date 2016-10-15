@@ -47,16 +47,7 @@
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
 	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
 	            	<li style="border-left:1px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">เกี่ยวกับสำนัก</b></a>
-						<ul class="dropdown-menu" id="dropdown">
-							<li><a href="about.php"> ประวัติความเป็นมา</a></li>
-							<li><a href="about.php#vision">วิสัยทัศน์ พันธกิจ</a></li>
-							<li><a href="about.php#mission">นโยบายการบริหาร</a></li>
-							<li><a href="about.php#oganizetion">โครงสร้างการบริหาร</a></li>
-							<li><a href="about.php#staff">บุคลากร</a></li>
-						</ul>
-					</li>
+					<li><a href="about.php">เกี่ยวกับสำนัก</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หลักสูตร</b></a>
 						<ul class="dropdown-menu" id="dropdown">

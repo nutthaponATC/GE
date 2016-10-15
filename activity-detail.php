@@ -110,20 +110,20 @@
 			<h4 style="margin-top:-20px;">จัดเมื่อวันที่........</h4><br>
 			<h4 style="margin-top:-20px;">ห้อง........</h4>
 		</div>
-		<div class="col-md-12" style="position: relative; margin-top:30px;">
+		<div class="col-md-12" style="position: relative; margin-top:8%;">
 			<h4>Download here <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="">เอกสารโครงการ</a></h4>
 			<a href=""><h4 style="margin-left:138px;">รายชื่อผู้เข้าร่วมกิจกรรม</h4></a>
 		</div>
-		<div style="width:100%; margin-top:10px; float:left; margin-left:10px;">
+		<div style="width:100%; margin-top:4%; float:left; margin-left:10px;">
 			<h4> วิดีโอกิจกรรม</h4>
-			<iframe class="responsive" width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 
-			<iframe class="responsive" width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div style="width:100%; float:left; margin-left:10px;">
-			<iframe class="responsive" width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 
-			<iframe class="responsive" width="250" height="150" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 	<div class="col-md-7">
@@ -144,7 +144,7 @@ foreach($files1 as $key=>$value){
 	}
 }
 
-$perPage = 24;
+$perPage = 28;
 $num_naviPage=ceil($total/$perPage);
 
 if(!isset($_GET['page'])){
@@ -156,19 +156,25 @@ if(!isset($_GET['page'])){
 	$e_key=$perPage*$_GET['page'];
 	$e_key=($e_key>$total)?$total:$e_key;
 }
-for($i=1;$i<=$num_naviPage;$i++){
-	echo "<font class='Font_Violet_10half'> | <a href=\"?page=".$i."\">$i</a></font>";
-}
-echo "<br><br>";	
 
 for($indexPicture=$s_key;$indexPicture<$e_key;$indexPicture++){
-	echo "<a class='fancybox' href='".$pic_path[$indexPicture]."' data-fancybox-group='gallery' title=''><img style='width:20%; margin-top:10px; margin-left:10px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp";	
+	echo "<a class='fancybox' href='".$pic_path[$indexPicture]."' data-fancybox-group='gallery' title=''><img style='width:22%; margin-top:10px; margin-left:10px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp";	
 }
-echo "<br><br><font size='4'>หน้า: ".$_GET['page'];
+
+echo "<br><br>";
+for($i=1;$i<=$num_naviPage;$i++){
+	echo "<font class='Font_Violet_10half'><a href=\"?page=".$i."\"> หน้าที่ $i |</a></font>";
+}
+
 ?> 
 	</div>
 
-	<!-- <div style="background-color:#8e3240; padding-bottom:20px;">
+	<div style="background-color:#ffffff; padding-bottom:20px;">
+		<div class="container" style="color:#ffffff;">
+			
+		</div>
+	</div>
+	<div style="background-color:#8e3240; padding-bottom:20px;">
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br>
@@ -188,7 +194,7 @@ echo "<br><br><font size='4'>หน้า: ".$_GET['page'];
 				<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
 			</div>
 		</div>
-	</div> -->
+	</div>
 	
 	<script src="js/main.js"></script>
 	<script src="js/bootstrap.min.js"></script>

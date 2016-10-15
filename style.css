@@ -425,54 +425,51 @@ aos animatiom scroll
 
 #banner2 {
   width: 100%;
-  height: 110%;
+  height: 50%;
   background-color: #000000;
-  /*margin-top:-40px;*/
 
   -webkit-animation: 20s sliderPic2 infinite;
   animation: 20s sliderPic2 infinite;
-  /*-webkit-transition: 2s;  Safari 
-  transition: 2s;*/
 
   position: relative;
-  background-size: cover;
+  background-size: 100% 100%;
   overflow: hidden; 
 }
 
 @-webkit-keyframes sliderPic2 {
   0% {
     background-image: url('img-bg/s1.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
   }
   20% {
     background-image: url('img-bg/s2.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center; 
   }
   40% {
     background-image: url('img-bg/s3.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
   }
   60% {
     background-image: url('img-bg/s4.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
   }
   80% {
     background-image: url('img-bg/s5.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
   }
   100% {
     background-image: url('img-bg/s1.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
   }

@@ -79,11 +79,16 @@
 	    </div>
 	</div>
 	
-	<div id="banner" style="margin-top:-40px;">
+	<div id="banner" class="visible-lg" style="margin-top:-40px;">
 		
 	</div>
 
-	<div style="width: 100%; height:34%;">
+	<!-- phone -->
+	<div id="banner2" class="hidden-lg" style="margin-top:-40px;">
+		
+	</div>
+
+	<div style="width: 100%; height:34%;" class="visible-lg">
 		<div class="col-md-1"></div>
 		<div class="col-md-2 subject1" style=" text-align:center;  height: 100%; border-left:1px solid rgba(243, 115, 66, 1);">
 			<H3 style="margin-top:30%;">คุณค่าแห่งชีวิต</H3>
@@ -103,7 +108,24 @@
 		<div class="col-md-1"></div>
 	</div>
 
-	<div style="background-color:#ffffff; margin-top:30px;">
+	<!-- phone -->
+	<div class="col-md-12 subject1 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(243, 115, 66, 1);">
+		<H3>คุณค่าแห่งชีวิต</H3>
+	</div>
+	<div class="col-md-12 subject2 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(254, 215, 78, 1);">
+		<H3>วิถีแห่งสังคม</H3>
+	</div>
+	<div class="col-md-12 subject3 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(113, 176, 96, 1);">
+		<H3>ศาสตร์แห่งการคิด</H3>
+	</div>
+	<div class="col-md-12 subject4 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(152, 81, 139, 1);">
+		<H3>ศิลปะแห่งการจัดการ</H3>
+	</div>
+	<div class="col-md-12 subject5 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(69, 148, 191, 1);">
+		<H3>ภาษาและการสื่อสาร</H3>
+	</div>
+
+	<div class="visible-lg" style="background-color:#ffffff; margin-top:30px;">
 		<div style="width:60%; height: 120%; background-color:#fff0df; float:left;">
 			<div style="margin-left:30%; width:100%; color:#be6a77; padding-top:10px;">
 				<h3>ข่าวประชาสัมพันธ์</h3>
@@ -160,7 +182,87 @@
 		</div>
 	</div>
 
-	<div style="background-color:#8e3240; padding-bottom:20px;">
+	<!-- phone -->
+	<div class="hidden-lg" style="background-color:#ffffff; margin-top:30px;">
+		<div style="width:100%; height: 120%; background-color:#fff0df; float:left;">
+			<div style="margin-left:30%; width:100%; color:#be6a77; padding-top:10px;">
+				<h3>ข่าวประชาสัมพันธ์</h3>
+			</div>
+			<div class="line2" style="margin-left:30%; width:150px;"></div>
+			<div style="margin-left:30%; width:70%; border-bottom:solid 2px #be6a77;"></div>
+			<div style="width:100%; margin-left:30%; margin-top:20px;">
+				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
+				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+			</div>
+
+			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
+				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
+				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+			</div>
+
+			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
+				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
+				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+			</div>
+
+			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
+				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
+				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+			</div>
+
+			<div style="width:100%; margin-left:30%; margin-top:40px;">
+				<h5 style="color:#be6a77;">ดูทั้งหมด</h5>
+			</div>
+		</div>
+
+		<div style="width:100%; height:120%; background-color:#e39ba6; float:left;">
+			<div>
+				<h3 style="margin-left: 42%; padding-top:10px; color:#fff0df;">ข่าวสัมมนา</h3>
+			</div>
+			<div class="line2" style="margin-left: 40%; background: #fff0df; width:150px; margin-bottom:-2px;"></div>
+			<div style="width:40%; border-bottom:solid 2px #fff0df;"></div>
+
+			<div style="width:100%; padding-left:30px;  margin-top:20px;">
+				<span style="font-size:30; color:#fff0df;">02 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
+			</div>
+
+			<div style="width:100%; padding-left:30px;  margin-top:20px;">
+				<span style="font-size:30; color:#fff0df;">12 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
+			</div>
+
+			<div style="width:100%; padding-left:30px;  margin-top:20px;">
+				<span style="font-size:30; color:#fff0df;">22 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
+			</div>
+
+			<div style="width:100%; padding-left:30px;  margin-top:40px;">
+				<h5 style="color:#fff0df;">ดูทั้งหมด</h5>
+			</div>
+		</div>
+	</div>
+
+	<div class="visible-lg" style="background-color:#8e3240; padding-bottom:20px;">
+		<div class="container" style="color:#ffffff;">
+			<div class="col-md-3">
+				<br>
+				Copyright © 2016 สำนักวิชาศึกษาทั่วไป
+			</div>
+			<div class="col-md-5" style="text-align:center;">
+				<br>
+				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
+				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-3">
+				<br>
+				<i class="fa fa-phone" style="font-size:16px;"></i> โทรศัพท์/โทรสาร 02 329 8220 <br>
+				E-mail :  gened@kmitl.ac.th <br>
+				<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="hidden-lg" style="background-color:#8e3240; text-align:center; padding-bottom:20px;">
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br>

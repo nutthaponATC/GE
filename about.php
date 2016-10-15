@@ -94,31 +94,32 @@
 		</div>
 		<div class="col-md-12 line"></div>
 	</div>
-	<div class="container">
+
+	<div class="container visible-lg">
 		<div style="background-size: 100%; height:350px; background-repeat: no-repeat; background-image: url('image/ge-team-bg.png');">
 			<div class="col-md-12" id="mt1">
-				<h3 style="font-weight: bold;">ดร. อำภาพรรณ  ตันตินาครกูล</h3>
-				<h4 style="font-weight: bold;">ความสำเร็จมาจากความมุ่งมั่น ไม่ย่อท้อและการผ่านความล้มเหลวมาไม่มากก็น้อย</h4>
+				<h3>ดร. อำภาพรรณ  ตันตินาครกูล</h3>
+				<h4>ความสำเร็จมาจากความมุ่งมั่น ไม่ย่อท้อและการผ่านความล้มเหลวมาไม่มากก็น้อย</h4>
 			</div>
 			<div class="col-md-12" id="mt2">
-				<h3 style="font-weight: bold; margin-left:150px;">ผศ.ดร.สมศักดิ์  วลัยรัชต์</h3>
-				<h4 style="font-weight: bold; margin-left:150px;"> </h4>
+				<h3 style="margin-left:150px;">ผศ.ดร.สมศักดิ์  วลัยรัชต์</h3>
+				<h4 style="margin-left:150px;"> </h4>
 			</div>
 			<div class="col-md-12" id="mt3">
-				<h3 style="font-weight: bold; margin-left:350px;">ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h3>
-				<h4 style="font-weight: bold; margin-left:350px;">การลงมือทำถือเป็นการสร้างพลังของความรู้ให้ยิ่งใหญ่ขึ้น</h4>
+				<h3 style="margin-left:350px;">ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h3>
+				<h4 style="margin-left:350px;">การลงมือทำถือเป็นการสร้างพลังของความรู้ให้ยิ่งใหญ่ขึ้น</h4>
 			</div>
 			<div class="col-md-12" id="mt4">
-				<h3 style="font-weight: bold; margin-left:550px;">รศ.ดร.กาญจนา บุญภักดิ์</h3>
-				<h4 style="font-weight: bold; margin-left:550px;">สู้ พยายาม สู่ความสำเร็จ</h4>
+				<h3 style="margin-left:550px;">รศ.ดร.กาญจนา บุญภักดิ์</h3>
+				<h4 style="margin-left:550px;">สู้ พยายาม สู่ความสำเร็จ</h4>
 			</div>
 			<div class="col-md-12" id="mt5">
-				<h3 style="font-weight: bold; margin-left:750px;">ดร.รวิช ควรประเสริฐ</h3>
-				<h4 style="font-weight: bold; margin-left:750px;">ความคิดสร้างสรรค์ ไม่ควรถูกกักขังในกรงของความคิด</h4>
+				<h3 style="margin-left:750px;">ดร.รวิช ควรประเสริฐ</h3>
+				<h4 style="margin-left:750px;">ความคิดสร้างสรรค์ ไม่ควรถูกกักขังในกรงของความคิด</h4>
 			</div>
 			<div class="col-md-12" id="mt6">
-				<h3 style="font-weight: bold; margin-left:850px;">ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-				<h4 style="font-weight: bold; margin-left:740px;">รู้ตน เข้าใจคนอื่น กลมกลืนความต่าง ร่วมสร้างและเรียนรู้</h4>
+				<h3 style="margin-left:850px;">ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
+				<h4 style="margin-left:740px;">รู้ตน เข้าใจคนอื่น กลมกลืนความต่าง ร่วมสร้างและเรียนรู้</h4>
 			</div>
 
 			<div class="col-md-2" id="dmt1" style="margin-top:50px; margin-left:-40px;">
@@ -175,7 +176,105 @@
 		</div>
 	</div>
 
-	<div class="jumbotron" style="margin-top:20px; background-color:#ffffff;">
+	<div class="jumbotron hidden-lg" style="color:#be6a77; background-color:#ffffff;">
+		<div class="container">
+			<div class="col-md-12" id="dmt1">
+				<div class="col-md-4" style="text-align: left;">
+					<img src="image/A1.png" class="pmt1" style="width:128px;">
+				</div>
+				<div class="col-md-8" style="text-align: left;">
+					<h3>ดร. อำภาพรรณ  ตันตินาครกูล</h3>
+					<h4>ผู้อำนวยการสำนักวิชาศึกษาทั่วไป</h4>
+					<h4>"ความสำเร็จมาจากความมุ่งมั่น ไม่ย่อท้อและการผ่านความล้มเหลวมาไม่มากก็น้อย"</h4>
+				</div>
+			</div>
+			<div class="col-md-12" id="dmt2">
+				<div class="col-md-4" style="text-align: right;">
+					<img src="image/A2.png" class="pmt2" style="width:128px;">
+				</div>
+				<div class="col-md-8" style="text-align: right;">
+					<h3>ผศ.ดร.สมศักดิ์  วลัยรัชต์</h3>
+					<h4>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</h4>
+					<h4>" "</h4>
+				</div>
+			</div>
+			<div class="col-md-12" id="dmt3">
+				<div class="col-md-4" style="text-align: left;">
+					<img src="image/A3.png" class="pmt3" style="width:122px;">
+				</div>
+				<div class="col-md-8" style="text-align: left;">
+					<h3>ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h3>
+					<h4>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</h4>
+					<h4>"การลงมือทำถือเป็นการสร้างพลังของความรู้ให้ยิ่งใหญ่ขึ้น"</h4>
+				</div>
+			</div>
+			<div class="col-md-12" id="dmt4">
+				<div class="col-md-4" style="text-align: right;">
+					<img src="image/A4.png" class="pmt4" style="width:150px;">
+				</div>
+				<div class="col-md-8" style="text-align: right;">
+					<h3>รศ.ดร.กาญจนา บุญภักดิ์</h3>
+					<h4>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</h4>
+					<h4>"สู้ พยายาม สู่ความสำเร็จ"</h4>
+				</div>
+			</div>
+			<div class="col-md-12" id="dmt5">
+				<div class="col-md-4" style="text-align: left;">
+					<img src="image/A5.png" class="pmt5" style="width:128px;">
+				</div>
+				<div class="col-md-8" style="text-align: left;">
+					<h3>ดร.รวิช ควรประเสริฐ</h3>
+					<h4>ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</h4>
+					<h4>"ความคิดสร้างสรรค์ ไม่ควรถูกกักขังในกรงของความคิด"</h4>
+				</div>
+			</div>
+			<div class="col-md-12" id="dmt6">
+				<div class="col-md-4" style="text-align: right;">
+					<img src="image/A6.png" class="pmt6" style="width:130px;">
+				</div>
+				<div class="col-md-8" style="text-align: right;">
+					<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
+					<h4>ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</h4>
+					<h4>"รู้ตน เข้าใจคนอื่น กลมกลืนความต่าง ร่วมสร้างและเรียนรู้"</h4>
+				</div>
+			</div>
+		</div>
+
+		<div class="container visible-lg">
+			<div class="col-md-5"></div>
+			<div class="col-md-2">
+				<img src="image/ge-team-black.jpg" width="140%" style="margin-left:-30px;">
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+
+		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
+			<h2>(1) ดร.อำภาพรรณ  ตันตินาครกูล</h2>
+			<p>ผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+		</div>
+		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
+			<h2>(2) ผศ.ดร.สมศักดิ์  วลัยรัชต์</h2>
+			<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+		</div>
+		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
+			<h2>(3) ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h2>
+			<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+		</div>
+		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
+			<h2>(4) รศ.ดร.กาญจนา บุญภักดิ์</h2>
+			<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+		</div>
+		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
+			<h2>(5) ดร.รวิช ควรประเสริฐ</h2>
+			<p>ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+		</div>
+		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
+			<h2>(6) ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h2>
+			<p>ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
+		</div>
+	</div>
+
+	<div class="jumbotron visible-lg" style="margin-top:20px; background-color:#ffffff;">
 		<div class="container">
 			<div class="col-md-4" style="border: 2px solid #be6a77; margin-left:-20px;  border-radius: 25px; height:700px;">
 				<h3>ประวัติความเป็นมา</h3>
@@ -222,8 +321,56 @@
 			<div class="col-md-1"></div>
 		</div>
 	</div>
+
+	<div class="jumbotron hidden-lg" style="margin-top:20px; background-color:#ffffff;">
+		<div class="container">
+			<div class="col-md-4" style="border: 2px solid #be6a77; border-radius: 25px; height:750px;">
+				<h3>ประวัติความเป็นมา</h3>
+				<div class="col-md-12 line"></div>
+				<p style="text-indent: 2.5em;">
+					สำนักวิชาศึกษาทั่วไป เป็นส่วนงานของสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ซึ่งเกิดขึ้นตามนโยบายของสถาบันที่ให้จัดตั้งหน่วยงาน เพื่อบริหารจัดการและพัฒนาด้านการเรียนการสอนวิชาศึกษาทั่วไปของสถาบัน  โดยได้ผ่านการอนุมัติจากการประชุมสภาสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ครั้งที่ 12/2557 วันที่ 26 พฤศจิกายน 2557 เรื่อง ขอเสนอพิจารณาประกาศสถาบัน เรื่อง การจัดตั้งสำนักวิชาศึกษาทั่วไป เป็นส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ....... โดยมีประกาศสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง เรื่อง การจัดตั้งส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ.2557 วันที่ ๓ ธันวาคม ๒๕๕๗  (ประกาศในราชกิจจานุเบกษาหน้า 12 เล่ม 131 ตอนพิเศษ 262 ง วันที่ 23 ธันวาคม 2557)
+				</p>
+			</div>
+			<div class="col-md-4" style="border: 2px solid #be6a77; margin-top:20px; border-radius: 25px; height:200px;">
+				<h3>วิสัยทัศน์</h3>
+				<div class="col-md-12 line"></div>
+				<p style="text-indent: 2.5em;">
+					เป็นองค์กรที่มีความเป็นเลิศในการบริหารจัดการวิชาศึกษาทั่วไป เพื่อสร้างบัณฑิตที่สอดคล้องตามอัตลักษณ์ของสถาบันฯ
+				</p>
+			</div>
+			<div class="col-md-4" style="border: 2px solid #be6a77; margin-top:20px; border-radius: 25px; height:700px;">
+				<h3>พันธกิจ</h3>
+				<div class="col-md-12 line"></div>
+				<p style="text-indent: 2.5em;">
+					1.	พัฒนาและบูรณาการรายวิชาศึกษาทั่วไปอย่างต่อเนื่อง ให้นักศึกษาได้ศึกษาเรียนรู้เพื่อเป็นบัณฑิตตามอัตลักษณ์ของสถาบันฯ <br>
+					2.	พัฒนารูปแบบการเรียนการสอนรายวิชาศึกษาทั่วไปเพื่อให้เป็นไปตามผลลัพธ์การเรียนรู้ตามที่ตั้งไว้ โดยเน้นการเรียนรู้เชิงรุก (Active Learning) <br>
+					3.	พัฒนาระบบสารสนเทศเพื่อการบริหารจัดการและกำกับดูแลคุณภาพการเรียนการสอนให้มีประสิทธิภาพ <br>
+					4.	ดำเนินการให้การบริหารจัดการวิชาศึกษาทั่วไปเป็นไปตามหลักธรรมาภิบาล <br>
+					5.	ส่งเสริมและพัฒนาสมรรถนะขีดความสามารถของบุคลากรในสำนักอย่างเป็นระบบและต่อเนื่อง <br>
+					6.	สนับสนุนและเข้าร่วมกิจกรรมของเครือข่ายการศึกษาทั่วไปแห่งประเทศไทยเพื่อการพัฒนาในทุกด้านอย่างยั่งยืน
+				</p>
+			</div>
+		</div>
+
+		<div class="container" style="margin-top:50px;">
+			<div class="col-md-1"></div>
+			<div class="col-md-4" style="border: 2px solid #be6a77; border-radius: 25px; height:200px; margin-top:-30px;">
+				<h3>นโยบายการบริหาร</h3>
+				<div class="col-md-12 line"></div>
+				<p style="text-align:justify">
+					นโยบายการบริหาร
+				</p>
+			</div>
+			<div class="col-md-6" style="border: 2px solid #be6a77; border-radius: 25px; height:350px; margin-top:20px;">
+				<h3>โครงสร้างการบริหาร</h3>
+				<div class="col-md-12 line"></div>
+				<img src="image/oganize.png" style="margin-top:50px;" class="img-responsive">
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
 	
-	<div style="background-color:#8e3240; padding-bottom:20px;">
+	<div class="visible-lg" style="background-color:#8e3240; padding-bottom:20px;">
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br>
@@ -233,6 +380,28 @@
 				<br>
 				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
 				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-3">
+				<br>
+				<i class="fa fa-phone" style="font-size:16px;"></i> โทรศัพท์/โทรสาร 02 329 8220 <br>
+				E-mail :  gened@kmitl.ac.th <br>
+				<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="hidden-lg" style="background-color:#8e3240; text-align:center; padding-bottom:20px;">
+		<div class="container" style="color:#ffffff;">
+			<div class="col-md-3">
+				<br>
+				Copyright © 2016 สำนักวิชาศึกษาทั่วไป
+			</div>
+			<div class="col-md-5" style="text-align:center;">
+				<br>
+				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
+				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
 			</div>
 			<div class="col-md-1">
 			</div>

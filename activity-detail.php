@@ -92,6 +92,7 @@
 	    </div>
 	</div>
 	
+	<div class="visible-lg">
 	<div class="col-md-5" style="color:#be6a77;">
 		<div class="col-md-12" style="position: absolute;">
 			<img src="image/info/1.jpg" style="width:100%;">
@@ -159,13 +160,86 @@ for($i=1;$i<=$num_naviPage;$i++){
 
 ?> 
 	</div>
+	</div>
+
+	<!-- phone -->
+	<div class="hidden-lg">
+	<div class="col-md-12" style="color:#be6a77;">
+		<div class="col-md-12" style="position: absolute; margin-top:-50%;">
+			<img src="image/info/1.jpg" style="width:100%;">
+		</div>
+		<div class="col-md-12" style="position: relative; margin-top:55%; color:#ffffff; background-color: rgba(0, 0, 0, 0.2); width:95%; margin-left:15px;">
+			<h4>กิจกรรมชื่อ ............... โดย  ..................</h4><br>
+			<h4 style="margin-top:-20px;">จัดเมื่อวันที่........</h4><br>
+			<h4 style="margin-top:-20px;">ห้อง........</h4>
+		</div>
+		<div class="col-md-12" style="position: relative; margin-top:8%;">
+			<h4>Download here <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="">เอกสารโครงการ</a></h4>
+			<a href=""><h4 style="margin-left:138px;">รายชื่อผู้เข้าร่วมกิจกรรม</h4></a>
+		</div>
+		<div style="width:100%; margin-top:4%; float:left; margin-left:10px;">
+			<h4> วิดีโอกิจกรรม</h4>
+			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+
+			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div style="width:100%; float:left; margin-left:10px;">
+			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+
+			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="col-md-7">
+		<?php
+$allowed_types=array('jpg','jpeg','gif','png');
+$dir    ="image/info/";
+$files1 = scandir($dir);
+$total=0; 
+$pic_path=array();
+foreach($files1 as $key=>$value){
+	if($key>1){
+		$file_parts = explode('.',$value);
+		$ext = strtolower(array_pop($file_parts));
+		if(in_array($ext,$allowed_types)){
+			$pic_path[]=$dir.$value;
+			$total++;	
+		}
+	}
+}
+
+$perPage = 28;
+$num_naviPage=ceil($total/$perPage);
+
+if(!isset($_GET['page'])){
+	$s_key=0;
+	$e_key=$perPage;	
+	$_GET['page']=1;
+}else{
+	$s_key=($_GET['page']*$perPage)-$perPage;
+	$e_key=$perPage*$_GET['page'];
+	$e_key=($e_key>$total)?$total:$e_key;
+}
+
+for($indexPicture=$s_key;$indexPicture<$e_key;$indexPicture++){
+	echo "<a class='fancybox' href='".$pic_path[$indexPicture]."' data-fancybox-group='gallery' title=''><img style='width:29%; margin-top:10px; margin-left:10px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp";	
+}
+
+echo "<br><br>";
+for($i=1;$i<=$num_naviPage;$i++){
+	echo "<font class='Font_Violet_10half'><a href=\"?page=".$i."\"> หน้าที่ $i |</a></font>";
+}
+
+?> 
+	</div>
+	</div>
+
 
 	<div style="background-color:#ffffff; padding-bottom:20px;">
 		<div class="container" style="color:#ffffff;">
 			
 		</div>
 	</div>
-	<div style="background-color:#8e3240; padding-bottom:20px;">
+	<div class="visible-lg" style="background-color:#8e3240; padding-bottom:20px;">
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br>
@@ -174,7 +248,29 @@ for($i=1;$i<=$num_naviPage;$i++){
 			<div class="col-md-5" style="text-align:center;">
 				<br>
 				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
-				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520
+				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-3">
+				<br>
+				<i class="fa fa-phone" style="font-size:16px;"></i> โทรศัพท์/โทรสาร 02 329 8220 <br>
+				E-mail :  gened@kmitl.ac.th <br>
+				<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="hidden-lg" style="background-color:#8e3240; text-align:center; padding-bottom:20px;">
+		<div class="container" style="color:#ffffff;">
+			<div class="col-md-3">
+				<br>
+				Copyright © 2016 สำนักวิชาศึกษาทั่วไป
+			</div>
+			<div class="col-md-5" style="text-align:center;">
+				<br>
+				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
+				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
 			</div>
 			<div class="col-md-1">
 			</div>

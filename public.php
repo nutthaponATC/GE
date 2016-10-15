@@ -95,9 +95,9 @@
 			</div>
 			<div class="col-md-9 line2"></div>
 		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
+		<div class="container hidden-lg">
 			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">เอกสาร</h2>
+				<h2 style="margin-top:-15px;">เอกสาร</h2>
 			</div>
 			<div class="col-md-12 line2"></div>
 		</div>
@@ -1140,7 +1140,7 @@
 		</div>
 	</div>
 
-	<div style="background-color:#8e3240; padding-bottom:20px;">
+	<div class="visible-lg" style="background-color:#8e3240; padding-bottom:20px;">
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br>

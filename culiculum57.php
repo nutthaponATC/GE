@@ -79,7 +79,7 @@
 	    </div>
 	</div>
 
-	<div class="container" style="color:#be6a77;">
+	<div class="container visible-lg" style="color:#be6a77;">
 		<div class="col-md-1">
 			<img src="logo2.png">
 		</div>
@@ -87,6 +87,18 @@
 			<h2>หมวดวิชาศึกษาทั่วไปฉบับปรับปรุง 57</h2>
 		</div>
 		<div class="col-md-2" style="margin-left:-10px; margin-top:40px;">
+			<a href="">Download here <i class="fa fa-file-text-o" aria-hidden="true"></i></a>
+		</div>
+	</div>
+
+	<div class="container hidden-lg" style="color:#be6a77; text-align:center;">
+		<div class="col-md-12">
+			<img src="logo2.png">
+		</div>
+		<div class="col-md-12" style="margin-top:10px; margin-left:10px;">
+			<h2>หมวดวิชาศึกษาทั่วไปฉบับปรับปรุง 57</h2>
+		</div>
+		<div class="col-md-12" style="margin-left:-10px; margin-top:40px;">
 			<a href="">Download here <i class="fa fa-file-text-o" aria-hidden="true"></i></a>
 		</div>
 	</div>
@@ -154,7 +166,7 @@
 		</div>
 	</div>
 
-	<div style="background-color:#8e3240; padding-bottom:20px;">
+	<div class="visible-lg" style="background-color:#8e3240; padding-bottom:20px;">
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br>
@@ -163,7 +175,29 @@
 			<div class="col-md-5" style="text-align:center;">
 				<br>
 				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
-				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520
+				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
+			</div>
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-3">
+				<br>
+				<i class="fa fa-phone" style="font-size:16px;"></i> โทรศัพท์/โทรสาร 02 329 8220 <br>
+				E-mail :  gened@kmitl.ac.th <br>
+				<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="hidden-lg" style="background-color:#8e3240; text-align:center; padding-bottom:20px;">
+		<div class="container" style="color:#ffffff;">
+			<div class="col-md-3">
+				<br>
+				Copyright © 2016 สำนักวิชาศึกษาทั่วไป
+			</div>
+			<div class="col-md-5" style="text-align:center;">
+				<br>
+				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
+				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
 			</div>
 			<div class="col-md-1">
 			</div>

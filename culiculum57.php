@@ -5,7 +5,7 @@
 	<link rel="shortcut icon" href="icon.png">
 
 	<!-- font -->
-	<link href="https://fonts.googleapis.com/css?family=Athiti:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Athiti:500" rel="stylesheet">
   	
 	<title>สำนักวิชาศึกษาทั่วไป General Education</title>
 

@@ -80,91 +80,61 @@
 	        </div>
 	    </div>
 	</div>
-
-	<div class="container visible-lg" style="color:#be6a77;">
-		<div class="col-md-1">
-			<img src="logo2.png">
+	
+	<div class="container">
+		<div class="col-md-12" style="border: 2px solid #be6a77; border-radius: 25px;">
+			<h2>คุณค่าแห่งชีวิต</h2>
+			<div class="col-md-12 line"></div>
+			<h3 style="text-align:justify; text-indent: 1.5em;">
+				การพัฒนาตนเองเพื่อการดำเนินชีวิตที่ดีทั้งสุขภาพกาย สุขภาพใจ มีคุณธรรมจริยธรรมบนพื้นฐานปรัชญาเศรษฐกิจพอเพียง มีความซื่อสัตย์ ความรับผิดชอบ มีจิตอาสา สำนึกสาธารณะ มีความซาบซึ้งในความงดงามของสิ่งต่างๆ ทั้งในธรรมชาติและสิ่งที่มนุษย์สร้างขึ้น และการแสวงหาความรู้ตลอดชีวิต
+			</h3>
 		</div>
-		<div class="col-md-9" style="margin-top:10px; margin-left:10px;">
-			<h2>หมวดวิชาศึกษาทั่วไปฉบับปรับปรุง 57</h2>
-		</div>
-		<div class="col-md-2" style="margin-left:-10px; margin-top:40px;">
-			<a href="">Download here <i class="fa fa-file-text-o" aria-hidden="true"></i></a>
-		</div>
-	</div>
-
-	<div class="container hidden-lg" style="color:#be6a77; text-align:center;">
 		<div class="col-md-12">
-			<img src="logo2.png">
-		</div>
-		<div class="col-md-12" style="margin-top:10px; margin-left:10px;">
-			<h2>หมวดวิชาศึกษาทั่วไปฉบับปรับปรุง 57</h2>
-		</div>
-		<div class="col-md-12" style="margin-left:-10px; margin-top:40px;">
-			<a href="">Download here <i class="fa fa-file-text-o" aria-hidden="true"></i></a>
-		</div>
-	</div>
-
-	<div class="jumbotron" style="margin-top:20px; background-color:#ffffff;">
-		<div class="container visible-lg" id="1">
-			<div class="col-md-1">
-			
-			</div>
-			<div class="col-md-11">
-				<h2 style="margin-top:-15px; margin-left:-40px;"> โครงสร้างรายวิชา</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;"> โครงสร้างรายวิชา</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container aos-all">
-			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto; text-indent: 2.5em;">
-				โครงสร้างรายวิชา
-			</p>
+			<img src="image/p1.png" style="margin-top:30px;" class="img-responsive">
 		</div>
 
-		<div class="container visible-lg" id="2" style="margin-top:70px;">
-			<div class="col-md-1">
-			</div>
-			<div class="col-md-11">
-				<h2 style="margin-top:-15px; margin-left:-40px;"> กลุ่ม</h2>
-			</div>
+		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+			<h2>วิถีแห่งสังคม</h2>
 			<div class="col-md-12 line"></div>
+			<h3 style="text-align:justify; text-indent: 1.5em;">
+				ภาคภูมิใจในความเป็นไทย วัฒนธรรมไทย และภูมิปัญญาท้องถิ่น การเป็นพลเมืองที่มีคุณค่าของสังคมไทยและสังคมโลก การใช้ชีวิตในสังคมอย่างมีความสุข การปรับตัวให้เข้ากับวัฒนธรรมที่หลากหลายและสังคมที่เปลี่ยนแปลงไปตามความก้าวหน้าของวิทยาศาสตร์และเทคโนโลยี
+			</h3>
 		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;"> กลุ่ม</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container aos-all">
-			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto; text-indent: 2.5em;">
-				กลุ่ม
-			</p>
+		<div class="col-md-12">
+			<img src="image/p2.png" style="margin-top:30px;" class="img-responsive">
 		</div>
 
-		<div class="container visible-lg" id="3" style="margin-top:70px;">
-			<div class="col-md-1">
-			</div>
-			<div class="col-md-11">
-				<h2 style="margin-top:-15px; margin-left:-40px;"> รายวิชา</h2>
-			</div>
+		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+			<h2>ศาสตร์แห่งการคิด</h2>
 			<div class="col-md-12 line"></div>
+			<h3 style="text-align:justify; text-indent: 1.5em;">
+				การคิดแบบองค์รวม โดยกระบวนการคิดและวิธีการคิดแบบต่างๆ เพื่อเชื่อมโยงองค์ความรู้และความเป็นเหตุเป็นผลทางด้าน มนุษยศาสตร์ สังคมศาสตร์ วิทยาศาสตร์ และเทคโนโลยีสารสนเทศ เพื่อการแก้ปัญหาได้อย่างมีวิจารณญาณและรู้เท่าทัน
+			</h3>
 		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;"> รายวิชา</h2>
-			</div>
+		<div class="col-md-12">
+			<img src="image/p3.png" style="margin-top:30px;" class="img-responsive">
+		</div>
+
+		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+			<h2>ศิลปะแห่งการจัดการ</h2>
 			<div class="col-md-12 line"></div>
+			<h3 style="text-align:justify; text-indent: 1.5em;">
+				เข้าใจในหลักการบริหารองค์กร การวางยุทธศาสตร์ขององค์กร การตัดสินใจ การสร้างสรรค์นวัตกรรมทางธุรกิจ การเตรียมทักษะความพร้อมสำหรับผู้ต้องการมีกิจการของตนเอง การมีภาวะความเป็นผู้นำและผู้ตาม การทำงานเป็นทีมเพื่อผลลัพธ์อย่างยั่งยืน
+			</h3>
 		</div>
-		<div class="container aos-all">
-			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto; text-indent: 2.5em;">
-			รายวิชา
-			</p>
+		<div class="col-md-12">
+			<img src="image/p4.png" style="margin-top:30px;" class="img-responsive">
+		</div>
+
+		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+			<h2>ภาษาและการสื่อสาร</h2>
+			<div class="col-md-12 line"></div>
+			<h3 style="text-align:justify; text-indent: 1.5em;">
+				พัฒนาทักษะการฟัง การพูด การอ่าน และการเขียน เพื่อใช้ภาษาและเทคโนโลยีสารสนเทศในการสื่อสารและนำเสนอได้อย่างถูกต้องมีประสิทธิภาพ
+			</h3>
+		</div>
+		<div class="col-md-12">
+			<img src="image/p5.png" style="margin-top:30px;" class="img-responsive">
 		</div>
 	</div>
 
@@ -177,29 +147,7 @@
 			<div class="col-md-5" style="text-align:center;">
 				<br>
 				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
-				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
-			</div>
-			<div class="col-md-1">
-			</div>
-			<div class="col-md-3">
-				<br>
-				<i class="fa fa-phone" style="font-size:16px;"></i> โทรศัพท์/โทรสาร 02 329 8220 <br>
-				E-mail :  gened@kmitl.ac.th <br>
-				<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
-			</div>
-		</div>
-	</div>
-
-	<div class="hidden-lg" style="background-color:#8e3240; text-align:center; padding-bottom:20px;">
-		<div class="container" style="color:#ffffff;">
-			<div class="col-md-3">
-				<br>
-				Copyright © 2016 สำนักวิชาศึกษาทั่วไป
-			</div>
-			<div class="col-md-5" style="text-align:center;">
-				<br>
-				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
-				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
+				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520
 			</div>
 			<div class="col-md-1">
 			</div>

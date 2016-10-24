@@ -46,7 +46,7 @@
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
 	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
-	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
+	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="subpage.php">หน้าหลัก</a></li>
 					<li><a href="about.php">เกี่ยวกับสำนัก</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
@@ -73,7 +73,9 @@
 						</ul>
 					</li>
 					<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
+					<li><a href="index.php#info">ข่าวประชาสัมพันธ์</a></li>
 					<li><a href="contact.php">ติดต่อเรา</a></li>
+					<li><a href="">TH | ENG</a></li>
 	            </ul>
 	        </div>
 	    </div>
@@ -91,19 +93,19 @@
 	<div style="width: 100%; height:34%;" class="visible-lg">
 		<div class="col-md-1"></div>
 		<div class="col-md-2 subject1" style=" text-align:center;  height: 100%; border-left:1px solid rgba(243, 115, 66, 1);">
-			<H3 style="margin-top:30%;">คุณค่าแห่งชีวิต</H3>
+			<H3 style="margin-top:30%; font-size: 190%;">คุณค่าแห่งชีวิต</H3>
 		</div>
 		<div class="col-md-2 subject2" style=" text-align:center;  height: 100%; border-left:1px solid rgba(254, 215, 78, 1);">
-			<H3 style="margin-top:30%;">วิถีแห่งสังคม</H3>
+			<H3 style="margin-top:30%; font-size: 190%;">วิถีแห่งสังคม</H3>
 		</div>
 		<div class="col-md-2 subject3" style=" text-align:center;  height: 100%; border-left:1px solid rgba(113, 176, 96, 1);">
-			<H3 style="margin-top:30%;">ศาสตร์แห่งการคิด</H3>
+			<H3 style="margin-top:30%; font-size: 190%;">ศาสตร์แห่งการคิด</H3>
 		</div>
 		<div class="col-md-2 subject4" style=" text-align:center;  height: 100%; border-left:1px solid rgba(152, 81, 139, 1);">
-			<H3 style="margin-top:30%;">ศิลปะแห่งการจัดการ</H3>
+			<H3 style="margin-top:30%; font-size: 190%;">ศิลปะแห่งการจัดการ</H3>
 		</div>
 		<div class="col-md-2 subject5" style=" text-align:center;  height: 100%; border-left:1px solid rgba(69, 148, 191, 1);">
-			<H3 style="margin-top:30%;">ภาษาและการสื่อสาร</H3>
+			<H3 style="margin-top:30%; font-size: 190%;">ภาษาและการสื่อสาร</H3>
 		</div>
 		<div class="col-md-1"></div>
 	</div>
@@ -125,7 +127,7 @@
 		<H3>ภาษาและการสื่อสาร</H3>
 	</div>
 
-	<div class="visible-lg" style="background-color:#ffffff; margin-top:30px;">
+	<div class="visible-lg" id="info" style="background-color:#ffffff; margin-top:30px;">
 		<div style="width:60%; height: 120%; background-color:#fff0df; float:left;">
 			<div style="margin-left:30%; width:100%; color:#be6a77; padding-top:10px;">
 				<h3>ข่าวประชาสัมพันธ์</h3>
@@ -134,22 +136,22 @@
 			<div style="margin-left:30%; width:70%; border-bottom:solid 2px #be6a77;"></div>
 			<div style="width:100%; margin-left:30%; margin-top:20px;">
 				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
 			</div>
 
 			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
 				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
 			</div>
 
 			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
 				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
 			</div>
 
 			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
 				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
 			</div>
 
 			<div style="width:100%; margin-left:30%; margin-top:40px;">
@@ -161,8 +163,8 @@
 			<div>
 				<h3 style="margin-left: 42%; padding-top:10px; color:#fff0df;">ข่าวสัมมนา</h3>
 			</div>
-			<div class="line2" style="margin-left: 40%; background: #fff0df; width:150px; margin-bottom:-2px;"></div>
-			<div style="width:40%; border-bottom:solid 2px #fff0df;"></div>
+			<div class="line2" style="margin-left: 40%; background: #fff0df; width:150px; height:7px; position: relative;"></div>
+			<div style="width:40%; border-bottom:solid 2px #fff0df; margin-top:-2px; position: relative;"></div>
 
 			<div style="width:100%; padding-left:30px;  margin-top:20px;">
 				<span style="font-size:30; color:#fff0df;">02 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
@@ -183,34 +185,33 @@
 	</div>
 
 	<!-- phone -->
-	<div class="hidden-lg" style="background-color:#ffffff; margin-top:30px;">
+	<div class="hidden-lg"  id="info" style="background-color:#ffffff; margin-top:30px;">
 		<div style="width:100%; height: 120%; background-color:#fff0df; float:left;">
-			<div style="margin-left:30%; width:100%; color:#be6a77; padding-top:10px;">
+			<div style="margin-left:10%; width:90%; color:#be6a77; padding-top:10px;">
 				<h3>ข่าวประชาสัมพันธ์</h3>
 			</div>
-			<div class="line2" style="margin-left:30%; width:150px;"></div>
-			<div style="margin-left:30%; width:70%; border-bottom:solid 2px #be6a77;"></div>
-			<div style="width:100%; margin-left:30%; margin-top:20px;">
+			<div class="line2" style="margin-left:10%; width:90%;"></div>
+			<div style="width:70%; margin-left:10%; margin-top:5%;">
 				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
 			</div>
 
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
+			<div style="width:70%; margin-left:10%; margin-top:5%; border-top:solid 2px #ffffff;">
 				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
 			</div>
 
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
+			<div style="width:70%; margin-left:10%; margin-top:5%; border-top:solid 2px #ffffff;">
 				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
 			</div>
 
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
+			<div style="width:70%; margin-left:10%; margin-top:5%; border-top:solid 2px #ffffff;">
 				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"> 22-09-2559</i>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
 			</div>
 
-			<div style="width:100%; margin-left:30%; margin-top:40px;">
+			<div style="width:70%; margin-left:10%; margin-top:5%;">
 				<h5 style="color:#be6a77;">ดูทั้งหมด</h5>
 			</div>
 		</div>
@@ -219,22 +220,21 @@
 			<div>
 				<h3 style="margin-left: 42%; padding-top:10px; color:#fff0df;">ข่าวสัมมนา</h3>
 			</div>
-			<div class="line2" style="margin-left: 40%; background: #fff0df; width:150px; margin-bottom:-2px;"></div>
-			<div style="width:40%; border-bottom:solid 2px #fff0df;"></div>
+			<div class="line2" style="background: #fff0df; width:80%; margin-bottom:-2px;"></div>
 
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:30; color:#fff0df;">02 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
+			<div style="width:100%; padding-left:10%;  margin-top:5%;">
+				<span style="font-size:24; color:#fff0df;">02 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
 			</div>
 
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:30; color:#fff0df;">12 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
+			<div style="width:100%; padding-left:10%;  margin-top:5%;">
+				<span style="font-size:24; color:#fff0df;">12 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
 			</div>
 
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:30; color:#fff0df;">22 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
+			<div style="width:100%; padding-left:10%;  margin-top:5%;">
+				<span style="font-size:24; color:#fff0df;">22 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
 			</div>
 
-			<div style="width:100%; padding-left:30px;  margin-top:40px;">
+			<div style="width:100%; padding-left:10%;  margin-top:5%;">
 				<h5 style="color:#fff0df;">ดูทั้งหมด</h5>
 			</div>
 		</div>

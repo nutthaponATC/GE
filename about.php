@@ -46,7 +46,7 @@
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
 	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
-	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
+	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="subpage.php">หน้าหลัก</a></li>
 					<li><a href="about.php">เกี่ยวกับสำนัก</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
@@ -73,7 +73,9 @@
 						</ul>
 					</li>
 					<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
+					<li><a href="index.php#info">ข่าวประชาสัมพันธ์</a></li>
 					<li><a href="contact.php">ติดต่อเรา</a></li>
+					<li><a href="">TH | ENG</a></li>
 	            </ul>
 	        </div>
 	    </div>
@@ -274,38 +276,152 @@
 		</div>
 	</div>
 
+	<div class="container visible-lg" id="staff" style="margin-top:50px;">
+		<div class="col-md-1">
+			<img src="icon.png" style="margin-top:-10px;">
+		</div>
+		<div class="col-md-3">
+			<h2 style="margin-top:-15px; margin-left:-40px;">เจ้าหน้าที่</h2>
+		</div>
+		<div class="col-md-12 line"></div>
+	</div>
+	<div class="container hidden-lg" style="margin-top:70px;">
+		<div class="col-md-12" style="text-align:center;">
+			<h2 style="margin-top:-15px; margin-left:-40px;">เจ้าหน้าที่</h2>
+		</div>
+		<div class="col-md-12 line"></div>
+	</div>
+
+	<div class="container visible-lg">
+		<div style="background-size: 100%; height:350px; background-repeat: no-repeat; background-image: url('image/ge-team-bg.png');">
+			<div class="col-md-12" id="mt1"></div>
+			<div class="col-md-12" id="mt2"></div>
+			<div class="col-md-12" id="mt3"></div>
+
+			<div class="col-md-2" id="dmt1" style="margin-top:50px; margin-left:-40px;">
+				<!-- <img src="image/A1.png" class="pmt1" style="width:128%;"> -->
+			</div>
+			<div class="col-md-2" id="dmt2" style="margin-top:50px;">
+				<!-- <img src="image/A2.png" class="pmt2" style="width:128%;"> -->
+			</div>
+			<div class="col-md-2" id="dmt3" style="margin-top:50px;">
+				<!-- <img src="image/A3.png" class="pmt3" style="width:122%;"> -->
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="col-md-5"></div>
+			<div class="col-md-2">
+				<!-- <img src="image/ge-team-black.jpg" width="140%" style="margin-left:-30px;"> -->
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+
+		<div style="width:50%; float:left; padding-left:10%;">
+			<h2>(1) นางสาวกฤชกมล  มงคลสวัสดิ์</h2>
+			<p>เจ้าหน้าที่บริหารงานทั่วไป</p>
+		</div>
+		<div style="width:50%; float:left; padding-left:10%;">
+			<h2>(2) นางพิมสิริ  อุ่นตรงจิตร</h2>
+			<p>นักวิชาการศึกษา</p>
+		</div>
+		<div style="width:50%; float:left; padding-left:10%;">
+			<h2>(3) นางสาวผจงจิตต์  ยืนวงษ์</h2>
+			<p>นักวิชาการศึกษา</p>
+		</div>
+	</div>
+
+	<div class="jumbotron hidden-lg" style="color:#be6a77; background-color:#ffffff;">
+		<div class="container">
+			<div class="col-md-12" id="dmt1">
+				<div class="col-md-4" style="text-align: left;">
+					<!-- <img src="image/A1.png" class="pmt1" style="width:128px;"> -->
+				</div>
+				<div class="col-md-8" style="text-align: left;">
+					<h3>นางสาวกฤชกมล  มงคลสวัสดิ์</h3>
+				</div>
+			</div>
+			<div class="col-md-12" id="dmt2">
+				<div class="col-md-4" style="text-align: right;">
+					<!-- <img src="image/A2.png" class="pmt2" style="width:128px;"> -->
+				</div>
+				<div class="col-md-8" style="text-align: right;">
+					<h3>นางพิมสิริ  อุ่นตรงจิตร</h3>
+				</div>
+			</div>
+			<div class="col-md-12" id="dmt3">
+				<div class="col-md-4" style="text-align: left;">
+					<!-- <img src="image/A3.png" class="pmt3" style="width:122px;"> -->
+				</div>
+				<div class="col-md-8" style="text-align: left;">
+					<h3>นางสาวผจงจิตต์  ยืนวงษ์</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="container visible-lg">
+			<div class="col-md-5"></div>
+			<div class="col-md-2">
+				<img src="image/ge-team-black.jpg" width="140%" style="margin-left:-30px;">
+			</div>
+			<div class="col-md-5"></div>
+		</div>
+
+		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
+			<h2>(1) นางสาวกฤชกมล  มงคลสวัสดิ์</h2>
+			<p>เจ้าหน้าที่บริหารงานทั่วไป</p>
+		</div>
+		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
+			<h2>(2) นางพิมสิริ  อุ่นตรงจิตร</h2>
+			<p>นักวิชาการศึกษา</p>
+		</div>
+		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
+			<h2>(3) นางสาวผจงจิตต์  ยืนวงษ์</h2>
+			<p>นักวิชาการศึกษา</p>
+		</div>
+	</div>
+
 	<div class="jumbotron visible-lg" style="margin-top:20px; background-color:#ffffff;">
 		<div class="container">
 			<div class="col-md-4" style="border: 2px solid #be6a77; margin-left:-20px;  border-radius: 25px; height:700px;">
 				<h3>ประวัติความเป็นมา</h3>
 				<div class="col-md-12 line"></div>
-				<p style="text-indent: 2.5em;">
-					สำนักวิชาศึกษาทั่วไป เป็นส่วนงานของสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ซึ่งเกิดขึ้นตามนโยบายของสถาบันที่ให้จัดตั้งหน่วยงาน เพื่อบริหารจัดการและพัฒนาด้านการเรียนการสอนวิชาศึกษาทั่วไปของสถาบัน  โดยได้ผ่านการอนุมัติจากการประชุมสภาสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ครั้งที่ 12/2557 วันที่ 26 พฤศจิกายน 2557 เรื่อง ขอเสนอพิจารณาประกาศสถาบัน เรื่อง การจัดตั้งสำนักวิชาศึกษาทั่วไป เป็นส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ....... โดยมีประกาศสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง เรื่อง การจัดตั้งส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ.2557 วันที่ ๓ ธันวาคม ๒๕๕๗  (ประกาศในราชกิจจานุเบกษาหน้า 12 เล่ม 131 ตอนพิเศษ 262 ง วันที่ 23 ธันวาคม 2557)
+				<p style="text-align:justify; text-indent: 1.5em;">
+					สำนักวิชาศึกษาทั่วไป เป็นส่วนงานของสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ซึ่งเกิดขึ้นตามนโยบายของสถาบันที่ให้จัดตั้งหน่วยงาน เพื่อบริหารจัดการและพัฒนาด้านการเรียนการสอนวิชาศึกษาทั่วไปของสถาบัน  โดยได้ผ่านการอนุมัติจากการประชุมสภาสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ครั้งที่ 12/2557 วันที่ 26 พฤศจิกายน 2557 เรื่อง ขอเสนอพิจารณาประกาศสถาบัน <br> เรื่อง การจัดตั้งสำนักวิชาศึกษาทั่วไป เป็นส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ....... โดยมีประกาศสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง เรื่อง การจัดตั้งส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้า <br> เจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ.2557 วันที่ 3 ธันวาคม 2557 <br> (ประกาศในราชกิจจานุเบกษาหน้า 12 เล่ม 131 ตอนพิเศษ 262 ง วันที่ 23 ธันวาคม 2557)
 				</p>
 			</div>
 			<div class="col-md-4" style="border: 2px solid #be6a77; margin-left:10px; border-radius: 25px; height:700px;">
 				<h3>วิสัยทัศน์</h3>
 				<div class="col-md-12 line"></div>
-				<p style="text-indent: 2.5em;">
+				<p style="text-align:justify; text-indent: 1.5em;">
 					เป็นองค์กรที่มีความเป็นเลิศในการบริหารจัดการวิชาศึกษาทั่วไป เพื่อสร้างบัณฑิตที่สอดคล้องตามอัตลักษณ์ของสถาบันฯ
 				</p>
 			</div>
 			<div class="col-md-4" style="border: 2px solid #be6a77; margin-left:10px; border-radius: 25px; height:700px;">
 				<h3>พันธกิจ</h3>
 				<div class="col-md-12 line"></div>
-				<p style="text-indent: 2.5em;">
-					1.	พัฒนาและบูรณาการรายวิชาศึกษาทั่วไปอย่างต่อเนื่อง ให้นักศึกษาได้ศึกษาเรียนรู้เพื่อเป็นบัณฑิตตามอัตลักษณ์ของสถาบันฯ <br>
-					2.	พัฒนารูปแบบการเรียนการสอนรายวิชาศึกษาทั่วไปเพื่อให้เป็นไปตามผลลัพธ์การเรียนรู้ตามที่ตั้งไว้ โดยเน้นการเรียนรู้เชิงรุก (Active Learning) <br>
-					3.	พัฒนาระบบสารสนเทศเพื่อการบริหารจัดการและกำกับดูแลคุณภาพการเรียนการสอนให้มีประสิทธิภาพ <br>
-					4.	ดำเนินการให้การบริหารจัดการวิชาศึกษาทั่วไปเป็นไปตามหลักธรรมาภิบาล <br>
-					5.	ส่งเสริมและพัฒนาสมรรถนะขีดความสามารถของบุคลากรในสำนักอย่างเป็นระบบและต่อเนื่อง <br>
-					6.	สนับสนุนและเข้าร่วมกิจกรรมของเครือข่ายการศึกษาทั่วไปแห่งประเทศไทยเพื่อการพัฒนาในทุกด้านอย่างยั่งยืน
+				<p style="text-align:justify; text-indent: 1.5em;">
+					1.พัฒนาและบูรณาการรายวิชาศึกษาทั่วไปอย่างต่อเนื่อง ให้นักศึกษาได้ศึกษาเรียนรู้เพื่อเป็นบัณฑิตตามอัตลักษณ์ของสถาบันฯ
+				</p>
+				<p style="text-align:justify; text-indent: 1.5em;">
+					2.พัฒนารูปแบบการเรียนการสอนรายวิชาศึกษาทั่วไปเพื่อให้เป็นไปตามผลลัพธ์การเรียนรู้ตามที่ตั้งไว้ โดยเน้นการเรียนรู้เชิงรุก (Active Learning)
+				</p>
+				<p style="text-align:justify; text-indent: 1.5em;">
+					3.พัฒนาระบบสารสนเทศเพื่อการบริหารจัดการและกำกับดูแลคุณภาพการเรียนการสอนให้มีประสิทธิภาพ 
+				</p>
+				<p style="text-align:justify; text-indent: 1.5em;">
+					4.ดำเนินการให้การบริหารจัดการวิชาศึกษาทั่วไปเป็นไปตามหลักธรรมาภิบาล 
+				</p>
+				<p style="text-align:justify; text-indent: 1.5em;">
+					5.ส่งเสริมและพัฒนาสมรรถนะขีดความสามารถของบุคลากรในสำนักอย่างเป็นระบบและต่อเนื่อง 
+				</p>
+				<p style="text-align:justify; text-indent: 1.5em;">
+					6.สนับสนุนและเข้าร่วมกิจกรรมของเครือข่ายการศึกษาทั่วไปแห่งประเทศไทยเพื่อการพัฒนาในทุกด้านอย่างยั่งยืน
 				</p>
 			</div>
 		</div>
 
 		<div class="container" style="margin-top:50px;">
-			<div class="col-md-1"></div>
 			<div class="col-md-4" style="border: 2px solid #be6a77; border-radius: 25px; height:500px; margin-left:-10px;">
 				<h3>นโยบายการบริหาร</h3>
 				<div class="col-md-12 line"></div>
@@ -313,42 +429,41 @@
 					นโยบายการบริหาร
 				</p>
 			</div>
-			<div class="col-md-6" style="border: 2px solid #be6a77; border-radius: 25px; height:500px; margin-left:10px;">
+			<div class="col-md-8" style="border: 2px solid #be6a77; border-radius: 25px; height:500px; margin-left:10px;">
 				<h3>โครงสร้างการบริหาร</h3>
 				<div class="col-md-12 line"></div>
-				<img src="image/oganize.png" style="margin-top:50px;" class="img-responsive">
+				<img src="image/oganize.png" style="margin-top:30px;" class="img-responsive">
 			</div>
-			<div class="col-md-1"></div>
 		</div>
 	</div>
 
 	<div class="jumbotron hidden-lg" style="margin-top:20px; background-color:#ffffff;">
 		<div class="container">
-			<div class="col-md-4" style="border: 2px solid #be6a77; border-radius: 25px; height:750px;">
+			<div class="col-md-4" style="border: 2px solid #be6a77; border-radius: 25px;">
 				<h3>ประวัติความเป็นมา</h3>
 				<div class="col-md-12 line"></div>
-				<p style="text-indent: 2.5em;">
+				<font style="text-align:justify;">
 					สำนักวิชาศึกษาทั่วไป เป็นส่วนงานของสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ซึ่งเกิดขึ้นตามนโยบายของสถาบันที่ให้จัดตั้งหน่วยงาน เพื่อบริหารจัดการและพัฒนาด้านการเรียนการสอนวิชาศึกษาทั่วไปของสถาบัน  โดยได้ผ่านการอนุมัติจากการประชุมสภาสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ครั้งที่ 12/2557 วันที่ 26 พฤศจิกายน 2557 เรื่อง ขอเสนอพิจารณาประกาศสถาบัน เรื่อง การจัดตั้งสำนักวิชาศึกษาทั่วไป เป็นส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ....... โดยมีประกาศสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง เรื่อง การจัดตั้งส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ.2557 วันที่ ๓ ธันวาคม ๒๕๕๗  (ประกาศในราชกิจจานุเบกษาหน้า 12 เล่ม 131 ตอนพิเศษ 262 ง วันที่ 23 ธันวาคม 2557)
-				</p>
+				</font>
 			</div>
-			<div class="col-md-4" style="border: 2px solid #be6a77; margin-top:20px; border-radius: 25px; height:200px;">
+			<div class="col-md-4" style="border: 2px solid #be6a77; margin-top:20px; border-radius: 25px;">
 				<h3>วิสัยทัศน์</h3>
 				<div class="col-md-12 line"></div>
-				<p style="text-indent: 2.5em;">
+				<font style="text-align:justify">
 					เป็นองค์กรที่มีความเป็นเลิศในการบริหารจัดการวิชาศึกษาทั่วไป เพื่อสร้างบัณฑิตที่สอดคล้องตามอัตลักษณ์ของสถาบันฯ
-				</p>
+				</font>
 			</div>
-			<div class="col-md-4" style="border: 2px solid #be6a77; margin-top:20px; border-radius: 25px; height:700px;">
+			<div class="col-md-4" style="border: 2px solid #be6a77; margin-top:20px; border-radius: 25px;">
 				<h3>พันธกิจ</h3>
 				<div class="col-md-12 line"></div>
-				<p style="text-indent: 2.5em;">
-					1.	พัฒนาและบูรณาการรายวิชาศึกษาทั่วไปอย่างต่อเนื่อง ให้นักศึกษาได้ศึกษาเรียนรู้เพื่อเป็นบัณฑิตตามอัตลักษณ์ของสถาบันฯ <br>
-					2.	พัฒนารูปแบบการเรียนการสอนรายวิชาศึกษาทั่วไปเพื่อให้เป็นไปตามผลลัพธ์การเรียนรู้ตามที่ตั้งไว้ โดยเน้นการเรียนรู้เชิงรุก (Active Learning) <br>
-					3.	พัฒนาระบบสารสนเทศเพื่อการบริหารจัดการและกำกับดูแลคุณภาพการเรียนการสอนให้มีประสิทธิภาพ <br>
-					4.	ดำเนินการให้การบริหารจัดการวิชาศึกษาทั่วไปเป็นไปตามหลักธรรมาภิบาล <br>
-					5.	ส่งเสริมและพัฒนาสมรรถนะขีดความสามารถของบุคลากรในสำนักอย่างเป็นระบบและต่อเนื่อง <br>
-					6.	สนับสนุนและเข้าร่วมกิจกรรมของเครือข่ายการศึกษาทั่วไปแห่งประเทศไทยเพื่อการพัฒนาในทุกด้านอย่างยั่งยืน
-				</p>
+				<font style="text-align:justify">
+					1.พัฒนาและบูรณาการรายวิชาศึกษาทั่วไปอย่างต่อเนื่อง ให้นักศึกษาได้ศึกษาเรียนรู้เพื่อเป็นบัณฑิตตามอัตลักษณ์ของสถาบันฯ <br>
+					2.พัฒนารูปแบบการเรียนการสอนรายวิชาศึกษาทั่วไปเพื่อให้เป็นไปตามผลลัพธ์การเรียนรู้ตามที่ตั้งไว้ โดยเน้นการเรียนรู้เชิงรุก (Active Learning) <br>
+					3.พัฒนาระบบสารสนเทศเพื่อการบริหารจัดการและกำกับดูแลคุณภาพการเรียนการสอนให้มีประสิทธิภาพ <br>
+					4.ดำเนินการให้การบริหารจัดการวิชาศึกษาทั่วไปเป็นไปตามหลักธรรมาภิบาล <br>
+					5.ส่งเสริมและพัฒนาสมรรถนะขีดความสามารถของบุคลากรในสำนักอย่างเป็นระบบและต่อเนื่อง <br>
+					6.สนับสนุนและเข้าร่วมกิจกรรมของเครือข่ายการศึกษาทั่วไปแห่งประเทศไทยเพื่อการพัฒนาในทุกด้านอย่างยั่งยืน
+				</font>
 			</div>
 		</div>
 
@@ -357,9 +472,9 @@
 			<div class="col-md-4" style="border: 2px solid #be6a77; border-radius: 25px; height:200px; margin-top:-30px;">
 				<h3>นโยบายการบริหาร</h3>
 				<div class="col-md-12 line"></div>
-				<p style="text-align:justify">
+				<font style="text-align:justify">
 					นโยบายการบริหาร
-				</p>
+				</font>
 			</div>
 			<div class="col-md-6" style="border: 2px solid #be6a77; border-radius: 25px; height:350px; margin-top:20px;">
 				<h3>โครงสร้างการบริหาร</h3>

@@ -59,7 +59,7 @@
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
 	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
-	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
+	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="subpage.php">หน้าหลัก</a></li>
 					<li><a href="about.php">เกี่ยวกับสำนัก</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
@@ -86,7 +86,9 @@
 						</ul>
 					</li>
 					<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
+					<li><a href="index.php#info">ข่าวประชาสัมพันธ์</a></li>
 					<li><a href="contact.php">ติดต่อเรา</a></li>
+					<li><a href="">TH | ENG</a></li>
 	            </ul>
 	        </div>
 	    </div>

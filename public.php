@@ -46,7 +46,7 @@
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
 	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
-	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
+	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="subpage.php">หน้าหลัก</a></li>
 					<li><a href="about.php">เกี่ยวกับสำนัก</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
@@ -73,7 +73,9 @@
 						</ul>
 					</li>
 					<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
+					<li><a href="index.php#info">ข่าวประชาสัมพันธ์</a></li>
 					<li><a href="contact.php">ติดต่อเรา</a></li>
+					<li><a href="">TH | ENG</a></li>
 	            </ul>
 	        </div>
 	    </div>
@@ -90,12 +92,50 @@
 			<div class="col-md-2">
 				<img src="logo2.png" style="margin-top:-40px;">
 			</div>
+			<div class="col-md-2">
+				<h2 style="margin-top:-15px; margin-left:-40px;">วิดีโอเผยแพร่</h2>
+			</div>
+			<div class="col-md-8 line2"></div>
+		</div>
+		<div class="container hidden-lg">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px;">วิดีโอเผยแพร่</h2>
+			</div>
+			<div class="col-md-12 line2"></div>
+		</div>
+
+		<div class="container" style="margin-top:30px;">
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			</div>
+
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+
+		<div class="container visible-lg" style="margin-top:80px;">
+			<div class="col-md-2">
+				<img src="logo2.png" style="margin-top:-40px;">
+			</div>
 			<div class="col-md-1">
 				<h2 style="margin-top:-15px; margin-left:-40px;">เอกสาร</h2>
 			</div>
 			<div class="col-md-9 line2"></div>
 		</div>
-		<div class="container hidden-lg">
+		<div class="container hidden-lg" style="margin-top:20px;">
 			<div class="col-md-12" style="text-align:center;">
 				<h2 style="margin-top:-15px;">เอกสาร</h2>
 			</div>
@@ -146,6 +186,9 @@
 					<div class="col-md-11" id="group5" style="margin-left:30px; margin-top:5px; background-color:#be6a77; color:#ffffff; border-radius: 10px;">
 						<h3>กลุ่มภาษาและการสื่อสาร</h3>
 					</div>
+				<div class="col-md-12" id="btm6" style="margin-top:5px; border: 4px solid #ee8e3c; border-radius: 10px;">
+					<h3>หนังสือนอกเวลา</h3>
+				</div>
 			</div>
 
 			<div class="col-md-8">
@@ -557,16 +600,16 @@
 					<table class="table table-bordered table-inverse">
 						<thead>
 							<tr class="bg-danger">
-								<th width="10%">สัปดาห์ที่</th>
-								<th>เนื้อหา</th>
+								<th width="10%">ฉบับที่</th>
+								<th>เอกสาร</th>
 								<th width="5%">download</th>
-								<th width="5%">video</th>
+								<th width="5%"></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr class="bg-warning">
 								<th scope="row">1</th>
-								<td></td>
+								<td>มคอ 3</td>
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
@@ -574,13 +617,11 @@
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">2</th>
-								<td></td>
+								<td>มคอ 5</td>
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
-								<td>
-									<i class="fa fa-file-video-o" aria-hidden="true"></i>
-								</td>
+								<td></td>
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">3</th>
@@ -588,9 +629,7 @@
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
-								<td>
-									<i class="fa fa-file-video-o" aria-hidden="true"></i>
-								</td>
+								<td></td>
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">4</th>
@@ -660,36 +699,6 @@
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">15</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">16</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">17</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">18</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">19</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">20</th>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -703,16 +712,16 @@
 					<table class="table table-bordered table-inverse">
 						<thead>
 							<tr class="bg-danger">
-								<th width="10%">สัปดาห์ที่</th>
-								<th>เนื้อหา</th>
+								<th width="10%">ฉบับที่</th>
+								<th>เอกสาร</th>
 								<th width="5%">download</th>
-								<th width="5%">video</th>
+								<th width="5%"></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr class="bg-warning">
 								<th scope="row">1</th>
-								<td></td>
+								<td>มคอ 3</td>
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
@@ -720,13 +729,11 @@
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">2</th>
-								<td></td>
+								<td>มคอ 5</td>
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
-								<td>
-									<i class="fa fa-file-video-o" aria-hidden="true"></i>
-								</td>
+								<td></td>
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">3</th>
@@ -734,9 +741,7 @@
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
-								<td>
-									<i class="fa fa-file-video-o" aria-hidden="true"></i>
-								</td>
+								<td></td>
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">4</th>
@@ -806,36 +811,6 @@
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">15</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">16</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">17</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">18</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">19</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">20</th>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -849,16 +824,16 @@
 					<table class="table table-bordered table-inverse">
 						<thead>
 							<tr class="bg-danger">
-								<th width="10%">สัปดาห์ที่</th>
-								<th>เนื้อหา</th>
+								<th width="10%">ฉบับที่</th>
+								<th>เอกสาร</th>
 								<th width="5%">download</th>
-								<th width="5%">video</th>
+								<th width="5%"></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr class="bg-warning">
 								<th scope="row">1</th>
-								<td></td>
+								<td>มคอ 3</td>
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
@@ -866,13 +841,11 @@
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">2</th>
-								<td></td>
+								<td>มคอ 5</td>
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
-								<td>
-									<i class="fa fa-file-video-o" aria-hidden="true"></i>
-								</td>
+								<td></td>
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">3</th>
@@ -880,9 +853,7 @@
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
-								<td>
-									<i class="fa fa-file-video-o" aria-hidden="true"></i>
-								</td>
+								<td></td>
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">4</th>
@@ -952,36 +923,6 @@
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">15</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">16</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">17</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">18</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">19</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">20</th>
 								<td></td>
 								<td></td>
 								<td></td>
@@ -995,16 +936,16 @@
 					<table class="table table-bordered table-inverse">
 						<thead>
 							<tr class="bg-danger">
-								<th width="10%">สัปดาห์ที่</th>
-								<th>เนื้อหา</th>
+								<th width="10%">ฉบับที่</th>
+								<th>เอกสาร</th>
 								<th width="5%">download</th>
-								<th width="5%">video</th>
+								<th width="5%"></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr class="bg-warning">
 								<th scope="row">1</th>
-								<td></td>
+								<td>มคอ 3</td>
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
@@ -1012,13 +953,11 @@
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">2</th>
-								<td></td>
+								<td>มคอ 5</td>
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
-								<td>
-									<i class="fa fa-file-video-o" aria-hidden="true"></i>
-								</td>
+								<td></td>
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">3</th>
@@ -1026,9 +965,7 @@
 								<td>
 									<i class="fa fa-file-text-o" aria-hidden="true"></i>
 								</td>
-								<td>
-									<i class="fa fa-file-video-o" aria-hidden="true"></i>
-								</td>
+								<td></td>
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">4</th>
@@ -1102,9 +1039,104 @@
 								<td></td>
 								<td></td>
 							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="col-md-12" id="table6">
+					<h3>หนังสือนอกเวลา</h3>
+					<table class="table table-bordered table-inverse">
+						<thead>
+							<tr class="bg-danger">
+								<th width="10%">ลำดับ</th>
+								<th>ชื่อหนังสือ</th>
+								<th width="5%">download</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="bg-warning">
+								<th scope="row">1</th>
+								<td></td>
+								<td>
+									<i class="fa fa-file-text-o" aria-hidden="true"></i>
+								</td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">2</th>
+								<td></td>
+								<td>
+									<i class="fa fa-file-text-o" aria-hidden="true"></i>
+								</td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">3</th>
+								<td></td>
+								<td>
+									<i class="fa fa-file-text-o" aria-hidden="true"></i>
+								</td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">4</th>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">5</th>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">6</th>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">7</th>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">8</th>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">9</th>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">10</th>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">11</th>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">12</th>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">13</th>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">14</th>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr class="bg-warning">
+								<th scope="row">15</th>
+								<td></td>
+								<td></td>
+							</tr>
 							<tr class="bg-warning">
 								<th scope="row">16</th>
-								<td></td>
 								<td></td>
 								<td></td>
 							</tr>
@@ -1112,11 +1144,9 @@
 								<th scope="row">17</th>
 								<td></td>
 								<td></td>
-								<td></td>
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">18</th>
-								<td></td>
 								<td></td>
 								<td></td>
 							</tr>
@@ -1124,11 +1154,9 @@
 								<th scope="row">19</th>
 								<td></td>
 								<td></td>
-								<td></td>
 							</tr>
 							<tr class="bg-warning">
 								<th scope="row">20</th>
-								<td></td>
 								<td></td>
 								<td></td>
 							</tr>
@@ -1186,6 +1214,7 @@
 		$("#table2").hide();
 		$("#table3").hide();
 		$("#table4").hide();
+		$("#table6").hide();
 
 		$("#tableG1S1").hide();
 		$("#tableG1S2").hide();
@@ -1208,6 +1237,7 @@
 			$("#table2").hide();
 			$("#table3").hide();
 			$("#table4").hide();
+			$("#table6").hide();
 
 			$("#tableG1S1").hide();
 			$("#tableG1S2").hide();
@@ -1219,6 +1249,7 @@
 		    $("#table1").hide();
 			$("#table3").hide();
 			$("#table4").hide();
+			$("#table6").hide();
 
 			$("#tableG1S1").hide();
 			$("#tableG1S2").hide();
@@ -1230,6 +1261,7 @@
 		    $("#table1").hide();
 			$("#table2").hide();
 			$("#table4").hide();
+			$("#table6").hide();
 
 			$("#tableG1S1").hide();
 			$("#tableG1S2").hide();
@@ -1241,6 +1273,7 @@
 		    $("#table1").hide();
 			$("#table2").hide();
 			$("#table3").hide();
+			$("#table6").hide();
 
 			$("#tableG1S1").hide();
 			$("#tableG1S2").hide();
@@ -1257,6 +1290,12 @@
 		    $("#group3").toggle();
 		    $("#group4").toggle();
 		    $("#group5").toggle();
+
+		    $("#table1").hide();
+			$("#table2").hide();
+			$("#table3").hide();
+			$("#table4").hide();
+			$("#table6").hide();
 		});
 
 		$("#group1").click(function(){
@@ -1272,6 +1311,7 @@
 			$("#table2").hide();
 			$("#table3").hide();
 			$("#table4").hide();
+			$("#table6").hide();
 
 			$("#tableG1S2").hide();
 			$("#tableG1S3").hide();
@@ -1283,6 +1323,7 @@
 			$("#table2").hide();
 			$("#table3").hide();
 			$("#table4").hide();
+			$("#table6").hide();
 
 			$("#tableG1S1").hide();
 			$("#tableG1S3").hide();
@@ -1294,6 +1335,7 @@
 			$("#table2").hide();
 			$("#table3").hide();
 			$("#table4").hide();
+			$("#table6").hide();
 
 			$("#tableG1S1").hide();
 			$("#tableG1S2").hide();
@@ -1305,10 +1347,23 @@
 			$("#table2").hide();
 			$("#table3").hide();
 			$("#table4").hide();
+			$("#table6").hide();
 
 			$("#tableG1S1").hide();
 			$("#tableG1S2").hide();
 			$("#tableG1S3").hide();
+		});
+		$("#btm6").click(function(){
+		    $("#table1").hide();
+			$("#table2").hide();
+			$("#table3").hide();
+			$("#table4").hide();
+			$("#table6").toggle();
+
+			$("#tableG1S1").hide();
+			$("#tableG1S2").hide();
+			$("#tableG1S3").hide();
+			$("#tableG1S4").hide();
 		});
 	});
 </script>

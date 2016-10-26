@@ -46,7 +46,7 @@
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
 	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
-	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="subpage.php">หน้าหลัก</a></li>
+	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
 					<li><a href="about.php">เกี่ยวกับสำนัก</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
@@ -92,40 +92,60 @@
 
 	<div style="width: 100%; height:34%;" class="visible-lg">
 		<div class="col-md-1"></div>
-		<div class="col-md-2 subject1" style=" text-align:center;  height: 100%; border-left:1px solid rgba(243, 115, 66, 1);">
-			<H3 style="margin-top:30%; font-size: 190%;">คุณค่าแห่งชีวิต</H3>
-		</div>
-		<div class="col-md-2 subject2" style=" text-align:center;  height: 100%; border-left:1px solid rgba(254, 215, 78, 1);">
-			<H3 style="margin-top:30%; font-size: 190%;">วิถีแห่งสังคม</H3>
-		</div>
-		<div class="col-md-2 subject3" style=" text-align:center;  height: 100%; border-left:1px solid rgba(113, 176, 96, 1);">
-			<H3 style="margin-top:30%; font-size: 190%;">ศาสตร์แห่งการคิด</H3>
-		</div>
-		<div class="col-md-2 subject4" style=" text-align:center;  height: 100%; border-left:1px solid rgba(152, 81, 139, 1);">
-			<H3 style="margin-top:30%; font-size: 190%;">ศิลปะแห่งการจัดการ</H3>
-		</div>
-		<div class="col-md-2 subject5" style=" text-align:center;  height: 100%; border-left:1px solid rgba(69, 148, 191, 1);">
-			<H3 style="margin-top:30%; font-size: 190%;">ภาษาและการสื่อสาร</H3>
-		</div>
+		<a href="subpage.php#subject1" style="color:#000000;">
+			<div class="col-md-2 subject1" style="text-align:center;  height: 100%; border-left:1px solid rgba(243, 115, 66, 1);">
+				<H3 style="margin-top:30%; font-size: 190%;  ">คุณค่าแห่งชีวิต</H3>
+			</div>
+		</a>
+		<a href="subpage.php#subject2" style="color:#000000;">
+			<div class="col-md-2 subject2" style=" text-align:center;  height: 100%; border-left:1px solid rgba(254, 215, 78, 1);">
+				<H3 style="margin-top:30%; font-size: 190%; ">วิถีแห่งสังคม</H3>
+			</div>
+		</a>
+		<a href="subpage.php#subject3" style="color:#000000;">
+			<div class="col-md-2 subject3" style=" text-align:center;  height: 100%; border-left:1px solid rgba(113, 176, 96, 1);">
+				<H3 style="margin-top:30%; font-size: 190%; ">ศาสตร์แห่งการคิด</H3>
+			</div>
+		</a>
+		<a href="subpage.php#subject4" style="color:#000000;">
+			<div class="col-md-2 subject4" style=" text-align:center;  height: 100%; border-left:1px solid rgba(152, 81, 139, 1);">
+				<H3 style="margin-top:30%; font-size: 190%; ">ศิลปะแห่งการจัดการ</H3>
+			</div>
+		</a>
+		<a href="subpage.php#subject5" style="color:#000000;">
+			<div class="col-md-2 subject5" style=" text-align:center;  height: 100%; border-left:1px solid rgba(69, 148, 191, 1);">
+				<H3 style="margin-top:30%; font-size: 190%; ">ภาษาและการสื่อสาร</H3>
+			</div>
+		</a>
 		<div class="col-md-1"></div>
 	</div>
 
 	<!-- phone -->
-	<div class="col-md-12 subject1 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(243, 115, 66, 1);">
-		<H3>คุณค่าแห่งชีวิต</H3>
-	</div>
-	<div class="col-md-12 subject2 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(254, 215, 78, 1);">
-		<H3>วิถีแห่งสังคม</H3>
-	</div>
-	<div class="col-md-12 subject3 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(113, 176, 96, 1);">
-		<H3>ศาสตร์แห่งการคิด</H3>
-	</div>
-	<div class="col-md-12 subject4 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(152, 81, 139, 1);">
-		<H3>ศิลปะแห่งการจัดการ</H3>
-	</div>
-	<div class="col-md-12 subject5 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(69, 148, 191, 1);">
-		<H3>ภาษาและการสื่อสาร</H3>
-	</div>
+	<a href="subpage.php#subject1" style="color:#000000;">
+		<div class="col-md-12 subject1 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(243, 115, 66, 1);">
+			<H3>คุณค่าแห่งชีวิต</H3>
+		</div>
+	</a>
+	<a href="subpage.php#subject2" style="color:#000000;">
+		<div class="col-md-12 subject2 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(254, 215, 78, 1);">
+			<H3>วิถีแห่งสังคม</H3>
+		</div>
+	</a>
+	<a href="subpage.php#subject3" style="color:#000000;">
+		<div class="col-md-12 subject3 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(113, 176, 96, 1);">
+			<H3>ศาสตร์แห่งการคิด</H3>
+		</div>
+	</a>
+	<a href="subpage.php#subject4" style="color:#000000;">
+		<div class="col-md-12 subject4 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(152, 81, 139, 1);">
+			<H3>ศิลปะแห่งการจัดการ</H3>
+		</div>
+	</a>
+	<a href="subpage.php#subject5" style="color:#000000;">
+		<div class="col-md-12 subject5 hidden-lg" style="margin-top:-20px; text-align:center;  height: 30px; border-left:1px solid rgba(69, 148, 191, 1);">
+			<H3>ภาษาและการสื่อสาร</H3>
+		</div>
+	</a>
 
 	<div class="visible-lg" id="info" style="background-color:#ffffff; margin-top:30px;">
 		<div style="width:60%; height: 120%; background-color:#fff0df; float:left;">
@@ -135,11 +155,6 @@
 			<div class="line2" style="margin-left:30%; width:150px;"></div>
 			<div style="margin-left:30%; width:70%; border-bottom:solid 2px #be6a77;"></div>
 			<div style="width:100%; margin-left:30%; margin-top:20px;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
-			</div>
-
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
 				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
 				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
 			</div>

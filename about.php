@@ -46,7 +46,7 @@
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
 	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
-	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="subpage.php">หน้าหลัก</a></li>
+	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
 					<li><a href="about.php">เกี่ยวกับสำนัก</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
@@ -383,21 +383,21 @@
 
 	<div class="jumbotron visible-lg" style="margin-top:20px; background-color:#ffffff;">
 		<div class="container">
-			<div class="col-md-4" style="border: 2px solid #be6a77; margin-left:-20px;  border-radius: 25px; height:700px;">
+			<div class="col-md-4" style="border: 2px solid #be6a77; margin-left:-20px;  border-radius: 25px; height:750px;">
 				<h3>ประวัติความเป็นมา</h3>
 				<div class="col-md-12 line"></div>
 				<p style="text-align:justify; text-indent: 1.5em;">
 					สำนักวิชาศึกษาทั่วไป เป็นส่วนงานของสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ซึ่งเกิดขึ้นตามนโยบายของสถาบันที่ให้จัดตั้งหน่วยงาน เพื่อบริหารจัดการและพัฒนาด้านการเรียนการสอนวิชาศึกษาทั่วไปของสถาบัน  โดยได้ผ่านการอนุมัติจากการประชุมสภาสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ครั้งที่ 12/2557 วันที่ 26 พฤศจิกายน 2557 เรื่อง ขอเสนอพิจารณาประกาศสถาบัน <br> เรื่อง การจัดตั้งสำนักวิชาศึกษาทั่วไป เป็นส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ....... โดยมีประกาศสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง เรื่อง การจัดตั้งส่วนงานในสถาบันเทคโนโลยีพระจอมเกล้า <br> เจ้าคุณทหารลาดกระบัง (ฉบับที่ 5) พ.ศ.2557 วันที่ 3 ธันวาคม 2557 <br> (ประกาศในราชกิจจานุเบกษาหน้า 12 เล่ม 131 ตอนพิเศษ 262 ง วันที่ 23 ธันวาคม 2557)
 				</p>
 			</div>
-			<div class="col-md-4" style="border: 2px solid #be6a77; margin-left:10px; border-radius: 25px; height:700px;">
+			<div class="col-md-4" style="border: 2px solid #be6a77; margin-left:10px; border-radius: 25px; height:750px;">
 				<h3>วิสัยทัศน์</h3>
 				<div class="col-md-12 line"></div>
 				<p style="text-align:justify; text-indent: 1.5em;">
 					เป็นองค์กรที่มีความเป็นเลิศในการบริหารจัดการวิชาศึกษาทั่วไป เพื่อสร้างบัณฑิตที่สอดคล้องตามอัตลักษณ์ของสถาบันฯ
 				</p>
 			</div>
-			<div class="col-md-4" style="border: 2px solid #be6a77; margin-left:10px; border-radius: 25px; height:700px;">
+			<div class="col-md-4" style="border: 2px solid #be6a77; margin-left:10px; border-radius: 25px; height:750px;">
 				<h3>พันธกิจ</h3>
 				<div class="col-md-12 line"></div>
 				<p style="text-align:justify; text-indent: 1.5em;">

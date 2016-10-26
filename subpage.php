@@ -46,7 +46,7 @@
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
 	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
-	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="subpage.php">หน้าหลัก</a></li>
+	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
 					<li><a href="about.php">เกี่ยวกับสำนัก</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
@@ -82,7 +82,7 @@
 	</div>
 	
 	<div class="container">
-		<div class="col-md-12" style="border: 2px solid #be6a77; border-radius: 25px;">
+		<div class="col-md-12"  id="subject1" style="border: 2px solid #be6a77; border-radius: 25px;">
 			<h2>คุณค่าแห่งชีวิต</h2>
 			<div class="col-md-12 line"></div>
 			<h3 style="text-align:justify; text-indent: 1.5em;">
@@ -93,7 +93,7 @@
 			<img src="image/p1.png" style="margin-top:30px;" class="img-responsive">
 		</div>
 
-		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+		<div class="col-md-12"  id="subject2" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
 			<h2>วิถีแห่งสังคม</h2>
 			<div class="col-md-12 line"></div>
 			<h3 style="text-align:justify; text-indent: 1.5em;">
@@ -104,7 +104,7 @@
 			<img src="image/p2.png" style="margin-top:30px;" class="img-responsive">
 		</div>
 
-		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+		<div class="col-md-12"  id="subject3" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
 			<h2>ศาสตร์แห่งการคิด</h2>
 			<div class="col-md-12 line"></div>
 			<h3 style="text-align:justify; text-indent: 1.5em;">
@@ -115,7 +115,7 @@
 			<img src="image/p3.png" style="margin-top:30px;" class="img-responsive">
 		</div>
 
-		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+		<div class="col-md-12"  id="subject4" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
 			<h2>ศิลปะแห่งการจัดการ</h2>
 			<div class="col-md-12 line"></div>
 			<h3 style="text-align:justify; text-indent: 1.5em;">
@@ -126,7 +126,7 @@
 			<img src="image/p4.png" style="margin-top:30px;" class="img-responsive">
 		</div>
 
-		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+		<div class="col-md-12"  id="subject5" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
 			<h2>ภาษาและการสื่อสาร</h2>
 			<div class="col-md-12 line"></div>
 			<h3 style="text-align:justify; text-indent: 1.5em;">

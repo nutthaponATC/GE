@@ -177,7 +177,7 @@ navbar
 }
 
 li a {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* magic line*/
@@ -400,27 +400,21 @@ aos animatiom scroll
 @-webkit-keyframes sliderPic {
   0% {
     background-image: url('img-bg/s1.jpg');
-    /*background-size: 100% auto;*/
   }
   20% {
-    background-image: url('img-bg/s2.jpg');
-    /*background-size: 100% auto;*/ 
+    background-image: url('img-bg/s2.jpg'); 
   }
   40% {
     background-image: url('img-bg/s3.jpg');
-    /*background-size: 100% auto;*/
   }
   60% {
     background-image: url('img-bg/s4.jpg');
-    /*background-size: 100% auto;*/
   }
   80% {
     background-image: url('img-bg/s5.jpg');
-    /*background-size: 100% auto;*/
   }
   100% {
     background-image: url('img-bg/s1.jpg');
-    /*background-size: 100% auto;*/
   }
 }
 
@@ -498,27 +492,22 @@ aos animatiom scroll
 }
 
 .subject1:hover {
-  color: #ffffff;
   background-color: rgba(243, 115, 66, 1);
   /*opacity: 0.7;*/
 }
 .subject2:hover {
-  color: #ffffff;
   background-color: rgba(254, 215, 78, 1);
   /*opacity: 0.7;*/
 }
 .subject3:hover {
-  color: #ffffff;
   background-color: rgba(113, 176, 96, 1);
   /*opacity: 0.7;*/
 }
 .subject4:hover {
-  color: #ffffff;
   background-color: rgba(152, 81, 139, 1);
   /*opacity: 0.7;*/
 }
 .subject5:hover {
-  color: #ffffff;
   background-color: rgba(69, 148, 191, 1);
   /*opacity: 0.7;*/
 }

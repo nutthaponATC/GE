@@ -542,3 +542,31 @@ aos animatiom scroll
   z-index: 100;
   position: absolute;
 }
+
+#bthome {
+  width:4%;
+  top:85%;
+  right:50px;
+  z-index:950;
+  position:fixed;
+}
+
+#bthome:hover {
+  width:5%;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+  transition: 1s;
+}
+
+#bthome2 {
+  width:50px;
+  top:85%;
+  right:10px;
+  z-index:950;
+  position:fixed;
+}
+
+#bthome2:hover {
+  width:60px;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+  transition: 1s;
+}

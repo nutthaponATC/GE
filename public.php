@@ -32,7 +32,7 @@
 	<script type="text/javascript" src="js/jssor.slider.min.js"></script>
 	<script type="text/javascript" src="js/slide.js"></script>
 
-	<div id="custom-bootstrap-menu" class="navbar navbar-default" style="border-style: none; z-index: 900; margin-left:-5px; width:100%+20px;" role="navigation">
+	<div id="custom-bootstrap-menu" class="navbar navbar-default" style="border-style: none; z-index: 900; width:100%; position: fixed; top:0;" role="navigation">
 	    <div class="container-fluid">
 	        <div class="navbar-header">
 	        	<a class="navbar-brand visible-xs" href="#">เมนู</a>
@@ -80,8 +80,11 @@
 	        </div>
 	    </div>
 	</div>
+
+	<a href="index.php" class="visible-lg"><img src="logo2.png" id="bthome"></a>
+	<a href="index.php" class="hidden-lg"><img src="logo2.png" id="bthome2"></a>
 	
-	<div class="cd-fixed-bg cd-bg-2">
+	<div class="cd-fixed-bg cd-bg-2" style="margin-top:60px;">
 		<div>
 			<h1>เอกสาร และวิดีโอเผยแพร่</h1>
 		</div>

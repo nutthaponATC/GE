@@ -5,7 +5,7 @@
 	<link rel="shortcut icon" href="icon.png">
 
 	<!-- font -->
-	<link href="https://fonts.googleapis.com/css?family=Athiti:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Athiti:500" rel="stylesheet">
   	
 	<title>สำนักวิชาศึกษาทั่วไป General Education</title>
 
@@ -37,7 +37,7 @@
 	<script type="text/javascript" src="js/jssor.slider.min.js"></script>
 	<script type="text/javascript" src="js/slide.js"></script>
 
-	<div id="custom-bootstrap-menu" class="navbar navbar-default" style="border-style: none; z-index: 900; margin-left:-5px; width:100%+20px;" role="navigation">
+	<div id="custom-bootstrap-menu" class="navbar navbar-default" style="border-style: none; z-index: 900; width:100%; position: fixed; top:0;" role="navigation">
 	    <div class="container-fluid">
 	        <div class="navbar-header">
 	        	<a class="navbar-brand visible-xs" href="#">เมนู</a>
@@ -86,7 +86,10 @@
 	    </div>
 	</div>
 
-	<div class="container" style="margin-top:30px;">
+	<a href="index.php" class="visible-lg"><img src="logo2.png" id="bthome"></a>
+	<a href="index.php" class="hidden-lg"><img src="logo2.png" id="bthome2"></a>
+
+	<div class="container" style="margin-top:90px;">
 		<div class="col-md-12">
 			<p><i class="fa-font-awesome" aria-hidden="true"></i> ติดต่อเรา</p>
 			<div class="col-md-12 line2 visible-lg"></div>

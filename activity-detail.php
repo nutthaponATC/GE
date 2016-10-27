@@ -45,7 +45,7 @@
 	</script>
 </head>
 <body>
-	<div id="custom-bootstrap-menu" class="navbar navbar-default" style="border-style: none; z-index: 900; margin-left:-5px; width:100%+20px;" role="navigation">
+	<div id="custom-bootstrap-menu" class="navbar navbar-default" style="border-style: none; z-index: 900; width:100%; position: fixed; top:0;" role="navigation">
 	    <div class="container-fluid">
 	        <div class="navbar-header">
 	        	<a class="navbar-brand visible-xs" href="#">เมนู</a>
@@ -93,8 +93,11 @@
 	        </div>
 	    </div>
 	</div>
+
+	<a href="index.php" class="visible-lg"><img src="logo2.png" id="bthome"></a>
+	<a href="index.php" class="hidden-lg"><img src="logo2.png" id="bthome2"></a>
 	
-	<div class="visible-lg">
+	<div class="visible-lg" style="margin-top:60px;">
 	<div class="col-md-5" style="color:#be6a77;">
 		<div class="col-md-12" style="position: absolute;">
 			<img src="image/info/1.jpg" style="width:100%;">
@@ -167,7 +170,7 @@ for($i=1;$i<=$num_naviPage;$i++){
 	<!-- phone -->
 	<div class="hidden-lg">
 	<div class="col-md-12" style="color:#be6a77;">
-		<div class="col-md-12" style="position: absolute; margin-top:-50%;">
+		<div class="col-md-12" style="position: absolute; margin-top:-30%;">
 			<img src="image/info/1.jpg" style="width:100%;">
 		</div>
 		<div class="col-md-12" style="position: relative; margin-top:55%; color:#ffffff; background-color: rgba(0, 0, 0, 0.2); width:95%; margin-left:15px;">
@@ -223,7 +226,7 @@ if(!isset($_GET['page'])){
 }
 
 for($indexPicture=$s_key;$indexPicture<$e_key;$indexPicture++){
-	echo "<a class='fancybox' href='".$pic_path[$indexPicture]."' data-fancybox-group='gallery' title=''><img style='width:29%; margin-top:10px; margin-left:10px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp";	
+	echo "<a class='fancybox' href='".$pic_path[$indexPicture]."' data-fancybox-group='gallery' title=''><img style='width:28%; margin-top:10px; margin-left:10px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp";	
 }
 
 echo "<br><br>";

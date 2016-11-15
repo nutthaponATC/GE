@@ -148,14 +148,18 @@ navbar
     border-radius: 4px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);    
     background-color: rgba(248, 248, 248, 0);
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: #ee8e3c;
-    text-shadow: 0 0 3px #FF0000;
+    color: #ffffff;    
 }
+
+/*#fz:hover {
+  font-size: 20px;
+}*/
+
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
@@ -180,12 +184,6 @@ li a {
     font-size: 16px;
 }
 
-/* magic line*/
-
-.magic-line {
-    position: absolute; bottom: -5px; left: 0; width: 100px; height: 5px; background: #ee8e3c;
-}
-
 .dropdown-menu>li>a:hover{
   color: #ffffff;
 }
@@ -206,10 +204,10 @@ li a {
   font-size: 16px;
   color: #ffffff;
 
-  -webkit-animation: INDENT 2s 1; /* Safari 4+ */
-  -moz-animation:    INDENT 2s 1; /* Fx 5+ */
-  -o-animation:      INDENT 2s 1; /* Opera 12+ */
-  animation:         INDENT 2s 1; /* IE 10+ */
+  -webkit-animation: INDENT 2s 1; 
+  -moz-animation:    INDENT 2s 1; 
+  -o-animation:      INDENT 2s 1; 
+  animation:         INDENT 2s 1; 
 }
 
 @-webkit-keyframes INDENT{  

@@ -147,36 +147,28 @@
 			</div>
 		</div>
 
-		<div class="container">
-			<div class="col-md-5"></div>
-			<div class="col-md-2">
-				<img src="image/ge-team-black.jpg" width="140%" style="margin-left:-30px;">
-			</div>
-			<div class="col-md-5"></div>
-		</div>
-
 		<div style="width:50%; float:left; padding-left:10%;">
-			<h2>(1) ดร.อำภาพรรณ  ตันตินาครกูล</h2>
+			<h2>ดร.อำภาพรรณ  ตันตินาครกูล</h2>
 			<p>ผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 		<div style="width:50%; float:left; padding-left:10%;">
-			<h2>(2) ผศ.ดร.สมศักดิ์  วลัยรัชต์</h2>
+			<h2>ผศ.ดร.สมศักดิ์  วลัยรัชต์</h2>
 			<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 		<div style="width:50%; float:left; padding-left:10%;">
-			<h2>(3) ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h2>
+			<h2>ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h2>
 			<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 		<div style="width:50%; float:left; padding-left:10%;">
-			<h2>(4) รศ.ดร.กาญจนา บุญภักดิ์</h2>
+			<h2>รศ.ดร.กาญจนา บุญภักดิ์</h2>
 			<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 		<div style="width:50%; float:left; padding-left:10%;">
-			<h2>(5) ดร.รวิช ควรประเสริฐ</h2>
+			<h2>ดร.รวิช ควรประเสริฐ</h2>
 			<p>ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 		<div style="width:50%; float:left; padding-left:10%;">
-			<h2>(6) ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h2>
+			<h2>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h2>
 			<p>ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 	</div>
@@ -245,36 +237,28 @@
 			</div>
 		</div>
 
-		<div class="container visible-lg">
-			<div class="col-md-5"></div>
-			<div class="col-md-2">
-				<img src="image/ge-team-black.jpg" width="140%" style="margin-left:-30px;">
-			</div>
-			<div class="col-md-5"></div>
-		</div>
-
 		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
-			<h2>(1) ดร.อำภาพรรณ  ตันตินาครกูล</h2>
+			<h2>ดร.อำภาพรรณ  ตันตินาครกูล</h2>
 			<p>ผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
-			<h2>(2) ผศ.ดร.สมศักดิ์  วลัยรัชต์</h2>
+			<h2>ผศ.ดร.สมศักดิ์  วลัยรัชต์</h2>
 			<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
-			<h2>(3) ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h2>
+			<h2>ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h2>
 			<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
-			<h2>(4) รศ.ดร.กาญจนา บุญภักดิ์</h2>
+			<h2>รศ.ดร.กาญจนา บุญภักดิ์</h2>
 			<p>รองผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
-			<h2>(5) ดร.รวิช ควรประเสริฐ</h2>
+			<h2>ดร.รวิช ควรประเสริฐ</h2>
 			<p>ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
-			<h2>(6) ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h2>
+			<h2>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h2>
 			<p>ผู้ช่วยผู้อำนวยการสำนักวิชาศึกษาทั่วไป</p>
 		</div>
 	</div>
@@ -321,15 +305,15 @@
 		</div>
 
 		<div style="width:50%; float:left; padding-left:10%;">
-			<h2>(1) นางสาวกฤชกมล  มงคลสวัสดิ์</h2>
+			<h2>นางสาวกฤชกมล  มงคลสวัสดิ์</h2>
 			<p>เจ้าหน้าที่บริหารงานทั่วไป</p>
 		</div>
 		<div style="width:50%; float:left; padding-left:10%;">
-			<h2>(2) นางพิมสิริ  อุ่นตรงจิตร</h2>
+			<h2>นางพิมสิริ  อุ่นตรงจิตร</h2>
 			<p>นักวิชาการศึกษา</p>
 		</div>
 		<div style="width:50%; float:left; padding-left:10%;">
-			<h2>(3) นางสาวผจงจิตต์  ยืนวงษ์</h2>
+			<h2>นางสาวผจงจิตต์  ยืนวงษ์</h2>
 			<p>นักวิชาการศึกษา</p>
 		</div>
 	</div>
@@ -371,15 +355,15 @@
 		</div>
 
 		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
-			<h2>(1) นางสาวกฤชกมล  มงคลสวัสดิ์</h2>
+			<h2>นางสาวกฤชกมล  มงคลสวัสดิ์</h2>
 			<p>เจ้าหน้าที่บริหารงานทั่วไป</p>
 		</div>
 		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
-			<h2>(2) นางพิมสิริ  อุ่นตรงจิตร</h2>
+			<h2>นางพิมสิริ  อุ่นตรงจิตร</h2>
 			<p>นักวิชาการศึกษา</p>
 		</div>
 		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
-			<h2>(3) นางสาวผจงจิตต์  ยืนวงษ์</h2>
+			<h2>นางสาวผจงจิตต์  ยืนวงษ์</h2>
 			<p>นักวิชาการศึกษา</p>
 		</div>
 	</div>
@@ -425,14 +409,7 @@
 		</div>
 
 		<div class="container" style="margin-top:50px;">
-			<div class="col-md-4" style="border: 2px solid #be6a77; border-radius: 25px; height:500px; margin-left:-10px;">
-				<h3>นโยบายการบริหาร</h3>
-				<div class="col-md-12 line"></div>
-				<p style="text-align:justify">
-					นโยบายการบริหาร
-				</p>
-			</div>
-			<div class="col-md-8" style="border: 2px solid #be6a77; border-radius: 25px; height:500px; margin-left:10px;">
+			<div class="col-md-12" style="border: 2px solid #be6a77; padding-bottom:30px; border-radius: 25px;">
 				<h3>โครงสร้างการบริหาร</h3>
 				<div class="col-md-12 line"></div>
 				<img src="image/oganize.png" style="margin-top:30px;" class="img-responsive">

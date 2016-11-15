@@ -85,7 +85,8 @@
 	<a href="index.php" class="hidden-lg"><img src="logo2.png" id="bthome2"></a>
 	
 	<div class="container" style="margin-top:60px;">
-		<div class="col-md-12"  id="subject1" style="border: 2px solid #be6a77; border-radius: 25px;">
+		<div  id="subject1"></div>
+		<div class="col-md-12" style="border: 2px solid #be6a77; border-radius: 25px;">
 			<h2>คุณค่าแห่งชีวิต</h2>
 			<div class="col-md-12 line"></div>
 			<h3 style="text-align:justify; text-indent: 1.5em;">
@@ -94,9 +95,10 @@
 		</div>
 		<div class="col-md-12">
 			<img src="image/p1.png" style="margin-top:30px;" class="img-responsive">
+			<div id="subject2" style="margin-bottom:50px;"></div>
 		</div>
-
-		<div class="col-md-12"  id="subject2" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+		
+		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
 			<h2>วิถีแห่งสังคม</h2>
 			<div class="col-md-12 line"></div>
 			<h3 style="text-align:justify; text-indent: 1.5em;">
@@ -105,9 +107,10 @@
 		</div>
 		<div class="col-md-12">
 			<img src="image/p2.png" style="margin-top:30px;" class="img-responsive">
+			<div id="subject3" style="margin-bottom:50px;"></div>
 		</div>
 
-		<div class="col-md-12"  id="subject3" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
 			<h2>ศาสตร์แห่งการคิด</h2>
 			<div class="col-md-12 line"></div>
 			<h3 style="text-align:justify; text-indent: 1.5em;">
@@ -116,9 +119,10 @@
 		</div>
 		<div class="col-md-12">
 			<img src="image/p3.png" style="margin-top:30px;" class="img-responsive">
+			<div id="subject4" style="margin-bottom:50px;"></div>
 		</div>
 
-		<div class="col-md-12"  id="subject4" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
 			<h2>ศิลปะแห่งการจัดการ</h2>
 			<div class="col-md-12 line"></div>
 			<h3 style="text-align:justify; text-indent: 1.5em;">
@@ -127,9 +131,10 @@
 		</div>
 		<div class="col-md-12">
 			<img src="image/p4.png" style="margin-top:30px;" class="img-responsive">
+			<div id="subject5" style="margin-bottom:50px;"></div>
 		</div>
 
-		<div class="col-md-12"  id="subject5" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
+		<div class="col-md-12" style="margin-top:30px; border: 2px solid #be6a77; border-radius: 25px;">
 			<h2>ภาษาและการสื่อสาร</h2>
 			<div class="col-md-12 line"></div>
 			<h3 style="text-align:justify; text-indent: 1.5em;">

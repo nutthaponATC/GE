@@ -91,44 +91,6 @@
 	</div>
 
 	<div class="jumbotron" style="margin-top:20px; background-color:#ffffff;">
-		<div class="container visible-lg">
-			<div class="col-md-2">
-				<img src="logo2.png" style="margin-top:-40px;">
-			</div>
-			<div class="col-md-2">
-				<h2 style="margin-top:-15px; margin-left:-40px;">วิดีโอเผยแพร่</h2>
-			</div>
-			<div class="col-md-8 line2"></div>
-		</div>
-		<div class="container hidden-lg">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px;">วิดีโอเผยแพร่</h2>
-			</div>
-			<div class="col-md-12 line2"></div>
-		</div>
-
-		<div class="container" style="margin-top:30px;">
-			<div class="col-md-4" style="margin-top:10px;">
-				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="col-md-4" style="margin-top:10px;">
-				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="col-md-4" style="margin-top:10px;">
-				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-			</div>
-
-			<div class="col-md-4" style="margin-top:10px;">
-				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="col-md-4" style="margin-top:10px;">
-				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="col-md-4" style="margin-top:10px;">
-				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-
 		<div class="container visible-lg" style="margin-top:80px;">
 			<div class="col-md-2">
 				<img src="logo2.png" style="margin-top:-40px;">
@@ -1167,6 +1129,44 @@
 					</table>
 				</div>
 
+			</div>
+		</div>
+
+		<div class="container visible-lg" style="margin-top:50px;">
+			<div class="col-md-2">
+				<img src="logo2.png" style="margin-top:-40px;">
+			</div>
+			<div class="col-md-2">
+				<h2 style="margin-top:-15px; margin-left:-40px;">วิดีโอเผยแพร่</h2>
+			</div>
+			<div class="col-md-8 line2"></div>
+		</div>
+		<div class="container hidden-lg" style="margin-top:50px;">
+			<div class="col-md-12" style="text-align:center;">
+				<h2 style="margin-top:-15px;">วิดีโอเผยแพร่</h2>
+			</div>
+			<div class="col-md-12 line2"></div>
+		</div>
+
+		<div class="container" style="margin-top:30px;">
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			</div>
+
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="col-md-4" style="margin-top:10px;">
+				<iframe class="responsive" width="100%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>

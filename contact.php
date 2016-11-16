@@ -51,17 +51,17 @@
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
 	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
-	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php">หน้าหลัก</a></li>
-					<li><a href="about.php">เกี่ยวกับสำนัก</a></li>
+	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php" id="fz">หน้าหลัก</a></li>
+					<li><a href="about.php" id="fz">เกี่ยวกับสำนัก</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
+						<a href="#"  id="fz" class="dropdown-toggle" data-toggle="dropdown">หมวดวิชาศึกษาทั่วไป</b></a>
 						<ul class="dropdown-menu" id="dropdown">
 							<li><a href="culiculum57.php">ฉบับปรับปรุง 57</a></li>
 							<li><a href="culiculum59.php">ฉบับปรับปรุง 59</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">อาจารย์ผู้สอน</b></a>
+						<a href="#" id="fz" class="dropdown-toggle" data-toggle="dropdown">อาจารย์ผู้สอน</b></a>
 						<ul class="dropdown-menu" id="dropdown">
 							<li><a href="instructor.php">กลุ่มคุณค่าแห่งชีวิต</a></li>
 							<li><a href="instructor.php#2">กลุ่มวิถีแห่งสังคม</a></li>
@@ -71,23 +71,23 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="activity.php" class="dropdown-toggle" data-toggle="dropdown">กิจกรรม</b></a>
+						<a href="activity.php" class="dropdown-toggle" data-toggle="dropdown" id="fz">กิจกรรม</b></a>
 						<ul class="dropdown-menu" id="dropdown">
 							<li><a href="activity.php">บุคลากร</a></li>
 							<li><a href="activity.php#student">นักศึกษา</a></li>
 						</ul>
 					</li>
-					<li><a href="public.php">เอกสาร | วิดีโอเผยแพร่</a></li>
-					<li><a href="index.php#info">ข่าวประชาสัมพันธ์</a></li>
-					<li><a href="contact.php">ติดต่อเรา</a></li>
-					<li><a href="">TH | ENG</a></li>
+					<li><a href="public.php" id="fz">เอกสาร | วิดีโอเผยแพร่</a></li>
+					<li><a href="index.php#info" id="fz">ข่าวประชาสัมพันธ์</a></li>
+					<li><a href="contact.php" id="fz">ติดต่อเรา</a></li>
+					<li><a href="" id="fz">TH | ENG</a></li>
 	            </ul>
 	        </div>
 	    </div>
 	</div>
 
-	<a href="index.php" class="visible-lg"><img src="logo2.png" id="bthome"></a>
-	<a href="index.php" class="hidden-lg"><img src="logo2.png" id="bthome2"></a>
+	<a href="index.php" class="visible-lg"><img src="mc.png" id="bthome"></a>
+	<a href="index.php" class="hidden-lg"><img src="mc.png" id="bthome2"></a>
 
 	<div class="container" style="margin-top:90px;">
 		<div class="col-md-12">

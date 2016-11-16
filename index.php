@@ -81,8 +81,8 @@
 	    </div>
 	</div>
 
-	<a href="index.php" class="visible-lg"><img src="logo2.png" id="bthome"></a>
-	<a href="index.php" class="hidden-lg"><img src="logo2.png" id="bthome2"></a>
+	<a href="index.php" class="visible-lg"><img src="mc.png" id="bthome"></a>
+	<a href="index.php" class="hidden-lg"><img src="mc.png" id="bthome2"></a>
 	
 	<div id="banner" class="visible-lg" style="margin-top:40px;">
 		
@@ -177,27 +177,44 @@
 			</div>
 		</div>
 
-		<div style="width:40%; height:120%; background-color:#e39ba6; float:left;">
+		<div style="width:40%; height:50%; background-color:#e39ba6; float:left;">
 			<div>
 				<h3 style="margin-left: 42%; padding-top:10px; color:#fff0df;">ข่าวสัมมนา</h3>
 			</div>
 			<div class="line2" style="margin-left: 40%; background: #fff0df; width:150px; height:7px; position: relative;"></div>
 			<div style="width:40%; border-bottom:solid 2px #fff0df; margin-top:-2px; position: relative;"></div>
 
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
+			<div style="width:100%; padding-left:30px;  margin-top:10px;">
 				<span style="font-size:30; color:#fff0df;">02 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
 			</div>
 
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
+			<div style="width:100%; padding-left:30px;  margin-top:10px;">
 				<span style="font-size:30; color:#fff0df;">12 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
 			</div>
-
+<!-- 
 			<div style="width:100%; padding-left:30px;  margin-top:20px;">
 				<span style="font-size:30; color:#fff0df;">22 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-			</div>
+			</div> -->
 
-			<div style="width:100%; padding-left:30px;  margin-top:40px;">
+			<div style="width:100%; padding-left:30px;  margin-top:10px;">
 				<h5 style="color:#fff0df;">ดูทั้งหมด</h5>
+			</div>
+		</div>
+
+		<div style="width:40%; height:70%; background-color:#e39ba6; float:left;">
+			<div>
+				<h3 style="margin-left: 42%; padding-top:10px; color:#fff0df;">จดหมายข่าว</h3>
+			</div>
+			<div class="line2" style="margin-left: 40%; background: #fff0df; width:150px; height:7px; position: relative;"></div>
+			<div style="width:40%; border-bottom:solid 2px #fff0df; margin-top:-2px; position: relative;"></div>
+
+			<div style="width:100%; padding-left:30px;  margin-top:20px;">
+				<span style="font-size:20; margin-left:5px;"> หัวข้อจดหมาย</span>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 16-11-2559</p>
+			</div>
+			<div style="width:100%; padding-left:30px;  margin-top:20px;">
+				<span style="font-size:20; margin-left:5px;"> หัวข้อจดหมาย</span>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 16-11-2559</p>
 			</div>
 		</div>
 	</div>
@@ -256,26 +273,49 @@
 				<h5 style="color:#fff0df;">ดูทั้งหมด</h5>
 			</div>
 		</div>
+
+		<div style="width:100%; height:120%; background-color:#e39ba6; float:left;">
+			<div>
+				<h3 style="margin-left: 42%; padding-top:10px; color:#fff0df;">จดหมายข่าว</h3>
+			</div>
+			<div class="line2" style="background: #fff0df; width:80%; margin-bottom:-2px;"></div>
+
+			<div style="width:100%; padding-left:10%;  margin-top:5%;">
+				<span style="font-size:20; margin-left:5px;"> หัวข้อจดหมาย</span>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 16-11-2559</p>
+			</div>
+
+			<div style="width:100%; padding-left:10%;  margin-top:5%;">
+				<span style="font-size:20; margin-left:5px;"> หัวข้อจดหมาย</span>
+				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 16-11-2559</p>
+			</div>
+
+			<div style="width:100%; padding-left:10%;  margin-top:5%;">
+				<h5 style="color:#fff0df;">ดูทั้งหมด</h5>
+			</div>
+		</div>
 	</div>
 
 	<div class="visible-lg" style="background-color:#8e3240; padding-bottom:20px;">
 		<div class="container" style="color:#ffffff;">
-			<div class="col-md-3">
-				<br>
-				Copyright © 2016 สำนักวิชาศึกษาทั่วไป
-			</div>
-			<div class="col-md-5" style="text-align:center;">
-				<br>
-				อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
-				เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
-			</div>
-			<div class="col-md-1">
-			</div>
-			<div class="col-md-3">
-				<br>
-				<i class="fa fa-phone" style="font-size:16px;"></i> โทรศัพท์/โทรสาร 02 329 8220 <br>
-				E-mail :  gened@kmitl.ac.th <br>
-				<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
+			<div class="col-md-12">
+				<div class="col-md-3">
+					<br>
+					Copyright © 2016 สำนักวิชาศึกษาทั่วไป
+				</div>
+				<div class="col-md-5" style="text-align:center;">
+					<br>
+					อาคารกรมหลวงนราธิวาสราชนครินทร์  ชั้น 10 <br>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง <br>
+					เลขที่ 1 ซอยฉลองกรุง 1 แขวงลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520				
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-3">
+					<br>
+					<i class="fa fa-phone" style="font-size:16px;"></i> โทรศัพท์/โทรสาร 02 329 8220 <br>
+					E-mail :  gened@kmitl.ac.th <br>
+					<a style="color:#ffffff;" href="https://web.facebook.com/KMITL-GenEd-524957101005643/"><i class="fa fa-facebook-square" style="font-size:20px;"></i> KMITL-GenEd</a>
+				</div>
 			</div>
 		</div>
 	</div>

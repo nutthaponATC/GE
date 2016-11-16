@@ -156,9 +156,10 @@ navbar
     color: #ffffff;    
 }
 
-/*#fz:hover {
+#fz:hover {
   font-size: 20px;
-}*/
+  /*font-size: 4vw;*/
+}
 
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,

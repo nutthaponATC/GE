@@ -69,7 +69,7 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#" id="fz" class="dropdown-toggle" data-toggle="dropdown">อาจารย์ผู้สอน</b></a>
+						<a href="#" id="fz" class="dropdown-toggle" data-toggle="dropdown">ทำเนียบอาจารย์ผู้สอน</b></a>
 						<ul class="dropdown-menu" id="dropdown">
 							<li><a href="instructor.php">กลุ่มคุณค่าแห่งชีวิต</a></li>
 							<li><a href="instructor.php#2">กลุ่มวิถีแห่งสังคม</a></li>

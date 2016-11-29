@@ -543,7 +543,7 @@ aos animatiom scroll
 }
 
 #bthome {
-  width:4%;
+  width:6%;
   top:85%;
   right:50px;
   z-index:950;
@@ -551,7 +551,7 @@ aos animatiom scroll
 }
 
 #bthome:hover {
-  width:5%;
+  width:7%;
   -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
   transition: 1s;
 }

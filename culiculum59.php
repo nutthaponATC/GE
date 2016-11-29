@@ -56,7 +56,7 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#" id="fz" class="dropdown-toggle" data-toggle="dropdown">อาจารย์ผู้สอน</b></a>
+						<a href="#" id="fz" class="dropdown-toggle" data-toggle="dropdown">ทำเนียบอาจารย์ผู้สอน</b></a>
 						<ul class="dropdown-menu" id="dropdown">
 							<li><a href="instructor.php">กลุ่มคุณค่าแห่งชีวิต</a></li>
 							<li><a href="instructor.php#2">กลุ่มวิถีแห่งสังคม</a></li>
@@ -124,132 +124,246 @@
 			</div>
 			<div class="col-md-12 line"></div>
 		</div>
-		<div class="container aos-all">
-			<p data-aos="fade-left" style="margin-top:-40px; margin:-auto;">
-</p>
+		<div class="container visible-lg">
 <h3>กลุ่มคุณค่าแห่งชีวิต จำนวน รายวิชา 10 รายวิชา</h3>
 <p>
 <br> 90591001 	เรารัก สจล.		2 (1-2-3)
-		I LOVE KMITL
+<br> 	I LOVE KMITL
 <br> 90591002 	กีฬาและนันทนาการ		1 (0-3-2)
-		SPORTS AND RECREATIONAL ACTIVITIES
+<br> 	SPORTS AND RECREATIONAL ACTIVITIES
 <br> 90591003 	ภูมิคุ้มกันทางใจ		3 (3-0-6)
-		IMMUNITY OF MIND 
+<br> 	IMMUNITY OF MIND 
 <br> 90591004	ศิลปะการพัฒนาอารมณ์	3 (3-0-6)
-	ARTS OF EMOTION DEVELOPMENT
+<br> ARTS OF EMOTION DEVELOPMENT
 <br> 90591005	ชีวิตออกแบบได้		3 (3-0-6)
-		DESIGNING YOUR LIFE
+<br> 	DESIGNING YOUR LIFE
 <br> 90591006	พลังแห่งบุคลิกภาพ		3 (3-0-6)
-		POWER OF PERSONALITY 
+<br> 	POWER OF PERSONALITY 
 <br> 90591007	การพัฒนาสุขภาพแบบองค์รวม	3(3-0-6)
-		HOLISTIC HEALTH DEVELOPMENT
+<br> 	HOLISTIC HEALTH DEVELOPMENT
 <br> 90591008	สุนทรียะภาพถ่าย		3(2-2-5)
-		PHOTOGRAPHY APPRECIATION 
+<br> 	PHOTOGRAPHY APPRECIATION 
 <br> 90591009	สมาธิเพื่อพัฒนาชีวิต		3(3-0-6)
-		MEDITATION FOR LIFE DEVELOPMENT
+<br> 	MEDITATION FOR LIFE DEVELOPMENT
 <br> 90591010	สุนทรียะดนตรี		3 (3-0-6)
-		MUSIC APPRECIATION
+<br> 	MUSIC APPRECIATION
 
 </p>
 <h3>กลุ่มวิถีแห่งสังคม จำนวน 7 รายวิชา</h3>
 <p>
 <br> 90592001 	รู้ทันโลก		3 (3-0-6)
-		WORLD SOCIETYAWARENESS
+<br> 	WORLD SOCIETYAWARENESS
 <br> 90592002 	การดำรงชีพในสังคมดิจิทัล	3 (3-0-6)
-		LIVING INDIGITAL SOCIETY
+<br> 	LIVING INDIGITAL SOCIETY
 <br> 90592003 	ภูมิปัญญาไทยประยุกต์		3 (3-0-6)
-		APPLIED THAI WISDOMS 
+<br> 	APPLIED THAI WISDOMS 
 <br> 90592004 	วัฒนธรรมร่วมสมัย		3 (3-0-6)
-		CONTEMPORARY CULTURE
+<br> 	CONTEMPORARY CULTURE
 <br> 90592005 	วิถีคนกล้า		3 (3-0-6)
-		BRAVE HEART 
+<br> 	BRAVE HEART 
 <br> 90592006	ภูมิสังคมไทย		3(3-0-6)
-		THAI GEOSOCIAL BASE
+<br> 	THAI GEOSOCIAL BASE
 <br> 90592007	ปรัชญาเศรษฐกิจพอเพียง	3 (3-0-6)
-		THE PHILOSOPHY OF SUFFICIENCY ECONOMY
+<br> 	THE PHILOSOPHY OF SUFFICIENCY ECONOMY
 
 </p>
 <h3>กลุ่มศาสตร์แห่งการคิด จำนวน 4 รายวิชา</h3>
 <p>
 <br> 90593001	บูรณาการแห่งการคิด		3 (3-0-6)
-		INTEGRATED THINKING
+<br> 	INTEGRATED THINKING
 <br> 90593002	รักษ์โลก		3(3-0-6)
-		THINK EARTH 
+<br> 	THINK EARTH 
 <br> 90593003	พลังงานที่ยั่งยืน		3(3-0-6)
-		SUSTAINABLE ENERGY 
+<br> 	SUSTAINABLE ENERGY 
 <br> 90593004	การดำรงชีพท่ามกลางภัยพิบัติและวิกฤติในอนาคต	3 (3-0-6)
-		LIVING IN FUTURE DISASTERAND CRISIS
+<br> 	LIVING IN FUTURE DISASTERAND CRISIS
 </p>
 
 <h3>กลุ่มศิลปะแห่งการจัดการ จำนวน 5 รายวิชา</h3>
 <p>
 <br> 90594001	ผู้ประกอบการสมัยใหม่		3(3-0-6)
-		MODERN ENTREPRENEURSHIP
+<br> 	MODERN ENTREPRENEURSHIP
 <br> 90594002	ผู้ประกอบการทางสังคม	3(3-0-6)
-		SOCIAL ENTREPRENEURSHIP
+<br> 	SOCIAL ENTREPRENEURSHIP
 <br> 90594003	การจัดการและผู้นำสมัยใหม่	3(3-0-6)
-		MODERN MANAGEMENT AND LEADERSHIP
+<br> 	MODERN MANAGEMENT AND LEADERSHIP
 <br> 90594004	การวางแผนเพื่อการลงทุน	3(3-0-6)
-		INVESTMENT PLANING
+<br> 	INVESTMENT PLANING
 <br> 90594005	ศาสตร์การต่อรอง		3(3-0-6)
-		SCIENCE OF NEGOTIATION
+<br> 	SCIENCE OF NEGOTIATION
 </p>
 
 <h3>กลุ่มภาษาและการสื่อสาร จำนวน 26รายวิชา</h3>
 <p>
 <br> 90595001	ภาษาอังกฤษพื้นฐาน 	3 (3-0-6)
-	FOUNDATION ENGLISH
+<br> FOUNDATION ENGLISH
 <br> 90595002	ภาษาอังกฤษเพื่อการสื่อสาร	3 (3-0-6)
-	ENGLISH FOR COMMUNICATION
+<br> ENGLISH FOR COMMUNICATION
 <br> 90595003	ภาษาอังกฤษเชิงวิชาการ	3 (3-0-6)
-	ENGLISH FOR ACADEMIC PURPOSES
+<br> ENGLISH FOR ACADEMIC PURPOSES
 <br> 90595004	การพัฒนาทักษะการอ่านและการเขียนภาษาอังกฤษ		3 (3-0-6)
-	DEVELOPMENT OF READING AND WRITING SKILLS IN ENGLISH
+<br> DEVELOPMENT OF READING AND WRITING SKILLS IN ENGLISH
 <br> 90595005	การเขียนและการพูดในงานอาชีพ	3 (3-0-6)
-	WRITING AND SPEAKING IN THE PROFESSIONS
+<br> WRITING AND SPEAKING IN THE PROFESSIONS
 <br> 90595006	ภาษาอังกฤษเพื่อการศึกษาต่อ	3 (3-0-6)
-	ENGLISH FOR FURTHER STUDIES
+<br> ENGLISH FOR FURTHER STUDIES
 <br> 90595007	การพัฒนาทักษะทางภาษาอังกฤษเพื่อการเรียนรู้ตลอดชีวิต	3 (3-0-6)
-	ENGLISH SKILL DEVELOPMENT FOR LIFE-LONG LEARNING
+<br> ENGLISH SKILL DEVELOPMENT FOR LIFE-LONG LEARNING
 <br> 90595008	ภาษาอังกฤษเพื่อการสื่อสารระหว่างวัฒนธรรม	3 (3-0-6)
-	ENGLISH FOR INTERCULTURAL COMMUNICATION
+<br> ENGLISH FOR INTERCULTURAL COMMUNICATION
 <br> 90595009	ภาษาอังกฤษเพื่อการท่องเที่ยวและการเดินทาง 	3 (3-0-6)
-	ENGLISH FOR TOURISM AND TRAVELLING
+<br> ENGLISH FOR TOURISM AND TRAVELLING
 <br> 90595010	ภาษาอังกฤษเพื่อความเข้าใจข่าวสารและข้อมูลในสื่อสารมวลชน	3 (3-0-6)
-	ENGLISH FOR UNDERSTANDING NEWS AND INFORMATION IN MASS MEDIA
+<br> ENGLISH FOR UNDERSTANDING NEWS AND INFORMATION IN MASS MEDIA
 <br> 90595011	ภาษาอังกฤษเพื่อเตรียมตัวทำงาน	3 (3-0-6)
-	ENGLISH FOR WORK PREPARATION
+<br> ENGLISH FOR WORK PREPARATION
 <br> 90595012	ภาษาอังกฤษเพื่อการสื่อสารทางวิชาชีพ	3 (3-0-6)
-	ENGLISH FOR PROFESSIONAL COMMUNICATION
+<br> ENGLISH FOR PROFESSIONAL COMMUNICATION
 <br> 90595013	ภาษาอังกฤษเพื่อการจัดการ	3 (3-0-6)
-	ENGLISH FOR MANAGEMENT
+<br> ENGLISH FOR MANAGEMENT
 <br> 90595014	ภาษาอังกฤษสำหรับธุรกิจ	3 (3-0-6)
-	ENGLISH FOR BUSINESS
+<br> ENGLISH FOR BUSINESS
 <br> 90595015	ภาษาอังกฤษเพื่อการตลาด	3 (3-0-6)
-	ENGLISH FOR MARKETING
+<br> ENGLISH FOR MARKETING
 <br> 90595016	อังกฤษเพื่ออุตสาหกรรม	3 (3-0-6)
-	ENGLISH FOR INDUSTRY
+<br> ENGLISH FOR INDUSTRY
 <br> 90595017	การออกเสียงภาษาอังกฤษเบื้องต้น	3 (3-0-6)
-		BASIC ENGLISH PRONUNCIATION	
+<br> 	BASIC ENGLISH PRONUNCIATION	
 <br> 90595018	ภาษาอังกฤษเพื่อการนำเสนอผลงานทางวิชาชีพ	3 (3-0-6)
-		ENGLISH FOR PROFESSIONAL PRESENTATION
+<br> 	ENGLISH FOR PROFESSIONAL PRESENTATION
 <br> 90595019	การเขียนภาษาอังกฤษเพื่อการสื่อสาร	3 (3-0-6)
-		ENGLISH FOR COMMUNICATIVE WRITING
+<br> 	ENGLISH FOR COMMUNICATIVE WRITING
 <br> 90595020	พูดได้ พูดดี พูดเป็น		3 (3-0-6)
-		THE BEST SPEECH 
+<br> 	THE BEST SPEECH 
 <br> 90595021	ภาษาไทยเพื่อการสร้างสรรค์	3 (3-0-6)
-		THAI LANGUAGE FOR CREATIVITY
+<br> 	THAI LANGUAGE FOR CREATIVITY
 <br> 90595022	การฟังและการอ่านเพื่อพัฒนาคุณภาพชีวิต	3 (3-0-6)
-		LISTENING AND READING FOR IMPROVING LIFE QUALITY
+<br> 	LISTENING AND READING FOR IMPROVING LIFE QUALITY
 <br> 90595023	การพัฒนาทักษะการเขียนเชิงสร้างสรรค์	3 (3-0-6)
-		THE DEVELOPMENT OF THAI CREATIVE WRITING SKILLS
+<br> 	THE DEVELOPMENT OF THAI CREATIVE WRITING SKILLS
 <br> 90595024	การเขียนภาษาไทยในที่ทำงาน	3 (3-0-6)
-	WRITING IN WORKPLACE
+<br> WRITING IN WORKPLACE
 <br> 90595025	การเขียนรายงาน	3 (3-0-6)
-	LANGUAGE IN REPORT WRITING
+<br> LANGUAGE IN REPORT WRITING
 <br> 90595026	ภาษาในสังคมไทย	3 (3-0-6)
-		LANGUAGE IN THAI SOCIETY
+<br> 	LANGUAGE IN THAI SOCIETY
 
+		</div>
+
+		<div class="container hidden-lg">
+<h3>กลุ่มคุณค่าแห่งชีวิต จำนวน รายวิชา 10 รายวิชา</h3>
+<br> 90591001 	เรารัก สจล.		2 (1-2-3)
+<br> 	I LOVE KMITL
+<br> 90591002 	กีฬาและนันทนาการ		1 (0-3-2)
+<br> 	SPORTS AND RECREATIONAL ACTIVITIES
+<br> 90591003 	ภูมิคุ้มกันทางใจ		3 (3-0-6)
+<br> 	IMMUNITY OF MIND 
+<br> 90591004	ศิลปะการพัฒนาอารมณ์	3 (3-0-6)
+<br> ARTS OF EMOTION DEVELOPMENT
+<br> 90591005	ชีวิตออกแบบได้		3 (3-0-6)
+<br> 	DESIGNING YOUR LIFE
+<br> 90591006	พลังแห่งบุคลิกภาพ		3 (3-0-6)
+<br> 	POWER OF PERSONALITY 
+<br> 90591007	การพัฒนาสุขภาพแบบองค์รวม	3(3-0-6)
+<br> 	HOLISTIC HEALTH DEVELOPMENT
+<br> 90591008	สุนทรียะภาพถ่าย		3(2-2-5)
+<br> 	PHOTOGRAPHY APPRECIATION 
+<br> 90591009	สมาธิเพื่อพัฒนาชีวิต		3(3-0-6)
+<br> 	MEDITATION FOR LIFE DEVELOPMENT
+<br> 90591010	สุนทรียะดนตรี		3 (3-0-6)
+<br> 	MUSIC APPRECIATION
+
+<h3>กลุ่มวิถีแห่งสังคม จำนวน 7 รายวิชา</h3>
+<br> 90592001 	รู้ทันโลก		3 (3-0-6)
+<br> 	WORLD SOCIETYAWARENESS
+<br> 90592002 	การดำรงชีพในสังคมดิจิทัล	3 (3-0-6)
+<br> 	LIVING INDIGITAL SOCIETY
+<br> 90592003 	ภูมิปัญญาไทยประยุกต์		3 (3-0-6)
+<br> 	APPLIED THAI WISDOMS 
+<br> 90592004 	วัฒนธรรมร่วมสมัย		3 (3-0-6)
+<br> 	CONTEMPORARY CULTURE
+<br> 90592005 	วิถีคนกล้า		3 (3-0-6)
+<br> 	BRAVE HEART 
+<br> 90592006	ภูมิสังคมไทย		3(3-0-6)
+<br> 	THAI GEOSOCIAL BASE
+<br> 90592007	ปรัชญาเศรษฐกิจพอเพียง	3 (3-0-6)
+<br> 	THE PHILOSOPHY OF SUFFICIENCY ECONOMY
+
+<h3>กลุ่มศาสตร์แห่งการคิด จำนวน 4 รายวิชา</h3>
+<br> 90593001	บูรณาการแห่งการคิด		3 (3-0-6)
+<br> 	INTEGRATED THINKING
+<br> 90593002	รักษ์โลก		3(3-0-6)
+<br> 	THINK EARTH 
+<br> 90593003	พลังงานที่ยั่งยืน		3(3-0-6)
+<br> 	SUSTAINABLE ENERGY 
+<br> 90593004	การดำรงชีพท่ามกลางภัยพิบัติและวิกฤติในอนาคต	3 (3-0-6)
+<br> 	LIVING IN FUTURE DISASTERAND CRISIS
+
+<h3>กลุ่มศิลปะแห่งการจัดการ จำนวน 5 รายวิชา</h3>
+<br> 90594001	ผู้ประกอบการสมัยใหม่		3(3-0-6)
+<br> 	MODERN ENTREPRENEURSHIP
+<br> 90594002	ผู้ประกอบการทางสังคม	3(3-0-6)
+<br> 	SOCIAL ENTREPRENEURSHIP
+<br> 90594003	การจัดการและผู้นำสมัยใหม่	3(3-0-6)
+<br> 	MODERN MANAGEMENT AND LEADERSHIP
+<br> 90594004	การวางแผนเพื่อการลงทุน	3(3-0-6)
+<br> 	INVESTMENT PLANING
+<br> 90594005	ศาสตร์การต่อรอง		3(3-0-6)
+<br> 	SCIENCE OF NEGOTIATION
+
+<h3>กลุ่มภาษาและการสื่อสาร จำนวน 26รายวิชา</h3>
+<br> 90595001	ภาษาอังกฤษพื้นฐาน 	3 (3-0-6)
+<br> FOUNDATION ENGLISH
+<br> 90595002	ภาษาอังกฤษเพื่อการสื่อสาร	3 (3-0-6)
+<br> ENGLISH FOR COMMUNICATION
+<br> 90595003	ภาษาอังกฤษเชิงวิชาการ	3 (3-0-6)
+<br> ENGLISH FOR ACADEMIC PURPOSES
+<br> 90595004	การพัฒนาทักษะการอ่านและการเขียนภาษาอังกฤษ		3 (3-0-6)
+<br> DEVELOPMENT OF READING AND WRITING SKILLS IN ENGLISH
+<br> 90595005	การเขียนและการพูดในงานอาชีพ	3 (3-0-6)
+<br> WRITING AND SPEAKING IN THE PROFESSIONS
+<br> 90595006	ภาษาอังกฤษเพื่อการศึกษาต่อ	3 (3-0-6)
+<br> ENGLISH FOR FURTHER STUDIES
+<br> 90595007	การพัฒนาทักษะทางภาษาอังกฤษเพื่อการเรียนรู้ตลอดชีวิต	3 (3-0-6)
+<br> ENGLISH SKILL DEVELOPMENT FOR LIFE-LONG LEARNING
+<br> 90595008	ภาษาอังกฤษเพื่อการสื่อสารระหว่างวัฒนธรรม	3 (3-0-6)
+<br> ENGLISH FOR INTERCULTURAL COMMUNICATION
+<br> 90595009	ภาษาอังกฤษเพื่อการท่องเที่ยวและการเดินทาง 	3 (3-0-6)
+<br> ENGLISH FOR TOURISM AND TRAVELLING
+<br> 90595010	ภาษาอังกฤษเพื่อความเข้าใจข่าวสารและข้อมูลในสื่อสารมวลชน	3 (3-0-6)
+<br> ENGLISH FOR UNDERSTANDING NEWS AND INFORMATION IN MASS MEDIA
+<br> 90595011	ภาษาอังกฤษเพื่อเตรียมตัวทำงาน	3 (3-0-6)
+<br> ENGLISH FOR WORK PREPARATION
+<br> 90595012	ภาษาอังกฤษเพื่อการสื่อสารทางวิชาชีพ	3 (3-0-6)
+<br> ENGLISH FOR PROFESSIONAL COMMUNICATION
+<br> 90595013	ภาษาอังกฤษเพื่อการจัดการ	3 (3-0-6)
+<br> ENGLISH FOR MANAGEMENT
+<br> 90595014	ภาษาอังกฤษสำหรับธุรกิจ	3 (3-0-6)
+<br> ENGLISH FOR BUSINESS
+<br> 90595015	ภาษาอังกฤษเพื่อการตลาด	3 (3-0-6)
+<br> ENGLISH FOR MARKETING
+<br> 90595016	อังกฤษเพื่ออุตสาหกรรม	3 (3-0-6)
+<br> ENGLISH FOR INDUSTRY
+<br> 90595017	การออกเสียงภาษาอังกฤษเบื้องต้น	3 (3-0-6)
+<br> 	BASIC ENGLISH PRONUNCIATION	
+<br> 90595018	ภาษาอังกฤษเพื่อการนำเสนอผลงานทางวิชาชีพ	3 (3-0-6)
+<br> 	ENGLISH FOR PROFESSIONAL PRESENTATION
+<br> 90595019	การเขียนภาษาอังกฤษเพื่อการสื่อสาร	3 (3-0-6)
+<br> 	ENGLISH FOR COMMUNICATIVE WRITING
+<br> 90595020	พูดได้ พูดดี พูดเป็น		3 (3-0-6)
+<br> 	THE BEST SPEECH 
+<br> 90595021	ภาษาไทยเพื่อการสร้างสรรค์	3 (3-0-6)
+<br> 	THAI LANGUAGE FOR CREATIVITY
+<br> 90595022	การฟังและการอ่านเพื่อพัฒนาคุณภาพชีวิต	3 (3-0-6)
+<br> 	LISTENING AND READING FOR IMPROVING LIFE QUALITY
+<br> 90595023	การพัฒนาทักษะการเขียนเชิงสร้างสรรค์	3 (3-0-6)
+<br> 	THE DEVELOPMENT OF THAI CREATIVE WRITING SKILLS
+<br> 90595024	การเขียนภาษาไทยในที่ทำงาน	3 (3-0-6)
+<br> WRITING IN WORKPLACE
+<br> 90595025	การเขียนรายงาน	3 (3-0-6)
+<br> LANGUAGE IN REPORT WRITING
+<br> 90595026	ภาษาในสังคมไทย	3 (3-0-6)
+<br> 	LANGUAGE IN THAI SOCIETY
 
 		</div>
 	</div>

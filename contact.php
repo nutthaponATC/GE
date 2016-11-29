@@ -61,7 +61,7 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#" id="fz" class="dropdown-toggle" data-toggle="dropdown">อาจารย์ผู้สอน</b></a>
+						<a href="#" id="fz" class="dropdown-toggle" data-toggle="dropdown">ทำเนียบอาจารย์ผู้สอน</b></a>
 						<ul class="dropdown-menu" id="dropdown">
 							<li><a href="instructor.php">กลุ่มคุณค่าแห่งชีวิต</a></li>
 							<li><a href="instructor.php#2">กลุ่มวิถีแห่งสังคม</a></li>
@@ -96,15 +96,17 @@
 		</div>
 	</div>
 	
-	<div class="cd-background-wrapper" style="margin-top:30px;">
-		<figure class="cd-floating-background">
-			<img src="img/11.jpg" alt="image-1">
-			<img src="img/22.png" alt="image-2">
-			<img src="img/33.png" alt="image-3">
-		</figure>
+	<div class="container">
+		<div class="cd-background-wrapper" style="margin-top:30px;">
+			<figure class="cd-floating-background">
+				<img src="img/11.jpg" alt="image-1">
+				<img src="img/22.png" alt="image-2">
+				<img src="img/33.png" alt="image-3">
+			</figure>
+		</div>
 	</div>
 
-	<div class="jumbotron">
+	<div class="container">
 			<iframe style="margin-top:-50px;margin-bottom:-50px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.833650956459!2d100.77615555661922!3d13.728519124705473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x62f7dac4d04438c9!2sOffice+of+Dean!5e0!3m2!1sth!2sth!4v1472067256375" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 

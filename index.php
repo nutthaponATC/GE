@@ -56,7 +56,7 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#" id="fz" class="dropdown-toggle" data-toggle="dropdown">อาจารย์ผู้สอน</b></a>
+						<a href="#" id="fz" class="dropdown-toggle" data-toggle="dropdown">ทำเนียบอาจารย์ผู้สอน</b></a>
 						<ul class="dropdown-menu" id="dropdown">
 							<li><a href="instructor.php">กลุ่มคุณค่าแห่งชีวิต</a></li>
 							<li><a href="instructor.php#2">กลุ่มวิถีแห่งสังคม</a></li>
@@ -157,23 +157,23 @@
 			</div>
 			<div class="line2" style="margin-left:30%; width:150px;"></div>
 			<div style="margin-left:30%; width:70%; border-bottom:solid 2px #be6a77;"></div>
-			<div style="width:100%; margin-left:30%; margin-top:20px;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
-			</div>
 
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
-			</div>
-
-			<div style="width:100%; margin-left:30%; margin-top:40px; border-top:solid 2px #ffffff;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
-			</div>
+			<?php 
+				include('admin/config.php');
+				$sql = "SELECT * FROM info WHERE status = 1 ORDER BY id_info DESC LIMIT 4 ;";
+				mysql_query("SET NAMES utf8");
+				$query = mysql_query($sql);
+				while ($data = mysql_fetch_array($query)) {
+					echo "<a href='detail_info.php?id_info=".$data['id_info']."' style='color:#000000; text-decoration: none;'>";
+					echo "<div style='width:70%; margin-left:30%; margin-top:20px;'>";
+					echo	"<p style='font-size:20;'>".$data['header']."</p>";
+					echo	"<p><i class='fa fa-clock-o' aria-hidden='true' style='color:#be6a77; margin-top:-10px;'></i> ".$data['date']."</p>";
+					echo "</div></a>";
+				}
+			 ?>
 
 			<div style="width:100%; margin-left:30%; margin-top:40px;">
-				<h5 style="color:#be6a77;">ดูทั้งหมด</h5>
+				<a href="info.php"><h5 style="color:#be6a77;">ดูทั้งหมด</h5></a>
 			</div>
 		</div>
 
@@ -184,21 +184,19 @@
 			<div class="line2" style="margin-left: 40%; background: #fff0df; width:150px; height:7px; position: relative;"></div>
 			<div style="width:40%; border-bottom:solid 2px #fff0df; margin-top:-2px; position: relative;"></div>
 
-			<div style="width:100%; padding-left:30px;  margin-top:10px;">
-				<span style="font-size:30; color:#fff0df;">02 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-			</div>
+			<?php 
+				$sql = "SELECT * FROM info WHERE status = 2 ORDER BY id_info DESC LIMIT 3 ;";
+				mysql_query("SET NAMES utf8");
+				$query = mysql_query($sql);
+				while ($data = mysql_fetch_array($query)) {
+					echo "<a href='detail_info.php?id_info=".$data['id_info']."' style='color:#000000; text-decoration: none;'>";
+					echo "<div style='width:80%; padding-left:30px;  margin-top:10px;'>";
+					echo	"<span style='font-size:30; color:#fff0df;'> ".$data['date']."</span>";
+					echo	"<span style='font-size:20; margin-left:5px;'>".$data['header']."</span>";
+					echo "</div></a>";
+				}
+			 ?>
 
-			<div style="width:100%; padding-left:30px;  margin-top:10px;">
-				<span style="font-size:30; color:#fff0df;">12 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-			</div>
-<!-- 
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:30; color:#fff0df;">22 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-			</div> -->
-
-			<div style="width:100%; padding-left:30px;  margin-top:10px;">
-				<h5 style="color:#fff0df;">ดูทั้งหมด</h5>
-			</div>
 		</div>
 
 		<div style="width:40%; height:70%; background-color:#e39ba6; float:left;">
@@ -208,90 +206,87 @@
 			<div class="line2" style="margin-left: 40%; background: #fff0df; width:150px; height:7px; position: relative;"></div>
 			<div style="width:40%; border-bottom:solid 2px #fff0df; margin-top:-2px; position: relative;"></div>
 
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:20; margin-left:5px;"> หัวข้อจดหมาย</span>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 16-11-2559</p>
-			</div>
-			<div style="width:100%; padding-left:30px;  margin-top:20px;">
-				<span style="font-size:20; margin-left:5px;"> หัวข้อจดหมาย</span>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 16-11-2559</p>
-			</div>
+			<?php 
+				$sql = "SELECT * FROM info WHERE status = 3 ORDER BY id_info DESC LIMIT 3 ;";
+				mysql_query("SET NAMES utf8");
+				$query = mysql_query($sql);
+				while ($data = mysql_fetch_array($query)) {
+					echo "<a href='detail_info.php?id_info=".$data['id_info']."' style='color:#000000; text-decoration: none;'>";
+					echo "<div style='width:80%; padding-left:30px;  margin-top:10px;'>";
+					echo	"<span style='font-size:20; margin-left:5px;'>".$data['header']."</span>";
+					echo	"<p><i class='fa fa-clock-o' aria-hidden='true' style='color:#be6a77; margin-top:-10px;'></i>".$data['date']."</p>";
+					echo "</div></a>";
+				}
+			 ?>
 		</div>
 	</div>
 
 	<!-- phone -->
 	<div class="hidden-lg"  id="info" style="background-color:#ffffff; margin-top:30px;">
-		<div style="width:100%; height: 120%; background-color:#fff0df; float:left;">
+		<div style="width:100%; background-color:#fff0df; float:left;">
 			<div style="margin-left:10%; width:90%; color:#be6a77; padding-top:10px;">
 				<h3>ข่าวประชาสัมพันธ์</h3>
 			</div>
 			<div class="line2" style="margin-left:10%; width:90%;"></div>
-			<div style="width:70%; margin-left:10%; margin-top:5%;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
-			</div>
 
-			<div style="width:70%; margin-left:10%; margin-top:5%; border-top:solid 2px #ffffff;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
-			</div>
+			<?php 
+				include('admin/config.php');
+				$sql = "SELECT * FROM info WHERE status = 1 ORDER BY id_info DESC LIMIT 4 ;";
+				mysql_query("SET NAMES utf8");
+				$query = mysql_query($sql);
+				while ($data = mysql_fetch_array($query)) {
+					echo "<a href='detail_info.php?id_info=".$data['id_info']."' style='color:#000000; text-decoration: none;'>";
+					echo "<div style='width:70%; margin-left:10%; margin-top:5%;'>";
+					echo	"<p style='font-size:20;'>".$data['header']."</p>";
+					echo	"<p><i class='fa fa-clock-o' aria-hidden='true' style='color:#be6a77; margin-top:-10px;'></i> ".$data['date']."</p>";
+					echo "</div></a>";
+				}
+			 ?>
 
-			<div style="width:70%; margin-left:10%; margin-top:5%; border-top:solid 2px #ffffff;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
-			</div>
-
-			<div style="width:70%; margin-left:10%; margin-top:5%; border-top:solid 2px #ffffff;">
-				<p style="font-size:20;">หัวข้อข่าวประชาสัมพันธ์</p>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 22-09-2559</p>
-			</div>
-
-			<div style="width:70%; margin-left:10%; margin-top:5%;">
-				<h5 style="color:#be6a77;">ดูทั้งหมด</h5>
-			</div>
 		</div>
 
-		<div style="width:100%; height:120%; background-color:#e39ba6; float:left;">
+		<div style="width:100%; background-color:#e39ba6; float:left;">
 			<div>
 				<h3 style="margin-left: 42%; padding-top:10px; color:#fff0df;">ข่าวสัมมนา</h3>
 			</div>
 			<div class="line2" style="background: #fff0df; width:80%; margin-bottom:-2px;"></div>
 
-			<div style="width:100%; padding-left:10%;  margin-top:5%;">
-				<span style="font-size:24; color:#fff0df;">02 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-			</div>
+			<?php 
+				$sql = "SELECT * FROM info WHERE status = 2 ORDER BY id_info DESC LIMIT 4 ;";
+				mysql_query("SET NAMES utf8");
+				$query = mysql_query($sql);
+				while ($data = mysql_fetch_array($query)) {
+					echo "<a href='detail_info.php?id_info=".$data['id_info']."' style='color:#000000; text-decoration: none;'>";
+					echo "<div style='width:100%; padding-left:10%;  margin-top:5%;'>";
+					echo	"<span style='font-size:24; color:#fff0df;'> ".$data['date']."</span>";
+					echo	"<span style='font-size:20; margin-left:5px;'> ".$data['header']."</span>";
+					echo "</div></a>";
+				}
+			 ?>
 
-			<div style="width:100%; padding-left:10%;  margin-top:5%;">
-				<span style="font-size:24; color:#fff0df;">12 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-			</div>
-
-			<div style="width:100%; padding-left:10%;  margin-top:5%;">
-				<span style="font-size:24; color:#fff0df;">22 ก.ย.</span><span style="font-size:20; margin-left:5px;"> หัวข้อข่าวสัมมนา</span>
-			</div>
-
-			<div style="width:100%; padding-left:10%;  margin-top:5%;">
-				<h5 style="color:#fff0df;">ดูทั้งหมด</h5>
-			</div>
 		</div>
 
-		<div style="width:100%; height:120%; background-color:#e39ba6; float:left;">
+		<div style="width:100%; background-color:#e39ba6; float:left;">
 			<div>
 				<h3 style="margin-left: 42%; padding-top:10px; color:#fff0df;">จดหมายข่าว</h3>
 			</div>
 			<div class="line2" style="background: #fff0df; width:80%; margin-bottom:-2px;"></div>
 
-			<div style="width:100%; padding-left:10%;  margin-top:5%;">
-				<span style="font-size:20; margin-left:5px;"> หัวข้อจดหมาย</span>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 16-11-2559</p>
-			</div>
+			<?php 
+				$sql = "SELECT * FROM info WHERE status = 3 ORDER BY id_info DESC LIMIT 4 ;";
+				mysql_query("SET NAMES utf8");
+				$query = mysql_query($sql);
+				while ($data = mysql_fetch_array($query)) {
+					echo "<a href='detail_info.php?id_info=".$data['id_info']."' style='color:#000000; text-decoration: none;'>";
+					echo "<div style='width:100%; padding-left:10%;  margin-top:5%;'>";
+					echo	"<span style='font-size:20; margin-left:5px;'>  ".$data['header']."</span>";
+					echo	"<p><i class='fa fa-clock-o' aria-hidden='true' style='color:#be6a77; margin-top:-10px;'></i> ".$data['date']."</p>";
+					echo "</div></a>";
+				}
+			 ?>
 
 			<div style="width:100%; padding-left:10%;  margin-top:5%;">
-				<span style="font-size:20; margin-left:5px;"> หัวข้อจดหมาย</span>
-				<p><i class="fa fa-clock-o" aria-hidden="true" style="color:#be6a77; margin-top:-10px;"></i> 16-11-2559</p>
-			</div>
-
-			<div style="width:100%; padding-left:10%;  margin-top:5%;">
-				<h5 style="color:#fff0df;">ดูทั้งหมด</h5>
+				<a href="info.php"><h5 style="color:#fff0df;">ดูทั้งหมด</h5></a>
 			</div>
 		</div>
 	</div>

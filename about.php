@@ -45,7 +45,7 @@
 	        </div>
 	        <div class="collapse navbar-collapse navbar-menubuilder">
 	            <ul class="nav navbar-nav navbar-left" id="menu-main">
-	            	<li><a href="index.php"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
+	            	<li><a href="index.php" id="fz2"><img src="logo2.png" style="margin-top:-10px; margin-bottom:-10px;" width="15%"> สำนักวิชาศึกษาทั่วไป</a></li>
 	            	<li style="border-left:2px solid rgba(255, 255, 255, 0.3); "><a href="index.php" id="fz">หน้าหลัก</a></li>
 					<li><a href="about.php" id="fz">เกี่ยวกับสำนัก</a></li>
 					<li class="dropdown">
@@ -55,16 +55,7 @@
 							<li><a href="culiculum59.php">ฉบับปรับปรุง 59</a></li>
 						</ul>
 					</li>
-					<li class="dropdown">
-						<a href="#" id="fz" class="dropdown-toggle" data-toggle="dropdown">ทำเนียบอาจารย์ผู้สอน</b></a>
-						<ul class="dropdown-menu" id="dropdown">
-							<li><a href="instructor.php">กลุ่มคุณค่าแห่งชีวิต</a></li>
-							<li><a href="instructor.php#2">กลุ่มวิถีแห่งสังคม</a></li>
-							<li><a href="instructor.php#3">กลุ่มศาสตร์แห่งความคิด</a></li>
-							<li><a href="instructor.php#4">กลุ่มศิลปะแห่งการจัดการ</a></li>
-							<li><a href="instructor.php#5">กลุ่มภาษาและการสื่อสาร</a></li>
-						</ul>
-					</li>
+					<li><a href="instructor.php" id="fz">ทำเนียบอาจารย์ผู้สอน</a></li>
 					<li class="dropdown">
 						<a href="activity.php" class="dropdown-toggle" data-toggle="dropdown" id="fz">กิจกรรม</b></a>
 						<ul class="dropdown-menu" id="dropdown">
@@ -75,7 +66,7 @@
 					<li><a href="public.php" id="fz">เอกสาร | วิดีโอเผยแพร่</a></li>
 					<li><a href="index.php#info" id="fz">ข่าวประชาสัมพันธ์</a></li>
 					<li><a href="contact.php" id="fz">ติดต่อเรา</a></li>
-					<li><a href="" id="fz">TH | ENG</a></li>
+					<li><a href="">TH | ENG</a></li>
 	            </ul>
 	        </div>
 	    </div>
@@ -365,6 +356,34 @@
 		<div class="visible-lg" style="width:50%; float:left; padding-left:10%;">
 			<h2>นางสาวผจงจิตต์  ยืนวงษ์</h2>
 			<p>นักวิชาการศึกษา</p>
+		</div>
+	</div>
+
+
+	<div class="container visible-lg" id="staff" style="margin-top:50px;">
+		<div class="col-md-1">
+			<img src="icon.png" style="margin-top:-10px;">
+		</div>
+		<div class="col-md-3">
+			<h2 style="margin-top:-15px; margin-left:-40px;">ประวัติ Genie กับ Eddee</h2>
+		</div>
+		<div class="col-md-12 line"></div>
+	</div>
+	<div class="container hidden-lg" style="margin-top:70px;">
+		<div class="col-md-12" style="text-align:center;">
+			<h2 style="margin-top:-15px; margin-left:-40px;">ประวัติ Genie กับ Eddee</h2>
+		</div>
+		<div class="col-md-12 line"></div>
+	</div>
+	<div class="container" style="color:#be6a77; background-color:#ffffff;">
+		<div class="col-md-4">
+			<center><h3>ประวัติ Genie</h3></center>
+		</div>
+		<div class="col-md-4">
+			<img src="ge2.jpg" style="width:100%; margin-top:20px; border-radius: 50%;">
+		</div>
+		<div class="col-md-4">
+			<center><h3>ประวัติ Eddee</h3></center>
 		</div>
 	</div>
 

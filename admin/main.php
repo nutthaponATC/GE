@@ -33,7 +33,7 @@
 	<link rel="stylesheet" href="datatable/jquery.dataTables.min.css"/>
 </head>
 <body>
-	<div style="width:20%; height:100%; background-color:#be6a77; float:left;">
+	<div style="width:20%; height:100%; background-color:#be6a77; float:left; position:relative;">
 		<div class="col-md-12" style="width:100%; height:60px; background-color:#b45564; border-bottom:1px solid rgba(255, 255, 255, 0.6); color:#ffffff;">
 			<a href="../index.php" style="color:#ffffff;"><center><h3><img src="../logo2.png" style="margin-top:-10px;" width="15%"> สำนักศึกษาทั่วไป</h3></center></a>
 		</div>
@@ -51,7 +51,7 @@
 		</div>
 	</div>
 
-	<div style="width:80%; height:100%; float:left;">
+	<div style="width:80%; height:100%; float:left; position:relative;">
 		<div id="info1" class="container">
 			<form action="add_info1.php" method="post">
 				<h3>เพิ่มข้อมูลข่าวประชาสัมพันธ์</h3>
@@ -59,6 +59,11 @@
 				<h4>หัวข้อข่าวประชาสัมพันธ์</h4><input class="form-control" type="text" name="header">
 				<h4>รายละเอียดข่าวประชาสัมพันธ์</h4>
 				<textarea class="form-control" name="detail" rows="4" cols="50"></textarea>	
+				<h4>ภาพประชาสัมพันธ์</h4>
+				<img id="image" style="margin-left:20px;" height="300" width="300"/>
+				<br>
+				<input class="form-control" style="margin-top:20px;" type="file" id="files" name="image">
+
 				<input id="bt" class="btn btn-default" style="margin-top:10px; background-color:b45564; color:white;" type="submit" name="submit" value="เพิ่มข้อมูล">
 			</form>
 			<table id="example" class="display" style="font-size: 15px; padding-top:30px;" cellspacing="0" width="100%">
@@ -114,4 +119,12 @@ jQuery(document).ready(function($) {
         window.document.location = $(this).data("href");
     });
 });
+
+document.getElementById("files").onchange = function () {
+    var reader = new FileReader();
+    reader.onload = function (e) {
+        document.getElementById("image").src = e.target.result;
+    };
+    reader.readAsDataURL(this.files[0]);
+};
 </script>

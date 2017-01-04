@@ -65,6 +65,7 @@ $id_info = $_GET['id_info'];
 				$query = mysql_query($sql);
 				$data = mysql_fetch_array($query);
 				 ?>
+								 
 				<input class="form-control" type="hidden" name="id_info" value="<?php echo $data['id_info']; ?>">
 				<h3>เพิ่มข้อมูลข่าวประชาสัมพันธ์</h3>
 				<br>

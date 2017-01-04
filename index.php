@@ -155,17 +155,21 @@
 				mysql_query("SET NAMES utf8");
 				$query = mysql_query($sql);
 				while ($data = mysql_fetch_array($query)) {
+					echo "<div class='col-md-12' style='margin-top:20px;'>";
+					echo "<div class='col-md-6'>";
+					echo "<img src='image/".$data['picture']."' align='right' height='20%'>";
+					echo "</div>";
+
+					echo "<div class='col-md-6'>";
 					echo "<a href='detail_info.php?id_info=".$data['id_info']."' style='color:#000000; text-decoration: none;'>";
-					echo "<div style='width:70%; margin-left:30%; margin-top:20px;'>";
+					echo "<div style='width:70%; margin-top:20px;'>";
 					echo	"<p style='font-size:20;'>".$data['header']."</p>";
 					echo	"<p><i class='fa fa-clock-o' aria-hidden='true' style='color:#be6a77; margin-top:-10px;'></i> ".$data['date']."</p>";
 					echo "</div></a>";
+					echo "</div>";					
+					echo "</div>";				
 				}
 			 ?>
-
-			<div style="width:100%; margin-left:30%; margin-top:40px;">
-				<a href="info.php"><h5 style="color:#be6a77;">ดูทั้งหมด</h5></a>
-			</div>
 		</div>
 
 		<div style="width:40%; height:50%; background-color:#e39ba6; float:left;">

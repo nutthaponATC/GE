@@ -53,18 +53,23 @@
 
 	<div style="width:80%; height:100%; float:left; position:relative;">
 		<div id="info1" class="container">
-			<form action="add_info1.php" method="post">
+			<form action="add_info1.php" method="post" enctype="multipart/form-data">
 				<h3>เพิ่มข้อมูลข่าวประชาสัมพันธ์</h3>
-				<br>
-				<h4>หัวข้อข่าวประชาสัมพันธ์</h4><input class="form-control" type="text" name="header">
-				<h4>รายละเอียดข่าวประชาสัมพันธ์</h4>
-				<textarea class="form-control" name="detail" rows="4" cols="50"></textarea>	
-				<h4>ภาพประชาสัมพันธ์</h4>
-				<img id="image" style="margin-left:20px;" height="300" width="300"/>
-				<br>
-				<input class="form-control" style="margin-top:20px;" type="file" id="files" name="image">
-
-				<input id="bt" class="btn btn-default" style="margin-top:10px; background-color:b45564; color:white;" type="submit" name="submit" value="เพิ่มข้อมูล">
+				<div class="col-md-4">
+					<h4>ภาพประชาสัมพันธ์</h4>
+					<img id="image" style="margin-left:20px;" height="300" width="300"/>
+				</div>
+				<div class="col-md-8">
+					<h4>หัวข้อข่าวประชาสัมพันธ์</h4><input class="form-control" type="text" name="header">
+					<h4>รายละเอียดข่าวประชาสัมพันธ์</h4>
+					<textarea class="form-control" name="detail" rows="4" cols="50"></textarea>	
+					<div class="col-md-6">
+						<input class="form-control" style="margin-top:20px; width:300px;" type="file" id="files" name="image">
+					</div>
+					<div class="col-md-6">
+						<input class="btn btn-default" style="margin-top:20px; background-color:b45564; color:white;" type="submit" name="submit" value="เพิ่มข้อมูล">
+					</div>
+				</div>
 			</form>
 			<table id="example" class="display" style="font-size: 15px; padding-top:30px;" cellspacing="0" width="100%">
 		        <thead>

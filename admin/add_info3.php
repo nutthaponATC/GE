@@ -8,7 +8,7 @@ $detail = $_POST['detail'];
 if (isset($header) && $header != "" && isset($detail) && $detail != "") {
 	$date = date("Y/m/d");
 
-	$sql = "INSERT INTO `info` VALUES (NULL, '$header', '$detail', '$date', '3');";
+	$sql = "INSERT INTO `info` VALUES (NULL, '$header', '$detail', '$date', NULL,'3');";
 
 	mysql_query("SET NAMES utf8");
 	$query = mysql_query($sql);

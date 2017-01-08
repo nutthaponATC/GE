@@ -33,7 +33,7 @@
 	<link rel="stylesheet" href="datatable/jquery.dataTables.min.css"/>
 </head>
 <body>
-	<div style="width:20%; height:100%; background-color:#be6a77; float:left;">
+	<div style="width:20%; height:100%; background-color:#be6a77; position:fixed; float:left;">
 		<div class="col-md-12" style="width:100%; height:60px; background-color:#b45564; border-bottom:1px solid rgba(255, 255, 255, 0.6); color:#ffffff;">
 			<a href="../index.php" style="color:#ffffff;"><center><h3><img src="../logo2.png" style="margin-top:-10px;" width="15%"> สำนักศึกษาทั่วไป</h3></center></a>
 		</div>
@@ -49,9 +49,12 @@
 		<div class="col-md-12" style="width:100%; height:60px; background-color:#b45564; border-bottom:1px solid rgba(255, 255, 255, 0.6); color:#ffffff;">
 			<a href="main4.php" style="color:#ffffff;"><center><h3> ภาพกิจกรรม</h3></center></a>
 		</div>
+		<div class="col-md-12" style="width:100%; height:60px; background-color:#b45564; border-bottom:1px solid rgba(255, 255, 255, 0.6); color:#ffffff;">
+			<a href="main5.php" style="color:#ffffff;"><center><h3> อาจารย์ผู้สอน</h3></center></a>
+		</div>
 	</div>
 
-	<div style="width:80%; height:100%; float:left;">
+	<div style="width:80%; height:100%; left:20%; float:left;  position:relative;">
 		<div id="info1" class="container">
 			<form action="add_info2.php" method="post">
 				<h3>เพิ่มข้อมูลข่าวสัมมนา</h3>

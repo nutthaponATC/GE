@@ -359,34 +359,6 @@
 		</div>
 	</div>
 
-
-	<div class="container visible-lg" id="staff" style="margin-top:50px;">
-		<div class="col-md-1">
-			<img src="icon.png" style="margin-top:-10px;">
-		</div>
-		<div class="col-md-3">
-			<h2 style="margin-top:-15px; margin-left:-40px;">ประวัติ Genie กับ Eddee</h2>
-		</div>
-		<div class="col-md-12 line"></div>
-	</div>
-	<div class="container hidden-lg" style="margin-top:70px;">
-		<div class="col-md-12" style="text-align:center;">
-			<h2 style="margin-top:-15px; margin-left:-40px;">ประวัติ Genie กับ Eddee</h2>
-		</div>
-		<div class="col-md-12 line"></div>
-	</div>
-	<div class="container" style="color:#be6a77; background-color:#ffffff;">
-		<div class="col-md-4">
-			<center><h3>ประวัติ Genie</h3></center>
-		</div>
-		<div class="col-md-4">
-			<img src="ge2.jpg" style="width:100%; margin-top:20px; border-radius: 50%;">
-		</div>
-		<div class="col-md-4">
-			<center><h3>ประวัติ Eddee</h3></center>
-		</div>
-	</div>
-
 	<div class="jumbotron visible-lg" style="margin-top:20px; background-color:#ffffff;">
 		<div class="container">
 			<div class="col-md-4" style="border: 2px solid #be6a77; margin-left:-20px;  border-radius: 25px; height:750px;">
@@ -481,6 +453,33 @@
 				<img src="image/oganize.png" style="margin-top:50px;" class="img-responsive">
 			</div>
 			<div class="col-md-1"></div>
+		</div>
+	</div>
+
+	<div class="container visible-lg" id="staff" style="margin-top:50px;">
+		<div class="col-md-1">
+			<img src="icon.png" style="margin-top:-10px;">
+		</div>
+		<div class="col-md-3">
+			<h2 style="margin-top:-15px; margin-left:-40px;">ประวัติ Genie กับ Eddee</h2>
+		</div>
+		<div class="col-md-12 line"></div>
+	</div>
+	<div class="container hidden-lg" style="margin-top:70px;">
+		<div class="col-md-12" style="text-align:center;">
+			<h2 style="margin-top:-15px; margin-left:-40px;">ประวัติ Genie กับ Eddee</h2>
+		</div>
+		<div class="col-md-12 line"></div>
+	</div>
+	<div class="container" style="color:#be6a77; background-color:#ffffff; margin-bottom:50px;">
+		<div class="col-md-4">
+			<center><h3>ประวัติ Genie</h3></center>
+		</div>
+		<div class="col-md-4">
+			<img src="ge2.jpg" style="width:100%; margin-top:20px; border-radius: 50%;">
+		</div>
+		<div class="col-md-4">
+			<center><h3>ประวัติ Eddee</h3></center>
 		</div>
 	</div>
 	

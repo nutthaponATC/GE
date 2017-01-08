@@ -73,7 +73,7 @@ body, html {
   transform: scale3d(1,1.1,1);
 }
 .cd-fixed-bg.cd-bg-2 {
-  background-image: url("img-bg/3.jpg");
+  background-image: url("img-bg/book.jpg");
   -webkit-transform: scale3d(1,1.1,1);
   transform: scale3d(1,1.1,1);
 }

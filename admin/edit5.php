@@ -1,3 +1,8 @@
+<?php 
+include('config.php'); 
+$id_instructor = $_GET['id_instructor'];
+
+ ?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -56,30 +61,45 @@
 
 	<div style="width:80%; left:20%; height:100%; float:left; position:relative;">
 		<div id="info1" class="container">
-			<form action="add_info1.php" method="post" enctype="multipart/form-data">
-				<h3>เพิ่มข้อมูลข่าวประชาสัมพันธ์</h3>
+			<form action="edit_process5.php" method="post" enctype="multipart/form-data">
+				<?php 
+				$sql = "SELECT * FROM instructor WHERE id_instructor = $id_instructor;";
+				mysql_query("SET NAMES utf8");
+				$query = mysql_query($sql);
+				$data = mysql_fetch_array($query);
+
+				echo "image/instructor/".$data['picture']."";
+				 ?>
+
+				<input class="form-control" type="hidden" name="id_instructor" value="<?php echo $data['id_instructor']; ?>">
+
+				<h3>เพิ่มข้อมูลอาจารย์ผู้สอน</h3>
 				<div class="col-md-4">
-					<h4>ภาพประชาสัมพันธ์</h4>
-					<img id="image" style="margin-left:20px;" height="300" width="300"/>
+					<h4>รูปถ่ายอาจารย์ผู้สอน</h4>
+					<?php 
+					if ($data['picture'] == "") {
+						echo "<i class='fa fa-picture-o' style='font-size:300px;' aria-hidden='true'></i>";
+					} else {
+						echo "<img src='../image/instructor/".$data['picture']."' id='image' height='250px' class='thumbnail'>";
+					}
+
+					 ?>
 				</div>
 				<div class="col-md-8">
-					<h4>หัวข้อข่าวประชาสัมพันธ์</h4><input class="form-control" type="text" name="header">
-					<h4>รายละเอียดข่าวประชาสัมพันธ์</h4>
-					<textarea class="form-control" name="detail" rows="4" cols="50"></textarea>	
+					<h4>ชื่ออาจารย์ผู้สอน</h4><input class="form-control" type="text" name="header" value="<?php echo $data['name']; ?>">
 					<div class="col-md-6">
 						<input class="form-control" style="margin-top:20px; width:300px;" type="file" id="files" name="image">
 					</div>
 					<div class="col-md-6">
-						<input class="btn btn-default" style="margin-top:20px; background-color:b45564; color:white;" type="submit" name="submit" value="เพิ่มข้อมูล">
+						<input class="btn btn-default" style="margin-top:20px; background-color:b45564; color:white;" type="submit" name="submit" value="แก้ไขข้อมูล">
 					</div>
 				</div>
 			</form>
 			<table id="example" class="display" style="font-size: 15px; padding-top:30px;" cellspacing="0" width="100%">
 		        <thead>
 		            <tr>
-		                <th width="170"><center>หัวข้อข่าวประชาสัมพันธ์</center></th>
-		                <th><center>รายละเอียดข่าวประชาสัมพันธ์</center></th>
-		                <th width="70"><center>วันที่</center></th>
+		            	<th width="170">รูปถ่ายอาจารย์ผู้สอน</th>
+		                <th>ชื่อ - นามสกุล</th>
 		                <th width="50"><center>แก้ไข</center></th>
 		                <th width="50"><center>ลบ</center></th>
 		            </tr>
@@ -88,18 +108,17 @@
 		        	<?php 
 		        	include('config.php');
 
-		        	$sql = "SELECT * FROM info WHERE status = 1";
+		        	$sql = "SELECT * FROM instructor WHERE status = 1";
 		        	mysql_query("SET NAMES utf8");
 		        	$query = mysql_query($sql);
 
 		        	while ($data = mysql_fetch_array($query)) {
 		        		echo "
-		        		<tr style='cursor:pointer;' data-href='edit1.php?id_info=".$data['id_info']."'>
-			                <td>".$data['header']."</td>
-			                <td>".$data['detail']."</td>
-			                <td><center>".$data['date']."</center></td>
-			                <td><center><a href='edit1.php?id_info=".$data['id_info']."'><i class='fa fa-cog' style='color:#b45564; font-size:30px;' aria-hidden='true'></i></a></center></td>
-				            <td><center><a href='remove.php?id_info=".$data['id_info']."'><i class='fa fa-times' style='color:#b45564; font-size:30px;' aria-hidden='true'></a></i></center></td>
+		        		<tr style='cursor:pointer;' data-href='edit5.php?id_instructor=".$data['id_instructor']."'>
+		        			<td><img src='../image/instructor/".$data['picture']."' width='100px'></td>
+			                <td>".$data['name']."</td>
+			                <td><center><a href='edit5.php?id_instructor=".$data['id_instructor']."'><i class='fa fa-cog' style='color:#b45564; font-size:30px;' aria-hidden='true'></i></a></center></td>
+				            <td><center><a href='remove5.php?id_instructor=".$data['id_instructor']."'><i class='fa fa-times' style='color:#b45564; font-size:30px;' aria-hidden='true'></a></i></center></td>
 			            </tr>";
 		        	}
 		        	 ?>

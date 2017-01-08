@@ -75,362 +75,46 @@
 	<a href="index.php" class="visible-lg"><img src="mc.png" id="bthome"></a>
 	<a href="index.php" class="hidden-lg"><img src="mc.png" id="bthome2"></a>
 
-	<div class="visible-lg" style="margin-top:60px;">
+	<div style="margin-top:60px;">
 		<div class="container visible-lg" id="1" style="margin-top:100px;">
 			<div class="col-md-2">
 				<img src="logo2.png" style="margin-top:-40px;">
 			</div>
 			<div class="col-md-3">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มคุณค่าแห่งชีวิต</h2>
+				<h2 style="margin-top:-15px; margin-left:-40px;">ทำเนียบอาจารย์ผู้สอน</h2>
 			</div>
 			<div class="col-md-7 line"></div>
 		</div>
 		<div class="container hidden-lg" style="margin-top:70px;">
 			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มคุณค่าแห่งชีวิต</h2>
+				<h2 style="margin-top:-15px; margin-left:-40px;">ทำเนียบอาจารย์ผู้สอน</h2>
 			</div>
 			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container">
-			<div style="background-size: 100%; height:390px; background-repeat: no-repeat; background-image: url('image/ge-team-bg.png');">
-				<div class="col-md-3" id="dmt1" style="margin-top:50px;">
-					<img src="image/A1.png" class="pmt1" style="width:88%;">
-					<h3>ดร. อำภาพรรณ  ตันตินาครกูล</h3>
-				</div>
-				<div class="col-md-3" id="dmt6" style="margin-top:50px;">
-					<img src="image/A6.png" class="pmt6" style="width:91%;">
-					<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-				</div>
-				<div class="col-md-3" id="dmt4" style="margin-top:50px;">
-					<img src="image/A4.png" class="pmt4" style="width:100%;">
-					<h3>รศ.ดร.กาญจนา บุญภักดิ์</h3>	
-				</div>
-				<div class="col-md-3" id="dmt6" style="margin-top:50px;">
-					<img src="image/A6.png" class="pmt6" style="width:91%;">
-					<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-				</div>
-			</div>
 		</div>
 
-		<div class="container visible-lg" id="2" style="margin-top:100px;">
-			<div class="col-md-2">
-				<img src="logo2.png" style="margin-top:-40px;">
-			</div>
-			<div class="col-md-3">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มวิถีแห่งสังคม</h2>
-			</div>
-			<div class="col-md-7 line"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มวิถีแห่งสังคม</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container">
-			<div style="background-size: 100%; height:390px; background-repeat: no-repeat; background-image: url('image/ge-team-bg.png');">
-				<div class="col-md-3" id="dmt1" style="margin-top:50px;">
-					<img src="image/A2.png" class="pmt2" style="width:88%;">
-					<h3>ผศ.ดร.สมศักดิ์  วลัยรัชต์</h3>				
-				</div>
-				<div class="col-md-3" id="dmt6" style="margin-top:50px;">
-					<img src="image/A3.png" class="pmt3" style="width:85%;">
-					<h3>ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h3>				
-				</div>
-				<div class="col-md-3" id="dmt4" style="margin-top:50px;">
-					<img src="image/A5.png" class="pmt5" style="width:88%;">
-					<h3>ดร.รวิช ควรประเสริฐ</h3>					
-				</div>
-				<div class="col-md-3" id="dmt6" style="margin-top:50px;">
-					<img src="image/A4.png" class="pmt4" style="width:100%;">
-					<h3>รศ.ดร.กาญจนา บุญภักดิ์</h3>
-				</div>
-			</div>
-		</div>
+		<div class="container" style="margin-top:40px;">
+		<?php 
+		include('admin/config.php');
 
-		<div class="container visible-lg" id="3" style="margin-top:100px;">
-			<div class="col-md-2">
-				<img src="logo2.png" style="margin-top:-40px;">
-			</div>
-			<div class="col-md-3">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มศาสตร์แห่งความคิด</h2>
-			</div>
-			<div class="col-md-7 line"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มศาสตร์แห่งความคิด</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container">
-			<div style="background-size: 100%; height:390px; background-repeat: no-repeat; background-image: url('image/ge-team-bg.png');">
-				<div class="col-md-3" id="dmt1" style="margin-top:50px;">
-					<img src="image/A1.png" class="pmt1" style="width:88%;">
-					<h3>ดร. อำภาพรรณ  ตันตินาครกูล</h3>
-				</div>
-				<div class="col-md-3" id="dmt6" style="margin-top:50px;">
-					<img src="image/A6.png" class="pmt6" style="width:91%;">
-					<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-				</div>
-				<div class="col-md-3" id="dmt4" style="margin-top:50px;">
-					<img src="image/A4.png" class="pmt4" style="width:100%;">
-					<h3>รศ.ดร.กาญจนา บุญภักดิ์</h3>	
-				</div>
-				<div class="col-md-3" id="dmt6" style="margin-top:50px;">
-					<img src="image/A6.png" class="pmt6" style="width:91%;">
-					<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-				</div>
-			</div>
-		</div>
+		$sql = "SELECT * FROM instructor ORDER BY name DESC";
+		mysql_query("SET NAMES utf8");
+		$query = mysql_query($sql);
+		while ($data = mysql_fetch_array($query)) {
+			echo "<div class='col-md-6'>";
+			echo "<div class='col-md-4'>";
+			echo "<img src='image/instructor/".$data['picture']."' height='250px'>";
+			echo "</div>";	
+			echo "<div class='col-md-8'>";
+			echo "<h3 style='margin-top:130px;'>".$data['name']."</h3>";
+			echo "</div>";	
+			echo "</div>";	
+		}
 
-		<div class="container visible-lg" id="4" style="margin-top:100px;">
-			<div class="col-md-2">
-				<img src="logo2.png" style="margin-top:-40px;">
-			</div>
-			<div class="col-md-3">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มศิลปะแห่งการจัดการ</h2>
-			</div>
-			<div class="col-md-7 line"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มศิลปะแห่งการจัดการ</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container">
-			<div style="background-size: 100%; height:390px; background-repeat: no-repeat; background-image: url('image/ge-team-bg.png');">
-				<div class="col-md-3" id="dmt1" style="margin-top:50px;">
-					<img src="image/A2.png" class="pmt2" style="width:88%;">
-					<h3>ผศ.ดร.สมศักดิ์  วลัยรัชต์</h3>				
-				</div>
-				<div class="col-md-3" id="dmt6" style="margin-top:50px;">
-					<img src="image/A3.png" class="pmt3" style="width:85%;">
-					<h3>ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h3>				
-				</div>
-				<div class="col-md-3" id="dmt4" style="margin-top:50px;">
-					<img src="image/A5.png" class="pmt5" style="width:88%;">
-					<h3>ดร.รวิช ควรประเสริฐ</h3>					
-				</div>
-				<div class="col-md-3" id="dmt6" style="margin-top:50px;">
-					<img src="image/A4.png" class="pmt4" style="width:100%;">
-					<h3>รศ.ดร.กาญจนา บุญภักดิ์</h3>
-				</div>
-			</div>
-		</div>
-
-		<div class="container visible-lg" id="5" style="margin-top:100px;">
-			<div class="col-md-2">
-				<img src="logo2.png" style="margin-top:-40px;">
-			</div>
-			<div class="col-md-3">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มภาษาและการสื่อสาร</h2>
-			</div>
-			<div class="col-md-7 line"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มภาษาและการสื่อสาร</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container" style="margin-bottom:100px;">
-			<div style="background-size: 100%; height:390px; background-repeat: no-repeat; background-image: url('image/ge-team-bg.png');">
-				<div class="col-md-3" id="dmt1" style="margin-top:50px;">
-					<img src="image/A1.png" class="pmt1" style="width:88%;">
-					<h3>ดร. อำภาพรรณ  ตันตินาครกูล</h3>
-				</div>
-				<div class="col-md-3" id="dmt6" style="margin-top:50px;">
-					<img src="image/A6.png" class="pmt6" style="width:91%;">
-					<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-				</div>
-				<div class="col-md-3" id="dmt4" style="margin-top:50px;">
-					<img src="image/A4.png" class="pmt4" style="width:100%;">
-					<h3>รศ.ดร.กาญจนา บุญภักดิ์</h3>	
-				</div>
-				<div class="col-md-3" id="dmt6" style="margin-top:50px;">
-					<img src="image/A6.png" class="pmt6" style="width:91%;">
-					<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- phone -->
-	<div class="hidden-lg">
-		<div class="container visible-lg" id="1" style="margin-top:100px;">
-			<div class="col-md-2">
-				<img src="logo2.png" style="margin-top:-40px;">
-			</div>
-			<div class="col-md-3">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มคุณค่าแห่งชีวิต</h2>
-			</div>
-			<div class="col-md-7 line"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มคุณค่าแห่งชีวิต</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container">
-			<div class="col-md-3" id="dmt1">
-				<img src="image/A1.png" class="pmt1" style="width:88px;">
-				<h3>ดร. อำภาพรรณ  ตันตินาครกูล</h3>
-			</div>
-			<div class="col-md-3" id="dmt6">
-				<img src="image/A6.png" class="pmt6" style="width:91px;">
-				<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-			</div>
-			<div class="col-md-3" id="dmt4">
-				<img src="image/A4.png" class="pmt4" style="width:100px;">
-				<h3>รศ.ดร.กาญจนา บุญภักดิ์</h3>	
-			</div>
-			<div class="col-md-3" id="dmt6">
-				<img src="image/A6.png" class="pmt6" style="width:91px;">
-				<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-			</div>
-		</div>
-
-		<div class="container visible-lg" id="2" style="margin-top:100px;">
-			<div class="col-md-2">
-				<img src="logo2.png" style="margin-top:-40px;">
-			</div>
-			<div class="col-md-3">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มวิถีแห่งสังคม</h2>
-			</div>
-			<div class="col-md-7 line"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มวิถีแห่งสังคม</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container" style="text-align:right;">
-			<div class="col-md-3" id="dmt1">
-				<img src="image/A2.png" class="pmt2" style="width:88px;">
-				<h3>ผศ.ดร.สมศักดิ์  วลัยรัชต์</h3>				
-			</div>
-			<div class="col-md-3" id="dmt6">
-				<img src="image/A3.png" class="pmt3" style="width:85px;">
-				<h3>ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h3>				
-			</div>
-			<div class="col-md-3" id="dmt4">
-				<img src="image/A5.png" class="pmt5" style="width:88px;">
-				<h3>ดร.รวิช ควรประเสริฐ</h3>					
-			</div>
-			<div class="col-md-3" id="dmt6">
-				<img src="image/A4.png" class="pmt4" style="width:100px;">
-				<h3>รศ.ดร.กาญจนา บุญภักดิ์</h3>
-			</div>
-		</div>
-
-		<div class="container visible-lg" id="3" style="margin-top:100px;">
-			<div class="col-md-2">
-				<img src="logo2.png" style="margin-top:-40px;">
-			</div>
-			<div class="col-md-3">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มศาสตร์แห่งความคิด</h2>
-			</div>
-			<div class="col-md-7 line"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มศาสตร์แห่งความคิด</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container">
-			<div class="col-md-3" id="dmt1">
-				<img src="image/A1.png" class="pmt1" style="width:88px;">
-				<h3>ดร. อำภาพรรณ  ตันตินาครกูล</h3>
-			</div>
-			<div class="col-md-3" id="dmt6">
-				<img src="image/A6.png" class="pmt6" style="width:91px;">
-				<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-			</div>
-			<div class="col-md-3" id="dmt4">
-				<img src="image/A4.png" class="pmt4" style="width:100px;">
-				<h3>รศ.ดร.กาญจนา บุญภักดิ์</h3>	
-			</div>
-			<div class="col-md-3" id="dmt6">
-				<img src="image/A6.png" class="pmt6" style="width:91px;">
-				<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-			</div>
-		</div>
-
-		<div class="container visible-lg" id="4" style="margin-top:100px;">
-			<div class="col-md-2">
-				<img src="logo2.png" style="margin-top:-40px;">
-			</div>
-			<div class="col-md-3">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มศิลปะแห่งการจัดการ</h2>
-			</div>
-			<div class="col-md-7 line"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มศิลปะแห่งการจัดการ</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container" style="text-align:right;">
-			<div class="col-md-3" id="dmt1">
-				<img src="image/A2.png" class="pmt2" style="width:88px;">
-				<h3>ผศ.ดร.สมศักดิ์  วลัยรัชต์</h3>				
-			</div>
-			<div class="col-md-3" id="dmt6">
-				<img src="image/A3.png" class="pmt3" style="width:85px;">
-				<h3>ผศ.ดร.ประสันต์  ชุ่มใจหาญ</h3>				
-			</div>
-			<div class="col-md-3" id="dmt4">
-				<img src="image/A5.png" class="pmt5" style="width:88px;">
-				<h3>ดร.รวิช ควรประเสริฐ</h3>					
-			</div>
-			<div class="col-md-3" id="dmt6">
-				<img src="image/A4.png" class="pmt4" style="width:100px;">
-				<h3>รศ.ดร.กาญจนา บุญภักดิ์</h3>
-			</div>
-		</div>
-
-		<div class="container visible-lg" id="5" style="margin-top:100px;">
-			<div class="col-md-2">
-				<img src="logo2.png" style="margin-top:-40px;">
-			</div>
-			<div class="col-md-3">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มภาษาและการสื่อสาร</h2>
-			</div>
-			<div class="col-md-7 line"></div>
-		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<div class="col-md-12" style="text-align:center;">
-				<h2 style="margin-top:-15px; margin-left:-40px;">กลุ่มภาษาและการสื่อสาร</h2>
-			</div>
-			<div class="col-md-12 line"></div>
-		</div>
-		<div class="container">
-			<div class="col-md-3" id="dmt1">
-				<img src="image/A1.png" class="pmt1" style="width:88px;">
-				<h3>ดร. อำภาพรรณ  ตันตินาครกูล</h3>
-			</div>
-			<div class="col-md-3" id="dmt6">
-				<img src="image/A6.png" class="pmt6" style="width:91px;">
-				<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-			</div>
-			<div class="col-md-3" id="dmt4">
-				<img src="image/A4.png" class="pmt4" style="width:100px;">
-				<h3>รศ.ดร.กาญจนา บุญภักดิ์</h3>	
-			</div>
-			<div class="col-md-3" id="dmt6">
-				<img src="image/A6.png" class="pmt6" style="width:91px;">
-				<h3>ผศ.ดร.ฐิยาพร  กันตาธนวัฒน์</h3>
-			</div>
+		 ?>
 		</div>
 	</div>
 	
-	<div class="visible-lg" style="background-color:#8e3240; padding-bottom:20px;">
+	<div class="visible-lg" style="margin-top:40px; background-color:#8e3240; padding-bottom:20px;">
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br>

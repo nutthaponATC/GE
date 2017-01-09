@@ -9,7 +9,16 @@ $detail = $_POST['detail'];
 if (isset($header) && $header != "" && isset($detail) && $detail != "") {
 	$date = date("Y/m/d");
 
-	$sql = "UPDATE `info` SET `header` = '$header', `detail` = '$detail' WHERE `info`.`id_info` = $id_info;";
+	if(($_FILES["image"]["tmp_name"]) != "") {
+		$realname = $_FILES["image"]["name"];
+		copy($_FILES["image"]["tmp_name"],"../image/".$realname);
+
+		$sql = "UPDATE `info` SET `header` = '$header', `detail` = '$detail' , `picture` = '$realname' WHERE `info`.`id_info` = $id_info;";
+	} else {
+		$sql = "UPDATE `info` SET `header` = '$header', `detail` = '$detail' WHERE `info`.`id_info` = $id_info;";
+	} ;
+
+	// $sql = "UPDATE `info` SET `header` = '$header', `detail` = '$detail' WHERE `info`.`id_info` = $id_info;";
 
 	mysql_query("SET NAMES utf8");
 	$query = mysql_query($sql);

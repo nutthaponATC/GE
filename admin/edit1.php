@@ -61,23 +61,40 @@ $id_info = $_GET['id_info'];
 
 	<div style="width:80%; height:100%; left:20%; float:left;  position:relative;">
 		<div id="info1" class="container">
-			<form action="edit_process1.php" method="post">
+			<form action="edit_process1.php" method="post" enctype="multipart/form-data">
 				<?php 
 				$sql = "SELECT * FROM info WHERE id_info = $id_info;";
 				mysql_query("SET NAMES utf8");
 				$query = mysql_query($sql);
 				$data = mysql_fetch_array($query);
 				 ?>
-								 
 				<input class="form-control" type="hidden" name="id_info" value="<?php echo $data['id_info']; ?>">
 				<h3>เพิ่มข้อมูลข่าวประชาสัมพันธ์</h3>
-				<br>
-				<h4>หัวข้อข่าวประชาสัมพันธ์</h4><input class="form-control" type="text" name="header" value="<?php echo $data['header']; ?>">
-				<h4>รายละเอียดข่าวประชาสัมพันธ์</h4>
-				<textarea class="form-control" name="detail" rows="4" cols="50"><?php echo $data['detail']; ?></textarea>	
-				<input id="bt" class="btn btn-default" style="margin-top:10px; background-color:b45564; color:white;" type="submit" name="edit" value="แก้ไข">
-				<a href="remove.php?id_info=<?php echo $data['id_info']; ?>"><input id="bt" class="btn btn-default" style="margin-top:10px; background-color:b45564; color:white;" type="button" name="delete" value="ลบ"></a>
+				<div class="col-md-4">
+					<h4>ภาพประชาสัมพันธ์</h4>
+					<?php 
+					if ($data['picture'] == "") {
+						echo "<i class='fa fa-picture-o' style='font-size:300px;' aria-hidden='true'></i>";
+					} else {
+						echo "<img src='../image/".$data['picture']."' id='image' height='300' width='300' class='thumbnail'>";
+					}
+					?>
+					<!-- <img id="image" style="margin-left:20px;" height="300" width="300"/> -->
+				</div>
+				<div class="col-md-8">
+					<h4>หัวข้อข่าวประชาสัมพันธ์</h4><input class="form-control" type="text" name="header" value="<?php echo $data['header']; ?>">
+					<h4>รายละเอียดข่าวประชาสัมพันธ์</h4>
+					<textarea class="form-control" name="detail" rows="4" cols="50"><?php echo $data['detail']; ?></textarea>	
+					<div class="col-md-6">
+						<input class="form-control" style="margin-top:20px; width:300px;" type="file" id="files" name="image">
+					</div>
+					<div class="col-md-6">
+						<input id="bt" class="btn btn-default" style="margin-top:10px; background-color:b45564; color:white;" type="submit" name="edit" value="แก้ไข">
+						<a href="remove.php?id_info=<?php echo $data['id_info']; ?>"><input id="bt" class="btn btn-default" style="margin-top:10px; background-color:b45564; color:white;" type="button" name="delete" value="ลบ"></a>
+					</div>
+				</div>
 			</form>
+			
 			<table id="example" class="display" style="font-size: 15px; padding-top:30px;" cellspacing="0" width="100%">
 		        <thead>
 		            <tr>
@@ -127,4 +144,12 @@ jQuery(document).ready(function($) {
         window.document.location = $(this).data("href");
     });
 });
+
+document.getElementById("files").onchange = function () {
+    var reader = new FileReader();
+    reader.onload = function (e) {
+        document.getElementById("image").src = e.target.result;
+    };
+    reader.readAsDataURL(this.files[0]);
+};
 </script>

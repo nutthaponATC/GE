@@ -85,12 +85,29 @@
 		$data = mysql_fetch_array($query);
 	 ?>
 
-	<div class="container visible-lg" style="margin-top:60px;">
-		<div class="col-md-1">
-			<img src="logo2.png">
+	<div class="container" style="margin-top:100px;">
+		<div class="col-md-5">
+			<?php
+			if ($data['picture'] == '') {
+			 	echo "<i class='fa fa-paper-plane' style='font-size:300px;' aria-hidden='true'></i>";
+			} else {
+				echo "<center><img src='image/".$data['picture']."' id='image' height='100%' width='100%' class='thumbnail'></center>"; 
+			}
+			?>
 		</div>
-		<div class="col-md-9" style="margin-top:10px; margin-left:10px;">
-			<h2><?php echo $data['header']; ?></h2>
+		<div class="col-md-7">
+			<div class="col-md-1">
+				<img src="logo2.png" width="50px" style="margin-top:20px;">
+			</div>
+			<div class="col-md-9" style="margin-top:10px; margin-left:10px;">
+				<h2><?php echo $data['header']; ?></h2>
+			</div>	
+			<div class="col-md-1">
+				<!-- <img src="logo2.png"> -->
+			</div>
+			<div class="col-md-9" style="margin-top:10px; margin-left:-40px;">
+				<h4 style="text-indent:50px;"><?php echo $data['detail']; ?></h4>
+			</div>
 		</div>
 	</div>
 
@@ -103,18 +120,17 @@
 		</div>
 	</div>
 
-	<div class="jumbotron" style="margin-top:20px; background-color:#ffffff;">
-		<div class="container visible-lg" id="1">
-			<p style="text-indent:50px;"><?php echo $data['detail']; ?></p>
+	<div class="container hidden-lg" style="text-align:center;  margin-top:60px;">
+		<div class="col-md-12">
 		</div>
-		<div class="container hidden-lg" style="margin-top:70px;">
-			<p style="text-indent:50px;"><?php echo $data['detail']; ?></p>
+		<div class="col-md-12" style="margin-top:10px; margin-left:10px;">
+			<h4 style="text-indent:50px;"><?php echo $data['detail']; ?></h4>
 		</div>
 	</div>
 
 	<div class="jumbotron" style="background-color:#ffffff;">
 		<div class="container">
-			<table class="table table-bordered table-inverse">
+			<table id="example" class="table table-bordered table-inverse">
 				<h3>ข่าวประชาสัมพันธ์</h3>
 				<thead>
 					<tr class="bg-danger">
@@ -126,12 +142,11 @@
 				<tbody>
 			
 				<?php 
-					$sql = "SELECT * FROM info WHERE status = 1 ORDER BY id_info DESC;";
+					$sql = "SELECT * FROM info WHERE status = 1 ORDER BY id_info DESC ;";
 					mysql_query("SET NAMES utf8");
 					$query = mysql_query($sql);
-					$data = mysql_fetch_array($query);
 					while ($data = mysql_fetch_array($query)) {
-						echo "<tr class='bg-warning'>";
+						echo "<tr style='cursor:pointer;' data-href='detail_info.php?id_info=".$data['id_info']."' class='bg-warning'>";
 							echo "<th>".$data['header']."</th>";
 							echo "<td>".$data['detail']."</td>";
 							echo "<td>".$data['date']."</td>";
@@ -144,7 +159,7 @@
 		</div>
 
 		<div class="container">
-			<table class="table table-bordered table-inverse">
+			<table id="example2" class="table table-bordered table-inverse">
 				<h3>ข่าวสัมมนา</h3>
 				<thead>
 					<tr class="bg-danger">
@@ -159,9 +174,8 @@
 					$sql = "SELECT * FROM info WHERE status = 2 ORDER BY id_info DESC;";
 					mysql_query("SET NAMES utf8");
 					$query = mysql_query($sql);
-					$data = mysql_fetch_array($query);
 					while ($data = mysql_fetch_array($query)) {
-						echo "<tr class='bg-warning'>";
+						echo "<tr style='cursor:pointer;' data-href='detail_info.php?id_info=".$data['id_info']."' class='bg-warning'>";
 							echo "<th>".$data['header']."</th>";
 							echo "<td>".$data['detail']."</td>";
 							echo "<td>".$data['date']."</td>";
@@ -174,7 +188,7 @@
 		</div>
 
 		<div class="container">
-			<table id="example" class="table table-bordered table-inverse">
+			<table id="example3" class="table table-bordered table-inverse">
 				<h3>จดหมายข่าว</h3>
 				<thead>
 					<tr class="bg-danger">
@@ -189,9 +203,8 @@
 					$sql = "SELECT * FROM info WHERE status = 3 ORDER BY id_info DESC;";
 					mysql_query("SET NAMES utf8");
 					$query = mysql_query($sql);
-					$data = mysql_fetch_array($query);
 					while ($data = mysql_fetch_array($query)) {
-						echo "<tr class='bg-warning'>";
+						echo "<tr style='cursor:pointer;' data-href='detail_info.php?id_info=".$data['id_info']."' class='bg-warning'>";
 							echo "<th>".$data['header']."</th>";
 							echo "<td>".$data['detail']."</td>";
 							echo "<td>".$data['date']."</td>";
@@ -268,8 +281,13 @@
 
 <script language='javascript'>
 $(document).ready(function() {
-jQuery(document).ready(function($) {
     $('#example').on( 'click', 'tbody tr', function () {
+        window.document.location = $(this).data("href");
+    });
+    $('#example2').on( 'click', 'tbody tr', function () {
+        window.document.location = $(this).data("href");
+    });
+    $('#example3').on( 'click', 'tbody tr', function () {
         window.document.location = $(this).data("href");
     });
 });

@@ -1,3 +1,4 @@
+<?php include('admin/config.php'); ?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -26,6 +27,47 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/demo.css" />
 	<link rel="stylesheet" type="text/css" href="css/set2.css" />
+
+	<style type="text/css">
+		#banner {
+		width: 100%;
+		height: 110%;
+		background-color: #000000;
+		-webkit-animation: 20s sliderPic infinite;
+		animation: 20s sliderPic infinite;
+		position: relative;
+		background-size: cover;
+		overflow: hidden; 
+		}
+	
+		@-webkit-keyframes sliderPic {
+		
+		<?php 
+		$sql = "SELECT * FROM slide ORDER BY id_slide DESC";
+		$query = mysql_query($sql);
+
+		$count = mysql_num_low($query);
+
+		$percent = 100 / $count;
+
+		$i = 0;
+		while ($data = mysql_fetch_array($query)) {
+			if ($i == 0) {
+				$imageSlide = $data['image'];
+			}
+			echo $i."% {";
+			echo "background-image: url('img-bg/".$data['image'].");";
+			echo "}";
+
+			$i + $percent;
+		}
+		echo "100% {";
+		echo "background-image: url('img-bg/".$imageSlide.");";
+		echo "}";
+
+		 ?>
+		}
+	</style>
 </head>
 <body>
 	<!-- slider -->
@@ -76,7 +118,7 @@
 	<a href="index.php" class="hidden-lg"><img src="mc.png" id="bthome2"></a>
 	
 	<div id="banner" class="visible-lg" style="margin-top:40px;">
-		
+
 	</div>
 
 	<!-- phone -->
@@ -150,7 +192,6 @@
 			<div style="margin-left:30%; width:70%; border-bottom:solid 2px #be6a77;"></div>
 
 			<?php 
-				include('admin/config.php');
 				$sql = "SELECT * FROM info WHERE status = 1 ORDER BY id_info DESC LIMIT 4 ;";
 				mysql_query("SET NAMES utf8");
 				$query = mysql_query($sql);

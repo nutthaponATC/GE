@@ -1,3 +1,8 @@
+<?php 
+include('config.php'); 
+$id_public = $_GET['id_public'];
+
+ ?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -72,29 +77,28 @@
 		</div>
 	</div>
 
-	<div style="width:80%; left:20%; height:100%; float:left; position:relative;">
+	<div style="width:80%; height:100%; left:20%; float:left;  position:relative;">
 		<div id="info1" class="container">
-			<form action="add_instructor.php" method="post" enctype="multipart/form-data">
-				<h3>เพิ่มข้อมูลอาจารย์ผู้สอน</h3>
-				<div class="col-md-4">
-					<h4>รูปถ่ายอาจารย์ผู้สอน</h4>
-					<img id="image" style="margin-left:20px;" height="300" width="250"/>
-				</div>
-				<div class="col-md-8">
-					<h4>ชื่ออาจารย์ผู้สอน</h4><input class="form-control" type="text" name="header">
-					<div class="col-md-6">
-						<input class="form-control" style="margin-top:20px; width:300px;" type="file" id="files" name="image">
-					</div>
-					<div class="col-md-6">
-						<input class="btn btn-default" style="margin-top:20px; background-color:#b45564; color:white;" type="submit" name="submit" value="เพิ่มข้อมูล">
-					</div>
-				</div>
+			<form action="edit_process8.php" method="post">
+				<?php 
+				$sql = "SELECT * FROM public WHERE id_public = $id_public;";
+				mysql_query("SET NAMES utf8");
+				$query = mysql_query($sql);
+				$data = mysql_fetch_array($query);
+				 ?>
+				<input class="form-control" type="hidden" name="id_public" value="<?php echo $data['id_public']; ?>">
+
+				<h3>เพิ่มประกาศที่เกี่ยวข้อง</h3>
+				<br>
+				<h4>หัวประกาศที่เกี่ยวข้อง</h4><input class="form-control" type="text" name="header" value="<?php echo $data['title']; ?>">
+				<input id="bt" class="btn btn-default" style="margin-top:10px; background-color:b45564; color:white;" type="submit" name="submit" value="แก้ไขข้อมูล">
+				<a href="remove8.php?id_public=<?php echo $data['id_public']; ?>"><input id="bt" class="btn btn-default" style="margin-top:10px; background-color:b45564; color:white;" type="button" name="delete" value="ลบ"></a>
 			</form>
 			<table id="example" class="display" style="font-size: 15px; padding-top:30px;" cellspacing="0" width="100%">
 		        <thead>
 		            <tr>
-		            	<th width="170">รูปถ่ายอาจารย์ผู้สอน</th>
-		                <th>ชื่อ - นามสกุล</th>
+		                <th width="50"><center>ลำดับ</center></th>
+		                <th><center>หัวข้อ</center></th>
 		                <th width="50"><center>แก้ไข</center></th>
 		                <th width="50"><center>ลบ</center></th>
 		            </tr>
@@ -103,18 +107,20 @@
 		        	<?php 
 		        	include('config.php');
 
-		        	$sql = "SELECT * FROM instructor WHERE status = 1";
+		        	$sql = "SELECT * FROM public WHERE status = 2 ORDER BY id_public ASC";
 		        	mysql_query("SET NAMES utf8");
 		        	$query = mysql_query($sql);
 
+		        	$i = 1;
 		        	while ($data = mysql_fetch_array($query)) {
 		        		echo "
-		        		<tr style='cursor:pointer;' data-href='edit5.php?id_instructor=".$data['id_instructor']."'>
-		        			<td><img src='../image/instructor/".$data['picture']."' width='100px'></td>
-			                <td>".$data['name']."</td>
-			                <td><center><a href='edit5.php?id_instructor=".$data['id_instructor']."'><i class='fa fa-cog' style='color:#b45564; font-size:30px;' aria-hidden='true'></i></a></center></td>
-				            <td><center><a href='remove5.php?id_instructor=".$data['id_instructor']."'><i class='fa fa-times' style='color:#b45564; font-size:30px;' aria-hidden='true'></a></i></center></td>
+		        		<tr style='cursor:pointer;' data-href='edit8.php?id_public=".$data['id_public']."'>
+		        			<td>".$i."</td>
+			                <td>".$data['title']."</td>
+			                <td><center><a href='edit8.php?id_public=".$data['id_public']."'><i class='fa fa-cog' style='color:#b45564; font-size:30px;' aria-hidden='true'></i></a></center></td>
+				            <td><center><a href='remove8.php?id_public=".$data['id_public']."'><i class='fa fa-times' style='color:#b45564; font-size:30px;' aria-hidden='true'></a></i></center></td>
 			            </tr>";
+			            $i++;
 		        	}
 		        	 ?>
 		            
@@ -141,12 +147,4 @@ jQuery(document).ready(function($) {
         window.document.location = $(this).data("href");
     });
 });
-
-document.getElementById("files").onchange = function () {
-    var reader = new FileReader();
-    reader.onload = function (e) {
-        document.getElementById("image").src = e.target.result;
-    };
-    reader.readAsDataURL(this.files[0]);
-};
 </script>

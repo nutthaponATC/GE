@@ -44,8 +44,8 @@
 		width: 100%;
 		height: 50%;
 		background-color: #000000;
-		-webkit-animation: 20s sliderPic2 infinite;
-		animation: 20s sliderPic2 infinite;
+		-webkit-animation: 20s sliderPic infinite;
+		animation: 20s sliderPic infinite;
 		position: relative;
 		background-size: 100% 100%;
 		overflow: hidden; 
@@ -74,30 +74,6 @@
 		echo "background-image: url('img-bg/".$imageSlide."');";
 		echo "}";
 		echo "}";
-
-		$j = 0;
-		echo "@-webkit-keyframes sliderPic2 {";
-		while ($data = mysql_fetch_array($query)) {
-			if ($j == 0) {
-				$imageSlide = $data['image'];
-			}
-			echo $j."% {";
-			echo "background-image: url('img-bg/".$data['image']."');";
-			echo "background-size: 100% 100%;";
-		    echo "background-repeat: no-repeat;";
-		    echo "background-position: center center;";
-			echo "}";
-
-			$j = $j + $percent;
-		}
-		echo "100% {";
-		echo "background-image: url('img-bg/".$imageSlide."');";
-		echo "background-size: 100% 100%;";
-	    echo "background-repeat: no-repeat;";
-	    echo "background-position: center center;";
-		echo "}";
-		echo "}";
-
 		?>
 	</style>
 </head>

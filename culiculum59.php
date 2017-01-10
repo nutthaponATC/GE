@@ -116,245 +116,245 @@
 			<div class="col-md-12 line"></div>
 		</div>
 		<div class="container visible-lg">
-<h3>กลุ่มคุณค่าแห่งชีวิต จำนวน รายวิชา 10 รายวิชา</h3>
+<h3 style="color:#be6a77;">กลุ่มคุณค่าแห่งชีวิต จำนวน รายวิชา 10 รายวิชา</h3>
 <p>
 <br> 90591001 	เรารัก สจล.		2 (1-2-3)
-<br> 	I LOVE KMITL
+<br> 	<p style="text-indent:95px; margin-top:-20px;">I LOVE KMITL
 <br> 90591002 	กีฬาและนันทนาการ		1 (0-3-2)
-<br> 	SPORTS AND RECREATIONAL ACTIVITIES
+<br> 	<p style="text-indent:95px; margin-top:-20px;">SPORTS AND RECREATIONAL ACTIVITIES
 <br> 90591003 	ภูมิคุ้มกันทางใจ		3 (3-0-6)
-<br> 	IMMUNITY OF MIND 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">IMMUNITY OF MIND 
 <br> 90591004	ศิลปะการพัฒนาอารมณ์	3 (3-0-6)
-<br> ARTS OF EMOTION DEVELOPMENT
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ARTS OF EMOTION DEVELOPMENT
 <br> 90591005	ชีวิตออกแบบได้		3 (3-0-6)
-<br> 	DESIGNING YOUR LIFE
+<br> 	<p style="text-indent:95px; margin-top:-20px;">DESIGNING YOUR LIFE
 <br> 90591006	พลังแห่งบุคลิกภาพ		3 (3-0-6)
-<br> 	POWER OF PERSONALITY 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">POWER OF PERSONALITY 
 <br> 90591007	การพัฒนาสุขภาพแบบองค์รวม	3(3-0-6)
-<br> 	HOLISTIC HEALTH DEVELOPMENT
+<br> 	<p style="text-indent:95px; margin-top:-20px;">HOLISTIC HEALTH DEVELOPMENT
 <br> 90591008	สุนทรียะภาพถ่าย		3(2-2-5)
-<br> 	PHOTOGRAPHY APPRECIATION 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">PHOTOGRAPHY APPRECIATION 
 <br> 90591009	สมาธิเพื่อพัฒนาชีวิต		3(3-0-6)
-<br> 	MEDITATION FOR LIFE DEVELOPMENT
+<br> 	<p style="text-indent:95px; margin-top:-20px;">MEDITATION FOR LIFE DEVELOPMENT
 <br> 90591010	สุนทรียะดนตรี		3 (3-0-6)
-<br> 	MUSIC APPRECIATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">MUSIC APPRECIATION
 
 </p>
-<h3>กลุ่มวิถีแห่งสังคม จำนวน 7 รายวิชา</h3>
+<h3 style="color:#be6a77;">กลุ่มวิถีแห่งสังคม จำนวน 7 รายวิชา</h3>
 <p>
 <br> 90592001 	รู้ทันโลก		3 (3-0-6)
-<br> 	WORLD SOCIETYAWARENESS
+<br> 	<p style="text-indent:95px; margin-top:-20px;">WORLD SOCIETYAWARENESS
 <br> 90592002 	การดำรงชีพในสังคมดิจิทัล	3 (3-0-6)
-<br> 	LIVING INDIGITAL SOCIETY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">LIVING INDIGITAL SOCIETY
 <br> 90592003 	ภูมิปัญญาไทยประยุกต์		3 (3-0-6)
-<br> 	APPLIED THAI WISDOMS 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">APPLIED THAI WISDOMS 
 <br> 90592004 	วัฒนธรรมร่วมสมัย		3 (3-0-6)
-<br> 	CONTEMPORARY CULTURE
+<br> 	<p style="text-indent:95px; margin-top:-20px;">CONTEMPORARY CULTURE
 <br> 90592005 	วิถีคนกล้า		3 (3-0-6)
-<br> 	BRAVE HEART 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">BRAVE HEART 
 <br> 90592006	ภูมิสังคมไทย		3(3-0-6)
-<br> 	THAI GEOSOCIAL BASE
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THAI GEOSOCIAL BASE
 <br> 90592007	ปรัชญาเศรษฐกิจพอเพียง	3 (3-0-6)
-<br> 	THE PHILOSOPHY OF SUFFICIENCY ECONOMY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THE PHILOSOPHY OF SUFFICIENCY ECONOMY
 
 </p>
-<h3>กลุ่มศาสตร์แห่งการคิด จำนวน 4 รายวิชา</h3>
+<h3 style="color:#be6a77;">กลุ่มศาสตร์แห่งการคิด จำนวน 4 รายวิชา</h3>
 <p>
 <br> 90593001	บูรณาการแห่งการคิด		3 (3-0-6)
-<br> 	INTEGRATED THINKING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">INTEGRATED THINKING
 <br> 90593002	รักษ์โลก		3(3-0-6)
-<br> 	THINK EARTH 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THINK EARTH 
 <br> 90593003	พลังงานที่ยั่งยืน		3(3-0-6)
-<br> 	SUSTAINABLE ENERGY 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">SUSTAINABLE ENERGY 
 <br> 90593004	การดำรงชีพท่ามกลางภัยพิบัติและวิกฤติในอนาคต	3 (3-0-6)
-<br> 	LIVING IN FUTURE DISASTERAND CRISIS
+<br> 	<p style="text-indent:95px; margin-top:-20px;">LIVING IN FUTURE DISASTERAND CRISIS
 </p>
 
-<h3>กลุ่มศิลปะแห่งการจัดการ จำนวน 5 รายวิชา</h3>
+<h3 style="color:#be6a77;">กลุ่มศิลปะแห่งการจัดการ จำนวน 5 รายวิชา</h3>
 <p>
 <br> 90594001	ผู้ประกอบการสมัยใหม่		3(3-0-6)
-<br> 	MODERN ENTREPRENEURSHIP
+<br> 	<p style="text-indent:95px; margin-top:-20px;">MODERN ENTREPRENEURSHIP
 <br> 90594002	ผู้ประกอบการทางสังคม	3(3-0-6)
-<br> 	SOCIAL ENTREPRENEURSHIP
+<br> 	<p style="text-indent:95px; margin-top:-20px;">SOCIAL ENTREPRENEURSHIP
 <br> 90594003	การจัดการและผู้นำสมัยใหม่	3(3-0-6)
-<br> 	MODERN MANAGEMENT AND LEADERSHIP
+<br> 	<p style="text-indent:95px; margin-top:-20px;">MODERN MANAGEMENT AND LEADERSHIP
 <br> 90594004	การวางแผนเพื่อการลงทุน	3(3-0-6)
-<br> 	INVESTMENT PLANING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">INVESTMENT PLANING
 <br> 90594005	ศาสตร์การต่อรอง		3(3-0-6)
-<br> 	SCIENCE OF NEGOTIATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">SCIENCE OF NEGOTIATION
 </p>
 
-<h3>กลุ่มภาษาและการสื่อสาร จำนวน 26รายวิชา</h3>
+<h3 style="color:#be6a77;">กลุ่มภาษาและการสื่อสาร จำนวน 26รายวิชา</h3>
 <p>
 <br> 90595001	ภาษาอังกฤษพื้นฐาน 	3 (3-0-6)
-<br> FOUNDATION ENGLISH
+<br> 	<p style="text-indent:95px; margin-top:-20px;">FOUNDATION ENGLISH
 <br> 90595002	ภาษาอังกฤษเพื่อการสื่อสาร	3 (3-0-6)
-<br> ENGLISH FOR COMMUNICATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR COMMUNICATION
 <br> 90595003	ภาษาอังกฤษเชิงวิชาการ	3 (3-0-6)
-<br> ENGLISH FOR ACADEMIC PURPOSES
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR ACADEMIC PURPOSES
 <br> 90595004	การพัฒนาทักษะการอ่านและการเขียนภาษาอังกฤษ		3 (3-0-6)
-<br> DEVELOPMENT OF READING AND WRITING SKILLS IN ENGLISH
+<br> 	<p style="text-indent:95px; margin-top:-20px;">DEVELOPMENT OF READING AND WRITING SKILLS IN ENGLISH
 <br> 90595005	การเขียนและการพูดในงานอาชีพ	3 (3-0-6)
-<br> WRITING AND SPEAKING IN THE PROFESSIONS
+<br> 	<p style="text-indent:95px; margin-top:-20px;">WRITING AND SPEAKING IN THE PROFESSIONS
 <br> 90595006	ภาษาอังกฤษเพื่อการศึกษาต่อ	3 (3-0-6)
-<br> ENGLISH FOR FURTHER STUDIES
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR FURTHER STUDIES
 <br> 90595007	การพัฒนาทักษะทางภาษาอังกฤษเพื่อการเรียนรู้ตลอดชีวิต	3 (3-0-6)
-<br> ENGLISH SKILL DEVELOPMENT FOR LIFE-LONG LEARNING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH SKILL DEVELOPMENT FOR LIFE-LONG LEARNING
 <br> 90595008	ภาษาอังกฤษเพื่อการสื่อสารระหว่างวัฒนธรรม	3 (3-0-6)
-<br> ENGLISH FOR INTERCULTURAL COMMUNICATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR INTERCULTURAL COMMUNICATION
 <br> 90595009	ภาษาอังกฤษเพื่อการท่องเที่ยวและการเดินทาง 	3 (3-0-6)
-<br> ENGLISH FOR TOURISM AND TRAVELLING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR TOURISM AND TRAVELLING
 <br> 90595010	ภาษาอังกฤษเพื่อความเข้าใจข่าวสารและข้อมูลในสื่อสารมวลชน	3 (3-0-6)
-<br> ENGLISH FOR UNDERSTANDING NEWS AND INFORMATION IN MASS MEDIA
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR UNDERSTANDING NEWS AND INFORMATION IN MASS MEDIA
 <br> 90595011	ภาษาอังกฤษเพื่อเตรียมตัวทำงาน	3 (3-0-6)
-<br> ENGLISH FOR WORK PREPARATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR WORK PREPARATION
 <br> 90595012	ภาษาอังกฤษเพื่อการสื่อสารทางวิชาชีพ	3 (3-0-6)
-<br> ENGLISH FOR PROFESSIONAL COMMUNICATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR PROFESSIONAL COMMUNICATION
 <br> 90595013	ภาษาอังกฤษเพื่อการจัดการ	3 (3-0-6)
-<br> ENGLISH FOR MANAGEMENT
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR MANAGEMENT
 <br> 90595014	ภาษาอังกฤษสำหรับธุรกิจ	3 (3-0-6)
-<br> ENGLISH FOR BUSINESS
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR BUSINESS
 <br> 90595015	ภาษาอังกฤษเพื่อการตลาด	3 (3-0-6)
-<br> ENGLISH FOR MARKETING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR MARKETING
 <br> 90595016	อังกฤษเพื่ออุตสาหกรรม	3 (3-0-6)
-<br> ENGLISH FOR INDUSTRY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR INDUSTRY
 <br> 90595017	การออกเสียงภาษาอังกฤษเบื้องต้น	3 (3-0-6)
-<br> 	BASIC ENGLISH PRONUNCIATION	
+<br> 	<p style="text-indent:95px; margin-top:-20px;">BASIC ENGLISH PRONUNCIATION	
 <br> 90595018	ภาษาอังกฤษเพื่อการนำเสนอผลงานทางวิชาชีพ	3 (3-0-6)
-<br> 	ENGLISH FOR PROFESSIONAL PRESENTATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR PROFESSIONAL PRESENTATION
 <br> 90595019	การเขียนภาษาอังกฤษเพื่อการสื่อสาร	3 (3-0-6)
-<br> 	ENGLISH FOR COMMUNICATIVE WRITING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR COMMUNICATIVE WRITING
 <br> 90595020	พูดได้ พูดดี พูดเป็น		3 (3-0-6)
-<br> 	THE BEST SPEECH 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THE BEST SPEECH 
 <br> 90595021	ภาษาไทยเพื่อการสร้างสรรค์	3 (3-0-6)
-<br> 	THAI LANGUAGE FOR CREATIVITY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THAI LANGUAGE FOR CREATIVITY
 <br> 90595022	การฟังและการอ่านเพื่อพัฒนาคุณภาพชีวิต	3 (3-0-6)
-<br> 	LISTENING AND READING FOR IMPROVING LIFE QUALITY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">LISTENING AND READING FOR IMPROVING LIFE QUALITY
 <br> 90595023	การพัฒนาทักษะการเขียนเชิงสร้างสรรค์	3 (3-0-6)
-<br> 	THE DEVELOPMENT OF THAI CREATIVE WRITING SKILLS
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THE DEVELOPMENT OF THAI CREATIVE WRITING SKILLS
 <br> 90595024	การเขียนภาษาไทยในที่ทำงาน	3 (3-0-6)
-<br> WRITING IN WORKPLACE
+<br> 	<p style="text-indent:95px; margin-top:-20px;">WRITING IN WORKPLACE
 <br> 90595025	การเขียนรายงาน	3 (3-0-6)
-<br> LANGUAGE IN REPORT WRITING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">LANGUAGE IN REPORT WRITING
 <br> 90595026	ภาษาในสังคมไทย	3 (3-0-6)
-<br> 	LANGUAGE IN THAI SOCIETY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">LANGUAGE IN THAI SOCIETY
 
 		</div>
 
 		<div class="container hidden-lg">
-<h3>กลุ่มคุณค่าแห่งชีวิต จำนวน รายวิชา 10 รายวิชา</h3>
+<h3 style="color:#be6a77;">กลุ่มคุณค่าแห่งชีวิต จำนวน รายวิชา 10 รายวิชา</h3>
 <br> 90591001 	เรารัก สจล.		2 (1-2-3)
-<br> 	I LOVE KMITL
+<br> 	<p style="text-indent:95px; margin-top:-20px;">I LOVE KMITL
 <br> 90591002 	กีฬาและนันทนาการ		1 (0-3-2)
-<br> 	SPORTS AND RECREATIONAL ACTIVITIES
+<br> 	<p style="text-indent:95px; margin-top:-20px;">SPORTS AND RECREATIONAL ACTIVITIES
 <br> 90591003 	ภูมิคุ้มกันทางใจ		3 (3-0-6)
-<br> 	IMMUNITY OF MIND 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">IMMUNITY OF MIND 
 <br> 90591004	ศิลปะการพัฒนาอารมณ์	3 (3-0-6)
-<br> ARTS OF EMOTION DEVELOPMENT
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ARTS OF EMOTION DEVELOPMENT
 <br> 90591005	ชีวิตออกแบบได้		3 (3-0-6)
-<br> 	DESIGNING YOUR LIFE
+<br> 	<p style="text-indent:95px; margin-top:-20px;">DESIGNING YOUR LIFE
 <br> 90591006	พลังแห่งบุคลิกภาพ		3 (3-0-6)
-<br> 	POWER OF PERSONALITY 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">POWER OF PERSONALITY 
 <br> 90591007	การพัฒนาสุขภาพแบบองค์รวม	3(3-0-6)
-<br> 	HOLISTIC HEALTH DEVELOPMENT
+<br> 	<p style="text-indent:95px; margin-top:-20px;">HOLISTIC HEALTH DEVELOPMENT
 <br> 90591008	สุนทรียะภาพถ่าย		3(2-2-5)
-<br> 	PHOTOGRAPHY APPRECIATION 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">PHOTOGRAPHY APPRECIATION 
 <br> 90591009	สมาธิเพื่อพัฒนาชีวิต		3(3-0-6)
-<br> 	MEDITATION FOR LIFE DEVELOPMENT
+<br> 	<p style="text-indent:95px; margin-top:-20px;">MEDITATION FOR LIFE DEVELOPMENT
 <br> 90591010	สุนทรียะดนตรี		3 (3-0-6)
-<br> 	MUSIC APPRECIATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">MUSIC APPRECIATION
 
-<h3>กลุ่มวิถีแห่งสังคม จำนวน 7 รายวิชา</h3>
+<h3 style="color:#be6a77;">กลุ่มวิถีแห่งสังคม จำนวน 7 รายวิชา</h3>
 <br> 90592001 	รู้ทันโลก		3 (3-0-6)
-<br> 	WORLD SOCIETYAWARENESS
+<br> 	<p style="text-indent:95px; margin-top:-20px;">WORLD SOCIETYAWARENESS
 <br> 90592002 	การดำรงชีพในสังคมดิจิทัล	3 (3-0-6)
-<br> 	LIVING INDIGITAL SOCIETY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">LIVING INDIGITAL SOCIETY
 <br> 90592003 	ภูมิปัญญาไทยประยุกต์		3 (3-0-6)
-<br> 	APPLIED THAI WISDOMS 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">APPLIED THAI WISDOMS 
 <br> 90592004 	วัฒนธรรมร่วมสมัย		3 (3-0-6)
-<br> 	CONTEMPORARY CULTURE
+<br> 	<p style="text-indent:95px; margin-top:-20px;">CONTEMPORARY CULTURE
 <br> 90592005 	วิถีคนกล้า		3 (3-0-6)
-<br> 	BRAVE HEART 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">BRAVE HEART 
 <br> 90592006	ภูมิสังคมไทย		3(3-0-6)
-<br> 	THAI GEOSOCIAL BASE
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THAI GEOSOCIAL BASE
 <br> 90592007	ปรัชญาเศรษฐกิจพอเพียง	3 (3-0-6)
-<br> 	THE PHILOSOPHY OF SUFFICIENCY ECONOMY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THE PHILOSOPHY OF SUFFICIENCY ECONOMY
 
-<h3>กลุ่มศาสตร์แห่งการคิด จำนวน 4 รายวิชา</h3>
+<h3 style="color:#be6a77;">กลุ่มศาสตร์แห่งการคิด จำนวน 4 รายวิชา</h3>
 <br> 90593001	บูรณาการแห่งการคิด		3 (3-0-6)
-<br> 	INTEGRATED THINKING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">INTEGRATED THINKING
 <br> 90593002	รักษ์โลก		3(3-0-6)
-<br> 	THINK EARTH 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THINK EARTH 
 <br> 90593003	พลังงานที่ยั่งยืน		3(3-0-6)
-<br> 	SUSTAINABLE ENERGY 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">SUSTAINABLE ENERGY 
 <br> 90593004	การดำรงชีพท่ามกลางภัยพิบัติและวิกฤติในอนาคต	3 (3-0-6)
-<br> 	LIVING IN FUTURE DISASTERAND CRISIS
+<br> 	<p style="text-indent:95px; margin-top:-20px;">LIVING IN FUTURE DISASTERAND CRISIS
 
-<h3>กลุ่มศิลปะแห่งการจัดการ จำนวน 5 รายวิชา</h3>
+<h3 style="color:#be6a77;">กลุ่มศิลปะแห่งการจัดการ จำนวน 5 รายวิชา</h3>
 <br> 90594001	ผู้ประกอบการสมัยใหม่		3(3-0-6)
-<br> 	MODERN ENTREPRENEURSHIP
+<br> 	<p style="text-indent:95px; margin-top:-20px;">MODERN ENTREPRENEURSHIP
 <br> 90594002	ผู้ประกอบการทางสังคม	3(3-0-6)
-<br> 	SOCIAL ENTREPRENEURSHIP
+<br> 	<p style="text-indent:95px; margin-top:-20px;">SOCIAL ENTREPRENEURSHIP
 <br> 90594003	การจัดการและผู้นำสมัยใหม่	3(3-0-6)
-<br> 	MODERN MANAGEMENT AND LEADERSHIP
+<br> 	<p style="text-indent:95px; margin-top:-20px;">MODERN MANAGEMENT AND LEADERSHIP
 <br> 90594004	การวางแผนเพื่อการลงทุน	3(3-0-6)
-<br> 	INVESTMENT PLANING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">INVESTMENT PLANING
 <br> 90594005	ศาสตร์การต่อรอง		3(3-0-6)
-<br> 	SCIENCE OF NEGOTIATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">SCIENCE OF NEGOTIATION
 
-<h3>กลุ่มภาษาและการสื่อสาร จำนวน 26รายวิชา</h3>
+<h3 style="color:#be6a77;">กลุ่มภาษาและการสื่อสาร จำนวน 26รายวิชา</h3>
 <br> 90595001	ภาษาอังกฤษพื้นฐาน 	3 (3-0-6)
-<br> FOUNDATION ENGLISH
+<br> 	<p style="text-indent:95px; margin-top:-20px;">FOUNDATION ENGLISH
 <br> 90595002	ภาษาอังกฤษเพื่อการสื่อสาร	3 (3-0-6)
-<br> ENGLISH FOR COMMUNICATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR COMMUNICATION
 <br> 90595003	ภาษาอังกฤษเชิงวิชาการ	3 (3-0-6)
-<br> ENGLISH FOR ACADEMIC PURPOSES
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR ACADEMIC PURPOSES
 <br> 90595004	การพัฒนาทักษะการอ่านและการเขียนภาษาอังกฤษ		3 (3-0-6)
-<br> DEVELOPMENT OF READING AND WRITING SKILLS IN ENGLISH
+<br> 	<p style="text-indent:95px; margin-top:-20px;">DEVELOPMENT OF READING AND WRITING SKILLS IN ENGLISH
 <br> 90595005	การเขียนและการพูดในงานอาชีพ	3 (3-0-6)
-<br> WRITING AND SPEAKING IN THE PROFESSIONS
+<br> 	<p style="text-indent:95px; margin-top:-20px;">WRITING AND SPEAKING IN THE PROFESSIONS
 <br> 90595006	ภาษาอังกฤษเพื่อการศึกษาต่อ	3 (3-0-6)
-<br> ENGLISH FOR FURTHER STUDIES
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR FURTHER STUDIES
 <br> 90595007	การพัฒนาทักษะทางภาษาอังกฤษเพื่อการเรียนรู้ตลอดชีวิต	3 (3-0-6)
-<br> ENGLISH SKILL DEVELOPMENT FOR LIFE-LONG LEARNING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH SKILL DEVELOPMENT FOR LIFE-LONG LEARNING
 <br> 90595008	ภาษาอังกฤษเพื่อการสื่อสารระหว่างวัฒนธรรม	3 (3-0-6)
-<br> ENGLISH FOR INTERCULTURAL COMMUNICATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR INTERCULTURAL COMMUNICATION
 <br> 90595009	ภาษาอังกฤษเพื่อการท่องเที่ยวและการเดินทาง 	3 (3-0-6)
-<br> ENGLISH FOR TOURISM AND TRAVELLING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR TOURISM AND TRAVELLING
 <br> 90595010	ภาษาอังกฤษเพื่อความเข้าใจข่าวสารและข้อมูลในสื่อสารมวลชน	3 (3-0-6)
-<br> ENGLISH FOR UNDERSTANDING NEWS AND INFORMATION IN MASS MEDIA
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR UNDERSTANDING NEWS AND INFORMATION IN MASS MEDIA
 <br> 90595011	ภาษาอังกฤษเพื่อเตรียมตัวทำงาน	3 (3-0-6)
-<br> ENGLISH FOR WORK PREPARATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR WORK PREPARATION
 <br> 90595012	ภาษาอังกฤษเพื่อการสื่อสารทางวิชาชีพ	3 (3-0-6)
-<br> ENGLISH FOR PROFESSIONAL COMMUNICATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR PROFESSIONAL COMMUNICATION
 <br> 90595013	ภาษาอังกฤษเพื่อการจัดการ	3 (3-0-6)
-<br> ENGLISH FOR MANAGEMENT
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR MANAGEMENT
 <br> 90595014	ภาษาอังกฤษสำหรับธุรกิจ	3 (3-0-6)
-<br> ENGLISH FOR BUSINESS
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR BUSINESS
 <br> 90595015	ภาษาอังกฤษเพื่อการตลาด	3 (3-0-6)
-<br> ENGLISH FOR MARKETING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR MARKETING
 <br> 90595016	อังกฤษเพื่ออุตสาหกรรม	3 (3-0-6)
-<br> ENGLISH FOR INDUSTRY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR INDUSTRY
 <br> 90595017	การออกเสียงภาษาอังกฤษเบื้องต้น	3 (3-0-6)
-<br> 	BASIC ENGLISH PRONUNCIATION	
+<br> 	<p style="text-indent:95px; margin-top:-20px;">BASIC ENGLISH PRONUNCIATION	
 <br> 90595018	ภาษาอังกฤษเพื่อการนำเสนอผลงานทางวิชาชีพ	3 (3-0-6)
-<br> 	ENGLISH FOR PROFESSIONAL PRESENTATION
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR PROFESSIONAL PRESENTATION
 <br> 90595019	การเขียนภาษาอังกฤษเพื่อการสื่อสาร	3 (3-0-6)
-<br> 	ENGLISH FOR COMMUNICATIVE WRITING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">ENGLISH FOR COMMUNICATIVE WRITING
 <br> 90595020	พูดได้ พูดดี พูดเป็น		3 (3-0-6)
-<br> 	THE BEST SPEECH 
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THE BEST SPEECH 
 <br> 90595021	ภาษาไทยเพื่อการสร้างสรรค์	3 (3-0-6)
-<br> 	THAI LANGUAGE FOR CREATIVITY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THAI LANGUAGE FOR CREATIVITY
 <br> 90595022	การฟังและการอ่านเพื่อพัฒนาคุณภาพชีวิต	3 (3-0-6)
-<br> 	LISTENING AND READING FOR IMPROVING LIFE QUALITY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">LISTENING AND READING FOR IMPROVING LIFE QUALITY
 <br> 90595023	การพัฒนาทักษะการเขียนเชิงสร้างสรรค์	3 (3-0-6)
-<br> 	THE DEVELOPMENT OF THAI CREATIVE WRITING SKILLS
+<br> 	<p style="text-indent:95px; margin-top:-20px;">THE DEVELOPMENT OF THAI CREATIVE WRITING SKILLS
 <br> 90595024	การเขียนภาษาไทยในที่ทำงาน	3 (3-0-6)
-<br> WRITING IN WORKPLACE
+<br> 	<p style="text-indent:95px; margin-top:-20px;">WRITING IN WORKPLACE
 <br> 90595025	การเขียนรายงาน	3 (3-0-6)
-<br> LANGUAGE IN REPORT WRITING
+<br> 	<p style="text-indent:95px; margin-top:-20px;">LANGUAGE IN REPORT WRITING
 <br> 90595026	ภาษาในสังคมไทย	3 (3-0-6)
-<br> 	LANGUAGE IN THAI SOCIETY
+<br> 	<p style="text-indent:95px; margin-top:-20px;">LANGUAGE IN THAI SOCIETY
 
 		</div>
 	</div>

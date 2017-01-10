@@ -60,6 +60,21 @@ $id_instructor = $_GET['id_instructor'];
 		<div class="col-md-12" id="left-menu">
 			<a href="main6.php" style="color:#ffffff;"><h3> รูปสไลด์</h3></a>
 		</div>
+		<div class="col-md-12" id="left-menu">
+			<a href="main7.php" style="color:#ffffff;"><h3> ปฏิทินกิจกรรม GenEd</h3></a>
+		</div>
+		<div class="col-md-12" id="left-menu">
+			<a href="main8.php" style="color:#ffffff;"><h3> ประกาศที่เกี่ยวข้อง</h3></a>
+		</div>
+		<div class="col-md-12" id="left-menu">
+			<a href="main9.php" style="color:#ffffff;"><h3> แบบฟอร์มสำหรับ อาจารย์</h3></a>
+		</div>
+		<div class="col-md-12" id="left-menu">
+			<a href="main10.php" style="color:#ffffff;"><h3> แบบฟอร์มสำหรับ นักศึกษา</h3></a>
+		</div>
+		<div class="col-md-12" id="left-menu">
+			<a href="main11.php" style="color:#ffffff;"><h3> หนังสือนอกเวลา</h3></a>
+		</div>
 	</div>
 
 	<div style="width:80%; left:20%; height:100%; float:left; position:relative;">

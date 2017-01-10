@@ -1,3 +1,4 @@
+<?php include('admin/config.php'); ?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -155,101 +156,24 @@
 							<tr class="bg-danger">
 								<th width="5%"></th>
 								<th></th>
-								<th width="5%"></th>
-								<th width="5%"></th>
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="bg-warning">
-								<th scope="row">1</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">2</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">3</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">4</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">5</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">6</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">7</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">8</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">9</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">10</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">11</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">12</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">13</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">14</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">15</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
+						
+						<?php 
+						$sql = "SELECT * FROM public WHERE status = 1 ORDER BY id_public ASC";
+						mysql_query("SET NAMES utf8");
+						$query = mysql_query($sql);
+						$i = 1;
+						while ($data = mysql_fetch_array($query)) {
+							echo "<tr class='bg-warning'>";
+								echo "<th scope='row'>".$i."</th>";
+								echo "<td>".$data['title']."</td>";
+							echo "</tr>";
+							$i++;
+						}
+						?>
+					
 						</tbody>
 					</table>
 				</div>
@@ -262,106 +186,29 @@
 								<th width="10%">ฉบับที่</th>
 								<th>เอกสาร</th>
 								<th width="5%">download</th>
-								<th width="5%"></th>
 							</tr>
 						</thead>
-						<tbody>
-							<tr class="bg-warning">
-								<th scope="row">1</th>
-								<td>มคอ 3</td>
-								<td>
-									<i class="fa fa-file-text-o" aria-hidden="true"></i>
-								</td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">2</th>
-								<td>มคอ 5</td>
-								<td>
-									<i class="fa fa-file-text-o" aria-hidden="true"></i>
-								</td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">3</th>
-								<td>เอกสารสมัครสอน</td>
-								<td>
-									<i class="fa fa-file-text-o" aria-hidden="true"></i>
-								</td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">4</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">5</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">6</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">7</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">8</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">9</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">10</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">11</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">12</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">13</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">14</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">15</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
+						<tbody><a href=""></a>
+							<?php 
+							$sql = "SELECT * FROM public WHERE status = 3 ORDER BY id_public ASC";
+							mysql_query("SET NAMES utf8");
+							$query = mysql_query($sql);
+							$i = 1;
+							while ($data = mysql_fetch_array($query)) {
+								echo "<tr class='bg-warning'>";
+									echo "<th scope='row'>".$i."</th>";
+									echo "<td>".$data['title']."</td>";
+									if ($data['file'] != "") {
+										echo "<td><a href=file/".$data['file']." download><i class='fa fa-file-text-o' aria-hidden='true'>ดาวน์โหลด</i></a></td>";
+									} else {
+										echo "<td></td>";
+									}
+									
+								echo "</tr>";
+								$i++;
+							}
+							?>
+							
 						</tbody>
 					</table>
 				</div>
@@ -374,106 +221,29 @@
 								<th width="10%">ฉบับที่</th>
 								<th>เอกสาร</th>
 								<th width="5%">download</th>
-								<th width="5%"></th>
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="bg-warning">
-								<th scope="row">1</th>
-								<td></td>
-								<td>
-									<i class="fa fa-file-text-o" aria-hidden="true"></i>
-								</td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">2</th>
-								<td></td>
-								<td>
-									<i class="fa fa-file-text-o" aria-hidden="true"></i>
-								</td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">3</th>
-								<td></td>
-								<td>
-									<i class="fa fa-file-text-o" aria-hidden="true"></i>
-								</td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">4</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">5</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">6</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">7</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">8</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">9</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">10</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">11</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">12</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">13</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">14</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">15</th>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
+							<?php 
+							$sql = "SELECT * FROM public WHERE status = 4 ORDER BY id_public ASC";
+							mysql_query("SET NAMES utf8");
+							$query = mysql_query($sql);
+							$i = 1;
+							while ($data = mysql_fetch_array($query)) {
+								echo "<tr class='bg-warning'>";
+									echo "<th scope='row'>".$i."</th>";
+									echo "<td>".$data['title']."</td>";
+									if ($data['file'] != "") {
+										echo "<td><a href=file/".$data['file']." download><i class='fa fa-file-text-o' aria-hidden='true'>ดาวน์โหลด</i></a></td>";
+									} else {
+										echo "<td></td>";
+									}
+									
+								echo "</tr>";
+								$i++;
+							}
+							?>
+							
 						</tbody>
 					</table>
 				</div>
@@ -488,65 +258,20 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="bg-warning">
-								<th scope="row">1</th>
-								<td></td>
-							<tr class="bg-warning">
-								<th scope="row">2</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">3</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">4</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">5</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">6</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">7</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">8</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">9</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">10</th>
-								<td></td>							
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">11</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">12</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">13</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">14</th>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">15</th>
-								<td></td>
-							</tr>
+							<?php 
+							$sql = "SELECT * FROM public WHERE status = 2 ORDER BY id_public ASC";
+							mysql_query("SET NAMES utf8");
+							$query = mysql_query($sql);
+							$i = 1;
+							while ($data = mysql_fetch_array($query)) {
+								echo "<tr class='bg-warning'>";
+									echo "<th scope='row'>".$i."</th>";
+									echo "<td>".$data['title']."</td>";
+								echo "</tr>";
+								$i++;
+							}
+							?>
+							
 						</tbody>
 					</table>
 				</div>
@@ -1010,112 +735,26 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="bg-warning">
-								<th scope="row">1</th>
-								<td></td>
-								<td>
-									<i class="fa fa-file-text-o" aria-hidden="true"></i>
-								</td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">2</th>
-								<td></td>
-								<td>
-									<i class="fa fa-file-text-o" aria-hidden="true"></i>
-								</td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">3</th>
-								<td></td>
-								<td>
-									<i class="fa fa-file-text-o" aria-hidden="true"></i>
-								</td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">4</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">5</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">6</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">7</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">8</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">9</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">10</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">11</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">12</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">13</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">14</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">15</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">16</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">17</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">18</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">19</th>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr class="bg-warning">
-								<th scope="row">20</th>
-								<td></td>
-								<td></td>
-							</tr>
+							<?php 
+							$sql = "SELECT * FROM public WHERE status = 5 ORDER BY id_public ASC";
+							mysql_query("SET NAMES utf8");
+							$query = mysql_query($sql);
+							$i = 1;
+							while ($data = mysql_fetch_array($query)) {
+								echo "<tr class='bg-warning'>";
+									echo "<th scope='row'>".$i."</th>";
+									echo "<td>".$data['title']."</td>";
+									if ($data['file'] != "") {
+										echo "<td><a href=file/".$data['file']." download><i class='fa fa-file-text-o' aria-hidden='true'>ดาวน์โหลด</i></a></td>";
+									} else {
+										echo "<td></td>";
+									}
+									
+								echo "</tr>";
+								$i++;
+							}
+							?>
+							
 						</tbody>
 					</table>
 				</div>

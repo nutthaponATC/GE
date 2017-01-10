@@ -38,35 +38,67 @@
 		position: relative;
 		background-size: cover;
 		overflow: hidden; 
+		}	
+
+		#banner2 {
+		width: 100%;
+		height: 50%;
+		background-color: #000000;
+		-webkit-animation: 20s sliderPic2 infinite;
+		animation: 20s sliderPic2 infinite;
+		position: relative;
+		background-size: 100% 100%;
+		overflow: hidden; 
 		}
-	
-		@-webkit-keyframes sliderPic {
 		
 		<?php 
-		$sql = "SELECT * FROM slide ORDER BY id_slide DESC";
+		$sql = "SELECT * FROM slide";
 		$query = mysql_query($sql);
-
-		$count = mysql_num_low($query);
+		$count = mysql_num_rows($query);
 
 		$percent = 100 / $count;
 
 		$i = 0;
+		echo "@-webkit-keyframes sliderPic {";
 		while ($data = mysql_fetch_array($query)) {
 			if ($i == 0) {
 				$imageSlide = $data['image'];
 			}
 			echo $i."% {";
-			echo "background-image: url('img-bg/".$data['image'].");";
+			echo "background-image: url('img-bg/".$data['image']."');";
 			echo "}";
 
-			$i + $percent;
+			$i = $i + $percent;
 		}
 		echo "100% {";
-		echo "background-image: url('img-bg/".$imageSlide.");";
+		echo "background-image: url('img-bg/".$imageSlide."');";
+		echo "}";
 		echo "}";
 
-		 ?>
+		$j = 0;
+		echo "@-webkit-keyframes sliderPic2 {";
+		while ($data = mysql_fetch_array($query)) {
+			if ($j == 0) {
+				$imageSlide = $data['image'];
+			}
+			echo $j."% {";
+			echo "background-image: url('img-bg/".$data['image']."');";
+			echo "background-size: 100% 100%;";
+		    echo "background-repeat: no-repeat;";
+		    echo "background-position: center center;";
+			echo "}";
+
+			$j = $j + $percent;
 		}
+		echo "100% {";
+		echo "background-image: url('img-bg/".$imageSlide."');";
+		echo "background-size: 100% 100%;";
+	    echo "background-repeat: no-repeat;";
+	    echo "background-position: center center;";
+		echo "}";
+		echo "}";
+
+		?>
 	</style>
 </head>
 <body>
@@ -182,7 +214,6 @@
 			<H3>ภาษาและการสื่อสาร</H3>
 		</div>
 	</a>
-
 	<div class="visible-lg" id="info" style="background-color:#ffffff; margin-top:30px;">
 		<div style="width:60%; height: 120%; background-color:#fff0df; float:left;">
 			<div style="margin-left:30%; width:100%; color:#be6a77; padding-top:10px;">

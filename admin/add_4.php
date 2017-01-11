@@ -2,24 +2,19 @@
 echo "<meta charset='utf-8'>";
 include('config.php');
 
-$name = $_POST['header'];
+$header = $_POST['header'];
 $detail = $_POST['detail'];
 $video = $_POST['video'];
 
-if (isset($name) && $name != "" && isset($detail) && $detail != "") {
+if (isset($header) && $header != "" && isset($detail) && $detail != "") {
 	$sql = "SELECT * FROM media ORDER BY id_media DESC limit 1";
 	$query = mysql_query($sql);
 
-	if ($query) {
-		$count = mysql_fetch_array($query);
-		$countID = $count['id_media'];
-	} else {
-		$sql = "SELECT * FROM media";
-		$query = mysql_query($sql);
+	$sql = "SELECT * FROM media";
+	$query = mysql_query($sql);
 
-		$count = mysql_num_rows($query);
-		$countID = $count + 1;
-	}
+	$count = mysql_num_rows($query);
+	$countID = $count + 1;
 
 	mkdir("../activity/$countID");
 
@@ -32,7 +27,13 @@ if (isset($name) && $name != "" && isset($detail) && $detail != "") {
 
 	if(($_FILES["imageMulti"]["tmp_name"]) != "") {
 		$realnameImageMulti = $countID;
-		copy($_FILES["fileMulti"]["tmp_name"],"../activity/$countID/".$_FILES["fileMulti"]["name"]);
+
+		$myFile = $_FILES['imageMulti'];
+        $fileCount = count($myFile["name"]);
+
+        for ($i = 0; $i < $fileCount; $i++) {
+			move_uploaded_file($myFile["tmp_name"][$i],"../activity/$countID/".$myFile["name"][$i]);        	
+        }
 	} else {
 		$realnameImageMulti = $countID;
 	} ;
@@ -46,7 +47,7 @@ if (isset($name) && $name != "" && isset($detail) && $detail != "") {
 
 	$date = date("Y/m/d");
 
-	$sql = "INSERT INTO `info` VALUES (NULL, '$name', '$detail', '$realnameFileMulti', '$$realnameCover', '$realnameImageMulti', '$video', '$date', 1);";
+	$sql = "INSERT INTO `media` VALUES (NULL, '$header', '$detail', '$realnameFileMulti', '$realnameCover', '$realnameImageMulti', '$video', '$date', 1);";
 
 	mysql_query("SET NAMES utf8");
 	$query = mysql_query($sql);

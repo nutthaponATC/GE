@@ -159,7 +159,7 @@ navbar
 #fz:hover {
   font-size: 20px;
   /*font-size: 4vw;*/
-  transition:0.3s;
+  /*transition:0.3s;*/
 }
 
 #fz2 {

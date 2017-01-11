@@ -91,7 +91,7 @@
 					</div>
 					<div class="col-md-6" style="margin-top:30px;">
 						<h4>รูปภาพกิจกรรมทั้งหมด</h4>
-						<input class="form-control" style="margin-top:20px; width:300px;" type="file" id="files" name="imageMulti" multiple>
+						<input class="form-control" style="margin-top:20px; width:300px;" type="file" name="imageMulti[]" multiple="true">
 					</div>
 					<div class="col-md-7">
 						<h4>ลิ้งค์วิดีโอ</h4><input class="form-control" type="text" name="video">
@@ -104,8 +104,8 @@
 			<table id="example" class="display" style=" font-size: 15px; padding-top:30px;" cellspacing="0" width="100%">
 		        <thead>
 		            <tr>
-		                <th width="170"><center>หัวข้อข่าวประชาสัมพันธ์</center></th>
-		                <th><center>รายละเอียดข่าวประชาสัมพันธ์</center></th>
+		                <th><center>ชื่อกิจกรรม</center></th>
+		                <th><center>รายละเอียดกิจกรรม</center></th>
 		                <th width="70"><center>วันที่</center></th>
 		                <th width="50"><center>แก้ไข</center></th>
 		                <th width="50"><center>ลบ</center></th>
@@ -115,18 +115,18 @@
 		        	<?php 
 		        	include('config.php');
 
-		        	$sql = "SELECT * FROM info WHERE status = 1";
+		        	$sql = "SELECT * FROM media";
 		        	mysql_query("SET NAMES utf8");
 		        	$query = mysql_query($sql);
 
 		        	while ($data = mysql_fetch_array($query)) {
 		        		echo "
-		        		<tr style='cursor:pointer;' data-href='edit1.php?id_info=".$data['id_info']."'>
-			                <td>".$data['header']."</td>
+		        		<tr style='cursor:pointer;' data-href='edit1.php?id_media=".$data['id_media']."'>
+			                <td>".$data['name']."</td>
 			                <td>".$data['detail']."</td>
 			                <td><center>".$data['date']."</center></td>
-			                <td><center><a href='edit1.php?id_info=".$data['id_info']."'><i class='fa fa-cog' style='color:#b45564; font-size:30px;' aria-hidden='true'></i></a></center></td>
-				            <td><center><a href='remove.php?id_info=".$data['id_info']."'><i class='fa fa-times' style='color:#b45564; font-size:30px;' aria-hidden='true'></a></i></center></td>
+			                <td><center><a href='edit1.php?id_media=".$data['id_media']."'><i class='fa fa-cog' style='color:#b45564; font-size:30px;' aria-hidden='true'></i></a></center></td>
+				            <td><center><a href='remove.php?id_media=".$data['id_media']."'><i class='fa fa-times' style='color:#b45564; font-size:30px;' aria-hidden='true'></a></i></center></td>
 			            </tr>";
 		        	}
 		        	 ?>

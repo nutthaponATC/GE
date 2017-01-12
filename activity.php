@@ -1,3 +1,4 @@
+<?php include('admin/config.php'); ?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -56,13 +57,7 @@
 						</ul>
 					</li>
 					<li><a href="instructor.php" id="fz">ทำเนียบอาจารย์ผู้สอน</a></li>
-					<li class="dropdown">
-						<a href="activity.php" class="dropdown-toggle" data-toggle="dropdown" id="fz">กิจกรรม</b></a>
-						<ul class="dropdown-menu" id="dropdown">
-							<li><a href="activity.php">บุคลากร</a></li>
-							<li><a href="activity.php#student">นักศึกษา</a></li>
-						</ul>
-					</li>
+					<li><a href="activity.php" id="fz">กิจกรรม</a></li>
 					<li><a href="public.php" id="fz">เอกสาร | วิดีโอเผยแพร่</a></li>
 					<li><a href="index.php#info" id="fz">ข่าวประชาสัมพันธ์</a></li>
 					<li><a href="contact.php" id="fz">ติดต่อเรา</a></li>
@@ -76,220 +71,40 @@
 	<a href="index.php" class="hidden-lg"><img src="mc.png" id="bthome2"></a>
 	
 	<main class="cd-main-content" style="margin-top:100px;">
-			<div class="container" style="margin-top:50px;">
+			<div class="container" style="margin-top:50px; height:50vw;">
 				<div class="col-md-12" style="margin-bottom:20px;">
 					<div class="col-md-4 line visible-lg">
 						<img src="logo2.png" style="margin-top:-40px;">
 					</div>
 					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
-						<h3>ภาพถ่ายกิจกรรมของบุคลากร</h3>
+						<h3>ภาพถ่ายกิจกรรม</h3>
 					</div>
 					<div class="col-md-4 line visible-lg"></div>
 				</div>
 
 				<div style="margin-top:20px;"></div>
 				<div class="grid" style="text-align:center;">
-					<figure data-aos="zoom-in" data-aos-duration="1500">
-						<img src="image/info/1.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="activity-detail.php">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="800">
-						<img src="image/info/2.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="activity-detail.php">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="300">
-						<img src="image/info/3.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="activity-detail.php">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="1500">
-						<img src="image/info/4.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="activity-detail.php">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="800">
-						<img src="image/info/5.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="activity-detail.php">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="1200">
-						<img src="image/info/1.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="activity-detail.php">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="900">
-						<img src="image/info/2.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="activity-detail.php">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="2000">
-						<img src="image/info/3.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="activity-detail.php">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="600">
-						<img src="image/info/4.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="activity-detail.php">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<nav aria-label="Page navigation">
-						<ul class="pagination">
-							<li>
-								<a href="#" aria-label="Previous">
-									<span aria-hidden="true">&laquo;</span>
-								</a>
-							</li>
-							<li><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li>
-								<a href="#" aria-label="Next">
-									<span aria-hidden="true">&raquo;</span>
-								</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
+					<?php 
+					$sql = "SELECT * FROM media WHERE status = 1 ORDER BY id_media DESC";
+					mysql_query("SET NAMES utf8");
+					$query = mysql_query($sql);
+					while ($data = mysql_fetch_array($query)) {
+						$random = rand(10,1500);
+						echo "<figure data-aos='zoom-in' data-aos-duration=".$random.">";
+							echo "<img src='activity/".$data['pathPicture']."/".$data['cover']."'/>";
+							echo "<figcaption>";
+								echo "<h2>".$data['name']."</h2>";
+								echo "<a href='activity-detail.php?id_media=".$data['id_media']."'>ดูเพิ่มเติม</a>";
+							echo "</figcaption>";
+						echo "</figure>";
+					}
 
-			<div class="container">
-				<div class="col-md-12" id="student">
-					<div class="col-md-4 line2 visible-lg">
-						<img src="logo2.png" style="margin-top:-40px;">
-					</div>
-					<div class="col-md-4" style="margin-top:-30px; text-align:center;">
-						<h3>ภาพถ่ายกิจกรรมของนักศึกษา</h3>
-					</div>
-					<div class="col-md-4 line2 visible-lg"></div>
-				</div>
-
-				<div class="grid" style="text-align:center; margin-top:50px;">
-					<figure data-aos="zoom-in" data-aos-duration="1500">
-						<img src="image/info/1.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="#">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="800">
-						<img src="image/info/2.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="#">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="300">
-						<img src="image/info/3.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="#">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="1500">
-						<img src="image/info/4.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="#">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="800">
-						<img src="image/info/5.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="#">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="1200">
-						<img src="image/info/1.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="#">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="900">
-						<img src="image/info/2.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="#">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="2000">
-						<img src="image/info/3.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="#">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<figure data-aos="zoom-in" data-aos-duration="600">
-						<img src="image/info/4.jpg"/>
-						<figcaption>
-							<h2>ชื่อกิจกรรม</h2>
-							<p>รายละเอียดกิจกรรม</p>
-							<a href="#">ดูเพิ่มเติม</a>
-						</figcaption>			
-					</figure>
-					<nav aria-label="Page navigation">
-						<ul class="pagination">
-							<li>
-								<a href="#" aria-label="Previous">
-									<span aria-hidden="true">&laquo;</span>
-								</a>
-							</li>
-							<li><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li>
-								<a href="#" aria-label="Next">
-									<span aria-hidden="true">&raquo;</span>
-								</a>
-							</li>
-						</ul>
-					</nav>
+					 ?>
+					
 				</div>
 			</div>
 		<!-- </div> -->
-		<div style="background-color:#8e3240; padding-bottom:20px;">
+		<div style="background-color:#8e3240; padding-bottom:20px; ">
 		<div class="container" style="color:#ffffff;">
 			<div class="col-md-3">
 				<br>

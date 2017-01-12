@@ -106,13 +106,7 @@
 						</ul>
 					</li>
 					<li><a href="instructor.php" id="fz">ทำเนียบอาจารย์ผู้สอน</a></li>
-					<li class="dropdown">
-						<a href="activity.php" class="dropdown-toggle" data-toggle="dropdown" id="fz">กิจกรรม</b></a>
-						<ul class="dropdown-menu" id="dropdown">
-							<li><a href="activity.php">บุคลากร</a></li>
-							<li><a href="activity.php#student">นักศึกษา</a></li>
-						</ul>
-					</li>
+					<li><a href="activity.php" id="fz">กิจกรรม</a></li>
 					<li><a href="public.php" id="fz">เอกสาร | วิดีโอเผยแพร่</a></li>
 					<li><a href="index.php#info" id="fz">ข่าวประชาสัมพันธ์</a></li>
 					<li><a href="contact.php" id="fz">ติดต่อเรา</a></li>
@@ -199,7 +193,7 @@
 			<div style="margin-left:30%; width:70%; border-bottom:solid 2px #be6a77;"></div>
 
 			<?php 
-				$sql = "SELECT * FROM info WHERE status = 1 ORDER BY id_info DESC LIMIT 4 ;";
+				$sql = "SELECT * FROM info WHERE status = 1 ORDER BY id_info DESC LIMIT 3 ;";
 				mysql_query("SET NAMES utf8");
 				$query = mysql_query($sql);
 				while ($data = mysql_fetch_array($query)) {

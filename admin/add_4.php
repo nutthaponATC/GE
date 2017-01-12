@@ -28,12 +28,20 @@ if (isset($header) && $header != "" && isset($detail) && $detail != "") {
 	if(($_FILES["imageMulti"]["tmp_name"]) != "") {
 		$realnameImageMulti = $countID;
 
-		$myFile = $_FILES['imageMulti'];
+		// $myFile = $_FILES['imageMulti'];
+
+        $myFile = $_FILES['imageMulti'];
         $fileCount = count($myFile["name"]);
 
         for ($i = 0; $i < $fileCount; $i++) {
-			move_uploaded_file($myFile["tmp_name"][$i],"../activity/$countID/".$myFile["name"][$i]);        	
+        	copy($myFile["tmp_name"][$i], "../activity/$countID/".$myFile["name"][$i]);
         }
+
+   //      $fileCount = count($myFile["name"]);
+
+   //      for ($i = 0; $i < $fileCount; $i++) {
+			// move_uploaded_file($myFile["tmp_name"][$i],"../activity/$countID/".$myFile["name"][$i]);        	
+   //      }
 	} else {
 		$realnameImageMulti = $countID;
 	} ;

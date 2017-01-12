@@ -107,7 +107,6 @@
 		                <th><center>ชื่อกิจกรรม</center></th>
 		                <th><center>รายละเอียดกิจกรรม</center></th>
 		                <th width="70"><center>วันที่</center></th>
-		                <th width="50"><center>แก้ไข</center></th>
 		                <th width="50"><center>ลบ</center></th>
 		            </tr>
 		        </thead>
@@ -115,7 +114,7 @@
 		        	<?php 
 		        	include('config.php');
 
-		        	$sql = "SELECT * FROM media";
+		        	$sql = "SELECT * FROM media WHERE status = 1";
 		        	mysql_query("SET NAMES utf8");
 		        	$query = mysql_query($sql);
 
@@ -125,8 +124,7 @@
 			                <td>".$data['name']."</td>
 			                <td>".$data['detail']."</td>
 			                <td><center>".$data['date']."</center></td>
-			                <td><center><a href='edit1.php?id_media=".$data['id_media']."'><i class='fa fa-cog' style='color:#b45564; font-size:30px;' aria-hidden='true'></i></a></center></td>
-				            <td><center><a href='remove.php?id_media=".$data['id_media']."'><i class='fa fa-times' style='color:#b45564; font-size:30px;' aria-hidden='true'></a></i></center></td>
+				            <td><center><a href='remove4.php?id_media=".$data['id_media']."'><i class='fa fa-times' style='color:#b45564; font-size:30px;' aria-hidden='true'></a></i></center></td>
 			            </tr>";
 		        	}
 		        	 ?>

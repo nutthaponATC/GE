@@ -1,3 +1,9 @@
+<?php 
+$id_media = $_GET['id_media'];
+include('admin/config.php');
+ini_set('display_errors', 0);
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
+?>
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -69,13 +75,7 @@
 						</ul>
 					</li>
 					<li><a href="instructor.php" id="fz">ทำเนียบอาจารย์ผู้สอน</a></li>
-					<li class="dropdown">
-						<a href="activity.php" class="dropdown-toggle" data-toggle="dropdown" id="fz">กิจกรรม</b></a>
-						<ul class="dropdown-menu" id="dropdown">
-							<li><a href="activity.php">บุคลากร</a></li>
-							<li><a href="activity.php#student">นักศึกษา</a></li>
-						</ul>
-					</li>
+					<li><a href="activity.php" id="fz">กิจกรรม</a></li>
 					<li><a href="public.php" id="fz">เอกสาร | วิดีโอเผยแพร่</a></li>
 					<li><a href="index.php#info" id="fz">ข่าวประชาสัมพันธ์</a></li>
 					<li><a href="contact.php" id="fz">ติดต่อเรา</a></li>
@@ -87,72 +87,92 @@
 
 	<a href="index.php" class="visible-lg"><img src="mc.png" id="bthome"></a>
 	<a href="index.php" class="hidden-lg"><img src="mc.png" id="bthome2"></a>
+
+	<?php 
+	$sql = "SELECT * FROM media WHERE id_media = $id_media AND status = 1;";
+	mysql_query("SET NAMES utf8");
+	$query = mysql_query($sql);
+	$data = mysql_fetch_array($query);
+	 ?>
 	
+	<div class="col-md-12" style="margin-bottom:20px; margin-top:20px;">
+		<div class="col-md-4 line visible-lg">
+			<img src="logo2.png" width="50" style="margin-top:-20px;">
+		</div>
+		<div class="col-md-4" style="margin-top:-30px; text-align:center;">
+			<h1><?php echo $data['name']; ?> </h1>
+		</div>
+		<div class="col-md-4 line visible-lg"></div>
+	</div>
 	<div class="visible-lg" style="margin-top:60px;">
 	<div class="col-md-5" style="color:#be6a77;">
 		<div class="col-md-12" style="position: absolute;">
-			<img src="image/info/1.jpg" style="width:100%;">
+			<img src="<?php echo "activity/".$data['pathPicture']."/".$data['cover']."" ?>" style="width:100%;">
 		</div>
-		<div class="col-md-12" style="position: relative; margin-top:55%; color:#ffffff; background-color: rgba(0, 0, 0, 0.2); width:100%; margin-left:15px;">
-			<h4>กิจกรรมชื่อ ............... โดย  ..................</h4><br>
-			<h4 style="margin-top:-20px;">จัดเมื่อวันที่........</h4><br>
-			<h4 style="margin-top:-20px;">ห้อง........</h4>
+		<div class="col-md-12" style="position: relative; margin-top:55%; color:#ffffff; background-color: rgba(0, 0, 0, 0.5); width:100%; margin-left:15px;">
+			<h3>กิจกรรมชื่อ <?php echo $data['name'] ?></h3><br>
+			<h3 style="margin-top:-20px;">จัดเมื่อวันที่ <?php echo $data['date']; ?></h3><br>
 		</div>
 		<div class="col-md-12" style="position: relative; margin-top:8%;">
-			<h4>Download here <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="">เอกสารโครงการ</a></h4>
-			<a href=""><h4 style="margin-left:138px;">รายชื่อผู้เข้าร่วมกิจกรรม</h4></a>
+			<h4>Download here <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="<?php echo "activity/".$data['pathPicture']."/".$data['file']."" ?>" download><?php echo $data['file']; ?></a></h4>
 		</div>
 		<div style="width:100%; margin-top:4%; float:left; margin-left:10px;">
 			<h4> วิดีโอกิจกรรม</h4>
+			<iframe class="responsive" width="98%" height="80%" src="<?php echo $data['video']; ?>" frameborder="0" allowfullscreen></iframe>
+
+			<!-- <iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe> -->
+		</div>
+		<!-- <div style="width:100%; float:left; margin-left:10px;">
 			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 
 			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div style="width:100%; float:left; margin-left:10px;">
-			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-
-			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-		</div>
+		</div> -->
 	</div>
 	<div class="col-md-7">
 		<?php
-$allowed_types=array('jpg','jpeg','gif','png');
-$dir    ="image/info/";
-$files1 = scandir($dir);
-$total=0; 
-$pic_path=array();
-foreach($files1 as $key=>$value){
-	if($key>1){
-		$file_parts = explode('.',$value);
-		$ext = strtolower(array_pop($file_parts));
-		if(in_array($ext,$allowed_types)){
-			$pic_path[]=$dir.$value;
-			$total++;	
+		$allowed_types=array('jpg','jpeg','gif','png');
+		$dir    ="activity/".$data['pathPicture']."/";
+		$files1 = scandir($dir);
+		$total=0; 
+		$pic_path=array();
+		
+		foreach($files1 as $key=>$value){
+			if($key>1){
+				$file_parts = explode('.',$value);
+				$ext = strtolower(array_pop($file_parts));
+				if(in_array($ext,$allowed_types)){
+					$pic_path[]=$dir.$value;
+					$total++;	
+				}
+			}
 		}
-	}
-}
 
-$perPage = 28;
-$num_naviPage=ceil($total/$perPage);
+		if ($total < 28) {
+			$perPage = $total;
+		} else {
+			$perPage = 28;
+		}
 
-if(!isset($_GET['page'])){
-	$s_key=0;
-	$e_key=$perPage;	
-	$_GET['page']=1;
-}else{
-	$s_key=($_GET['page']*$perPage)-$perPage;
-	$e_key=$perPage*$_GET['page'];
-	$e_key=($e_key>$total)?$total:$e_key;
-}
+		$num_naviPage=ceil($total/$perPage);
 
-for($indexPicture=$s_key;$indexPicture<$e_key;$indexPicture++){
-	echo "<a class='fancybox' href='".$pic_path[$indexPicture]."' data-fancybox-group='gallery' title=''><img style='width:22%; margin-top:10px; margin-left:10px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp";	
-}
+		if(!isset($_GET['page'])){
+			$s_key=0;
+			$e_key=$perPage;	
+			$_GET['page']=1;
+		}else{
+			$s_key=($_GET['page']*$perPage)-$perPage;
+			$e_key=$perPage*$_GET['page'];
+			$e_key=($e_key>$total)?$total:$e_key;
+		}
 
-echo "<br><br>";
-for($i=1;$i<=$num_naviPage;$i++){
-	echo "<font class='Font_Violet_10half'><a href=\"?page=".$i."\"> หน้าที่ $i |</a></font>";
-}
+		for($indexPicture=$s_key;$indexPicture<$e_key;$indexPicture++){
+			echo "<a class='fancybox' href='".$pic_path[$indexPicture]."' data-fancybox-group='gallery' title=''><img style='width:22%; margin-top:10px; margin-left:10px;' src='".$pic_path[$indexPicture]."' class='pic_radius'/></a>&nbsp";	
+		}
+
+		echo "<br><br>";
+		for($i=1;$i<=$num_naviPage;$i++){
+			echo "<font class='Font_Violet_10half'><a href=\"?page=".$i."\"> หน้าที่ $i |</a></font>";
+		}
 
 ?> 
 	</div>
@@ -160,50 +180,61 @@ for($i=1;$i<=$num_naviPage;$i++){
 
 	<!-- phone -->
 	<div class="hidden-lg">
+	<?php 
+	$sql = "SELECT * FROM media WHERE id_media = $id_media;";
+	mysql_query("SET NAMES utf8");
+	$query = mysql_query($sql);
+	$data = mysql_fetch_array($query);
+	echo $sql;
+	 ?>
 	<div class="col-md-12" style="color:#be6a77;">
 		<div class="col-md-12" style="position: absolute; margin-top:-30%;">
 			<img src="image/info/1.jpg" style="width:100%;">
 		</div>
 		<div class="col-md-12" style="position: relative; margin-top:55%; color:#ffffff; background-color: rgba(0, 0, 0, 0.2); width:95%; margin-left:15px;">
-			<h4>กิจกรรมชื่อ ............... โดย  ..................</h4><br>
-			<h4 style="margin-top:-20px;">จัดเมื่อวันที่........</h4><br>
-			<h4 style="margin-top:-20px;">ห้อง........</h4>
+			<h4>กิจกรรมชื่อ <?php echo $data['name'] ?></h4><br>
+			<h4 style="margin-top:-20px;">จัดเมื่อวันที่ <?php echo $data['date']; ?></h4><br>
 		</div>
 		<div class="col-md-12" style="position: relative; margin-top:8%;">
-			<h4>Download here <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="">เอกสารโครงการ</a></h4>
-			<a href=""><h4 style="margin-left:138px;">รายชื่อผู้เข้าร่วมกิจกรรม</h4></a>
+			<h4>Download here <i class="fa fa-file-text-o" aria-hidden="true"></i> <a href="<?php echo "activity/".$data['pathPicture']."/".$data['file']."" ?>" download><?php echo $data['file']; ?></a></h4>
 		</div>
 		<div style="width:100%; margin-top:4%; float:left; margin-left:10px;">
 			<h4> วิดีโอกิจกรรม</h4>
+			<iframe class="responsive" width="98%" height="80%" src="<?php echo $data['video']; ?>" frameborder="0" allowfullscreen></iframe>
+
+			<!-- <iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe> -->
+		</div>
+		<!-- <div style="width:100%; float:left; margin-left:10px;">
 			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
 
 			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div style="width:100%; float:left; margin-left:10px;">
-			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-
-			<iframe class="responsive" width="48%" height="40%" src="https://www.youtube.com/embed/8opzU51pwfM" frameborder="0" allowfullscreen></iframe>
-		</div>
+		</div> -->
 	</div>
 	<div class="col-md-7">
 		<?php
-$allowed_types=array('jpg','jpeg','gif','png');
-$dir    ="image/info/";
-$files1 = scandir($dir);
-$total=0; 
-$pic_path=array();
-foreach($files1 as $key=>$value){
-	if($key>1){
-		$file_parts = explode('.',$value);
-		$ext = strtolower(array_pop($file_parts));
-		if(in_array($ext,$allowed_types)){
-			$pic_path[]=$dir.$value;
-			$total++;	
+		$allowed_types=array('jpg','jpeg','gif','png');
+		$dir    ="activity/".$data['pathPicture']."/";
+		$files1 = scandir($dir);
+		$total=0; 
+		$pic_path=array();
+		
+		foreach($files1 as $key=>$value){
+			if($key>1){
+				$file_parts = explode('.',$value);
+				$ext = strtolower(array_pop($file_parts));
+				if(in_array($ext,$allowed_types)){
+					$pic_path[]=$dir.$value;
+					$total++;	
+				}
+			}
 		}
-	}
-}
 
-$perPage = 28;
+		if ($total < 28) {
+			$perPage = $total;
+		} else {
+			$perPage = 28;
+		}
+
 $num_naviPage=ceil($total/$perPage);
 
 if(!isset($_GET['page'])){
